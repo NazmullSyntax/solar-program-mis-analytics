@@ -327,8 +327,8 @@ def write_csv(data, filename, fieldnames):
 # =====================================================
 
 def main():
-    # Output folder
-    output_dir = os.path.join("..", "data", "raw")
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    output_dir = os.path.join(project_root, "data", "raw")
     os.makedirs(output_dir, exist_ok=True)
 
     print("🌞 Generating Synthetic Solar Program Dataset...\n")
