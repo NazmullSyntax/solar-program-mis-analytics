@@ -2,10 +2,12 @@
 data_generator.py
 -----------------
 Generates synthetic dataset for a Rooftop Solar Program in Bangladesh.
-Creates 4 CSV files with realistic data and controlled quality issues.
+
+IMPORTANT: Uses a FIXED SIMULATION_DATE instead of datetime.today()
+so that data stays realistic even if the system clock is wrong.
 
 Author: [Your Name]
-Date: Day 3 of 30-day project
+Day 3 - Synthetic Dataset Generation (with Date Fix)
 """
 
 import random
@@ -15,10 +17,16 @@ from datetime import datetime, timedelta
 import numpy as np
 
 # =====================================================
-# 1. SETUP: Random seed for reproducibility
+# 1. FIXED SIMULATION DATE (critical!)
 # =====================================================
+# This ensures the dataset is always "as of" this date,
+# regardless of the system clock.
+SIMULATION_DATE = datetime(2025, 11, 15)
+
+# Reproducibility
 random.seed(42)
 np.random.seed(42)
+
 
 # =====================================================
 # 2. CONSTANTS: Bangladesh districts and regions
@@ -42,7 +50,6 @@ UPAZILAS = {
 
 CUSTOMER_TYPES = ["Residential", "Commercial", "Institutional", "Industrial"]
 
-# Synthetic Bangladeshi names
 FIRST_NAMES = ["Rahim", "Karim", "Salma", "Fatima", "Hasan", "Jahangir",
                "Nasrin", "Rafiq", "Shilpi", "Anwar", "Sumaiya", "Tanvir",
                "Mizanur", "Sultana", "Kamal", "Rehana", "Sohel", "Nusrat",
@@ -50,6 +57,7 @@ FIRST_NAMES = ["Rahim", "Karim", "Salma", "Fatima", "Hasan", "Jahangir",
 
 LAST_NAMES = ["Uddin", "Islam", "Akter", "Hossain", "Rahman", "Begum",
               "Alam", "Khan", "Sarker", "Ahmed"]
+
 
 # =====================================================
 # 3. HELPER FUNCTIONS
@@ -69,10 +77,14 @@ def random_phone():
 
 
 def random_date(start_days=730, end_days=0):
-    """Return a random date between (today - start_days) and (today - end_days)."""
-    today = datetime.today()
+    """
+    Return a random date between (SIMULATION_DATE - start_days)
+    and (SIMULATION_DATE - end_days).
+
+    NOTE: Uses SIMULATION_DATE (not today) for realistic data.
+    """
     delta = random.randint(end_days, start_days)
-    return (today - timedelta(days=delta)).strftime("%Y-%m-%d")
+    return (SIMULATION_DATE - timedelta(days=delta)).strftime("%Y-%m-%d")
 
 
 def pick_region_for_district(district):
@@ -83,38 +95,21 @@ def pick_region_for_district(district):
     return "Unknown"
 
 
-def add_quality_issues(value, probability=0.03):
-    """
-    Randomly corrupt a value with given probability.
-    Used to introduce realistic data quality problems.
-    """
-    if random.random() > probability:
-        return value
-    # Corrupt types: None, empty, whitespace, wrong case
-    return random.choice([None, "", "  ", str(value).lower(),
-                          str(value).upper() + " "])
-
 # =====================================================
 # 4. DATA GENERATORS
 # =====================================================
 
 def generate_customers(n=5200):
-    """
-    Generate customer records.
-    Include controlled quality issues: duplicates, missing, wrong district names.
-    """
+    """Generate customer records with controlled quality issues."""
     customers = []
     all_districts = [d for ds in REGION_DISTRICTS.values() for d in ds]
 
     for i in range(n):
         district = random.choice(all_districts)
         region = pick_region_for_district(district)
-
-        # Get upazila — fallback if not predefined
         upazila = random.choice(UPAZILAS.get(district, ["Sadar"]))
 
-        # ------ INTRODUCE QUALITY ISSUES ------
-        # 1. Occasionally use wrong district spelling
+        # Quality issue: wrong district spelling
         if random.random() < 0.02:
             district = random.choice([
                 district.lower(),
@@ -123,7 +118,7 @@ def generate_customers(n=5200):
                 district.replace("a", "@")
             ])
 
-        # 2. Missing contact number sometimes
+        # Quality issue: missing contact
         contact = random_phone()
         if random.random() < 0.03:
             contact = None
@@ -143,7 +138,7 @@ def generate_customers(n=5200):
             )[0]
         })
 
-    # Add ~30 duplicate customer IDs
+    # 30 duplicate records
     for _ in range(30):
         dup = random.choice(customers).copy()
         customers.append(dup)
@@ -152,32 +147,27 @@ def generate_customers(n=5200):
 
 
 def generate_installations(customers):
-    """
-    Generate installation records for APPROVED/COMPLETED customers.
-    Include invalid capacity values, wrong statuses, invalid dates.
-    """
+    """Generate installation records for APPROVED/COMPLETED customers."""
     installations = []
     approved = [c for c in customers
                 if c["Application_Status"] in ("Approved", "Completed")]
 
     for i, cust in enumerate(approved):
-        # Solar capacity (KW): residential 1-5, commercial 5-20, etc.
+        # Capacity by customer type
         if cust["Customer_Type"] == "Residential":
             capacity = round(random.uniform(1.0, 5.0), 1)
         elif cust["Customer_Type"] == "Commercial":
             capacity = round(random.uniform(5.0, 20.0), 1)
         elif cust["Customer_Type"] == "Institutional":
             capacity = round(random.uniform(10.0, 50.0), 1)
-        else:  # Industrial
+        else:
             capacity = round(random.uniform(20.0, 100.0), 1)
 
-        # Installation status weighted
         status = random.choices(
             ["Planned", "In_Progress", "Completed", "Cancelled"],
             weights=[15, 10, 70, 5], k=1
         )[0]
 
-        # Inspection status
         if status == "Completed":
             inspection = random.choices(
                 ["Passed", "Failed", "Pending"],
@@ -186,25 +176,21 @@ def generate_installations(customers):
         else:
             inspection = "Pending"
 
-        # Cost in BDT — roughly 80,000 BDT per KW
         cost = round(capacity * random.uniform(70000, 95000), 0)
 
-        # ------ INTRODUCE QUALITY ISSUES ------
-        # 1. Some negative capacity
+        # Quality issues
         if random.random() < 0.02:
             capacity = -capacity
-
-        # 2. Some zero capacity
         if random.random() < 0.015:
             capacity = 0.0
 
-        # 3. Some invalid dates (future date)
         inst_date = random_date(start_days=700, end_days=0)
+        # Quality issue: future date (relative to SIMULATION_DATE)
         if random.random() < 0.02:
-            future = datetime.today() + timedelta(days=random.randint(10, 365))
+            future = SIMULATION_DATE + timedelta(days=random.randint(10, 365))
             inst_date = future.strftime("%Y-%m-%d")
 
-        # 4. Wrong status spelling occasionally
+        # Quality issue: wrong status spelling
         if random.random() < 0.01:
             status = random.choice(["complete", "Complete", "COMPLETED", "done"])
 
@@ -229,14 +215,12 @@ def generate_commissioning(installations):
                  if i["Installation_Status"] == "Completed"]
 
     for i, inst in enumerate(completed):
-        # 85% commissioned, 10% pending, 5% failed
         status = random.choices(
             ["Completed", "Pending", "Failed"],
             weights=[85, 10, 5], k=1
         )[0]
 
         if status == "Completed":
-            # Commissioning date ~10-30 days after installation
             try:
                 inst_dt = datetime.strptime(inst["Installation_Date"], "%Y-%m-%d")
                 comm_dt = inst_dt + timedelta(days=random.randint(5, 30))
@@ -251,7 +235,7 @@ def generate_commissioning(installations):
             comm_date = None
             test_result = None
 
-        # ------ QUALITY ISSUE: 3% missing dates ------
+        # Quality issue: 3% missing dates
         if random.random() < 0.03:
             comm_date = None
 
@@ -267,16 +251,12 @@ def generate_commissioning(installations):
 
 
 def generate_regional_reports(months=12):
-    """
-    Generate monthly regional reports.
-    Each month → each region → each district sends one report.
-    """
+    """Generate monthly regional reports."""
     reports = []
     report_id = 1
-    today = datetime.today()
 
     for m in range(months):
-        month_start = today.replace(day=1) - timedelta(days=30 * m)
+        month_start = SIMULATION_DATE.replace(day=1) - timedelta(days=30 * m)
         report_date = month_start.strftime("%Y-%m-%d")
 
         for region, districts in REGION_DISTRICTS.items():
@@ -290,7 +270,6 @@ def generate_regional_reports(months=12):
                     weights=[20, 60, 5, 15], k=1
                 )[0]
 
-                # ------ QUALITY ISSUE: missing data 2% ------
                 if random.random() < 0.02:
                     verified = None
 
@@ -327,19 +306,18 @@ def write_csv(data, filename, fieldnames):
 # =====================================================
 
 def main():
-    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    output_dir = os.path.join(project_root, "data", "raw")
+    PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    output_dir = os.path.join(PROJECT_ROOT, "data", "raw")
     os.makedirs(output_dir, exist_ok=True)
 
-    print("🌞 Generating Synthetic Solar Program Dataset...\n")
+    print("🌞 Generating Synthetic Solar Program Dataset...")
+    print(f"📅 Simulation date: {SIMULATION_DATE.strftime('%Y-%m-%d')}\n")
 
-    # Generate
     customers = generate_customers(5200)
     installations = generate_installations(customers)
     commissioning = generate_commissioning(installations)
     reports = generate_regional_reports(months=12)
 
-    # Write to CSV
     write_csv(
         customers,
         os.path.join(output_dir, "customers.csv"),
@@ -374,4 +352,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
