@@ -1,5 +1,5 @@
 Customer_ID,Customer_Name,District,Region,Upazila,Customer_Type,Registration_Date,Contact_Number,Application_Status
-CUST-00001,Nasrin Hossain,Rajshahi,North,Bagha,Residential,2025-03-20,MISSING,Approved
+CUST-00001,Nasrin Hossain,Rajshahi,North,Bagha,Residential,2025-03-20,,Approved
 CUST-00002,Mizanur Islam,Faridpur,West,Sadar,Institutional,2024-05-31,1902654235.0,Approved
 CUST-00003,Karim Hossain,Chattogram,South,Patiya,Institutional,2026-07-26,1761849593.0,Completed
 CUST-00004,Rafiq Akter,Rajshahi,North,Charghat,Industrial,2025-09-22,1925534192.0,Approved
@@ -58,7 +58,7 @@ CUST-00056,Nusrat Alam,Rangpur,North,Sadar,Institutional,2025-01-12,1817459615.0
 CUST-00057,Rahim Uddin,Jashore,West,Sadar,Institutional,2024-07-22,1843161172.0,Pending
 CUST-00058,Murshida Hossain,Barishal,South,Sadar,Industrial,2025-02-25,1886922219.0,Approved
 CUST-00059,Sultana Rahman,Brahmanbaria,East,Sadar,Industrial,2024-06-02,1774821759.0,Approved
-CUST-00060,Karim Ahmed,Sylhet,East,Golapganj,Industrial,2024-06-15,MISSING,Completed
+CUST-00060,Karim Ahmed,Sylhet,East,Golapganj,Industrial,2024-06-15,,Completed
 CUST-00061,Karim Ahmed,Cox'S Bazar,South,Sadar,Institutional,2024-09-26,1933942104.0,Approved
 CUST-00062,Rehana Rahman,Cox'S Bazar,South,Sadar,Institutional,2024-07-14,1832858842.0,Approved
 CUST-00063,Tanvir Rahman,Bogura,North,Sadar,Industrial,2024-06-25,1868516048.0,Approved
@@ -169,7 +169,7 @@ CUST-00167,Tanvir Rahman,Rangpur,North,Sadar,Commercial,2025-09-19,1762713611.0,
 CUST-00168,Hasan Alam,Dhaka,Central,Dhamrai,Industrial,2026-03-07,1818909275.0,Pending
 CUST-00169,Murshida Ahmed,Rajshahi,North,Bagha,Institutional,2024-08-09,1656523413.0,Completed
 CUST-00170,Murshida Islam,Rangpur,North,Sadar,Residential,2025-10-11,1864037613.0,Completed
-CUST-00171,Nasrin Uddin,Dhaka,Central,Keraniganj,Residential,2024-07-29,MISSING,Approved
+CUST-00171,Nasrin Uddin,Dhaka,Central,Keraniganj,Residential,2024-07-29,,Approved
 CUST-00172,Nasrin Akter,Cox'S Bazar,South,Sadar,Institutional,2025-09-10,1618892414.0,Approved
 CUST-00173,Jahangir Islam,Bogura,North,Sadar,Residential,2024-10-21,1803161799.0,Approved
 CUST-00174,Rahim Begum,Rangpur,North,Sadar,Industrial,2026-01-10,1988425241.0,Approved
@@ -182,7 +182,7 @@ CUST-00180,Rakib Uddin,Bogura,North,Sadar,Industrial,2024-12-06,1657191826.0,Com
 CUST-00181,Rakib Islam,Mymensingh,Central,Sadar,Commercial,2026-06-29,1965574313.0,Approved
 CUST-00182,Anwar Ahmed,Brahmanbaria,East,Sadar,Residential,2026-03-09,1937474112.0,Completed
 CUST-00183,Kamal Sarker,Khulna,South,Sadar,Commercial,2026-07-11,1856804420.0,Approved
-CUST-00184,Salma Hossain,Dhaka,Central,Savar,Industrial,2024-07-09,MISSING,Approved
+CUST-00184,Salma Hossain,Dhaka,Central,Savar,Industrial,2024-07-09,,Approved
 CUST-00185,Jahangir Begum,Khulna,South,Sadar,Commercial,2026-04-07,1602966706.0,Approved
 CUST-00186,Sultana Hossain,Brahmanbaria,East,Sadar,Commercial,2025-01-08,1847687014.0,Completed
 CUST-00187,Rahim Begum,Faridpur,West,Sadar,Commercial,2026-09-15,1978759856.0,Completed
@@ -195,7 +195,7 @@ CUST-00193,Shilpi Hossain,Mymensingh,Central,Sadar,Commercial,2024-11-05,1851355
 CUST-00194,Fatima Khan,Chattogram,South,Patiya,Commercial,2026-05-02,1767626765.0,Approved
 CUST-00195,Salma Begum,Dinajpur,North,Sadar,Industrial,2024-10-24,1911526218.0,Pending
 CUST-00196,Anwar Rahman,Gazipur,Central,Kapasia,Commercial,2026-07-09,1801533688.0,Pending
-CUST-00197,Jahangir Rahman,Faridpur,West,Sadar,Residential,2025-06-18,MISSING,Completed
+CUST-00197,Jahangir Rahman,Faridpur,West,Sadar,Residential,2025-06-18,,Completed
 CUST-00198,Shilpi Khan,Cox'S Bazar,South,Sadar,Industrial,2026-01-19,1918625652.0,Approved
 CUST-00199,Sohel Alam,Chattogram,South,Hathazari,Industrial,2025-03-08,1715869380.0,Completed
 CUST-00200,Jahangir Hossain,Jashore,West,Sadar,Commercial,2026-06-08,1789899217.0,Pending
@@ -205,7 +205,7 @@ CUST-00203,Karim Khan,Jashore,West,Sadar,Institutional,2025-09-29,1962996065.0,P
 CUST-00204,Salma Hossain,Cox'S Bazar,South,Sadar,Industrial,2026-03-13,1613247546.0,Completed
 CUST-00205,Sohel Ahmed,Cumilla,East,Sadar,Residential,2026-04-21,1908214862.0,Approved
 CUST-00206,Fatima Uddin,Tangail,Central,Mirzapur,Commercial,2025-09-29,1605345786.0,Approved
-CUST-00207,Karim Akter,Brahmanbaria,East,Sadar,Commercial,2026-03-03,MISSING,Approved
+CUST-00207,Karim Akter,Brahmanbaria,East,Sadar,Commercial,2026-03-03,,Approved
 CUST-00208,Anwar Rahman,Tangail,Central,Kalihati,Industrial,2025-09-25,1707229034.0,Completed
 CUST-00209,Murshida Ahmed,Brahmanbaria,East,Sadar,Institutional,2025-12-14,1989691085.0,Approved
 CUST-00210,Murshida Alam,Jashore,West,Sadar,Institutional,2024-11-17,1954443283.0,Approved
@@ -219,7 +219,7 @@ CUST-00217,Hasan Begum,Cox'S Bazar,South,Sadar,Industrial,2025-10-13,1744789856.
 CUST-00218,Shilpi Sarker,Gazipur,Central,Sreepur,Residential,2025-02-14,1830982150.0,Completed
 CUST-00219,Nasrin Uddin,Rajshahi,North,Puthia,Institutional,2025-08-11,1716761847.0,Approved
 CUST-00220,Murshida Hossain,Kushtia,West,Sadar,Institutional,2024-06-16,1861891411.0,Approved
-CUST-00221,Salma Islam,Tangail,Central,Kalihati,Industrial,2026-05-16,MISSING,Completed
+CUST-00221,Salma Islam,Tangail,Central,Kalihati,Industrial,2026-05-16,,Completed
 CUST-00222,Karim Rahman,Kushtia,West,Sadar,Institutional,2024-07-17,1743744701.0,Approved
 CUST-00223,Salma Begum,Cumilla,East,Sadar,Institutional,2026-04-11,1702255794.0,Approved
 CUST-00224,Rakib Khan,Sylhet,East,Golapganj,Industrial,2026-04-13,1676212021.0,Approved
@@ -229,7 +229,7 @@ CUST-00227,Kamal Ahmed,Bogura,North,Sadar,Industrial,2026-07-17,1940838663.0,Com
 CUST-00228,Murshida Ahmed,Brahmanbaria,East,Sadar,Institutional,2025-05-13,1601660880.0,Approved
 CUST-00229,Fatima Islam,Brahmanbaria,East,Sadar,Commercial,2026-10-13,1737589975.0,Approved
 CUST-00230,Mizanur Hossain,Cox'S Bazar,South,Sadar,Industrial,2024-06-23,1727261493.0,Completed
-CUST-00231,Karim Sarker,Khulna,South,Sadar,Industrial,2024-06-09,MISSING,Approved
+CUST-00231,Karim Sarker,Khulna,South,Sadar,Industrial,2024-06-09,,Approved
 CUST-00232,Murshida Hossain,Kushtia,West,Sadar,Institutional,2025-09-03,1821699586.0,Completed
 CUST-00233,Murshida Rahman,Cox'S Bazar,South,Sadar,Institutional,2024-11-26,1869848583.0,Approved
 CUST-00234,Sultana Uddin,Gazipur,Central,Kapasia,Residential,2026-09-20,1915879968.0,Approved
@@ -243,7 +243,7 @@ CUST-00241,Fatima Akter,Cox'S Bazar,South,Sadar,Residential,2025-01-12,198877043
 CUST-00242,Salma Uddin,Tangail,Central,Ghatail,Commercial,2024-07-24,1738612075.0,Approved
 CUST-00243,Murshida Islam,Bogura,North,Sadar,Residential,2024-10-28,1667665061.0,Completed
 CUST-00244,Rafiq Akter,Barishal,South,Sadar,Industrial,2024-07-22,1991476607.0,Completed
-CUST-00245,Murshida Alam,Faridpur,West,Sadar,Residential,2025-12-07,MISSING,Approved
+CUST-00245,Murshida Alam,Faridpur,West,Sadar,Residential,2025-12-07,,Approved
 CUST-00246,Rakib Uddin,Barishal,South,Sadar,Industrial,2024-12-24,1822394312.0,Approved
 CUST-00247,Nasrin Begum,Cox'S Bazar,South,Sadar,Industrial,2025-07-11,1897552314.0,Approved
 CUST-00248,Tanvir Akter,Cox'S Bazar,South,Sadar,Institutional,2025-06-11,1956205336.0,Approved
@@ -253,17 +253,17 @@ CUST-00251,Rakib Akter,Bogura,North,Sadar,Industrial,2025-10-13,1739282722.0,Pen
 CUST-00252,Karim Begum,Jashore,West,Sadar,Residential,2024-10-25,1930385677.0,Completed
 CUST-00253,Rafiq Sarker,Chattogram,South,Hathazari,Industrial,2025-10-19,1866591846.0,Completed
 CUST-00254,Jahangir Akter,Barishal,South,Sadar,Institutional,2025-02-06,1782723184.0,Rejected
-CUST-00255,Karim Akter,Rajshahi,North,Puthia,Commercial,2026-05-31,MISSING,Approved
+CUST-00255,Karim Akter,Rajshahi,North,Puthia,Commercial,2026-05-31,,Approved
 CUST-00256,Murshida Khan,Dinajpur,North,Sadar,Industrial,2026-04-24,1928699041.0,Approved
 CUST-00257,Mizanur Alam,Cumilla,East,Sadar,Commercial,2026-06-26,1898425799.0,Pending
 CUST-00258,Hasan Ahmed,Kushtia,West,Sadar,Residential,2024-08-13,1727990881.0,Approved
 CUST-00259,Hasan Rahman,Cumilla,East,Sadar,Industrial,2024-08-22,1786376599.0,Approved
-CUST-00260,Nasrin Begum,Bogura,North,Sadar,Industrial,2025-10-10,MISSING,Approved
+CUST-00260,Nasrin Begum,Bogura,North,Sadar,Industrial,2025-10-10,,Approved
 CUST-00261,Rehana Akter,Cumilla,East,Sadar,Institutional,2025-03-22,1695946368.0,Approved
 CUST-00262,Sumaiya Sarker,Chattogram,South,Sitakunda,Residential,2026-05-04,1621372138.0,Approved
 CUST-00263,Mizanur Alam,Rangpur,North,Sadar,Institutional,2024-10-17,1696114351.0,Completed
 CUST-00264,Rafiq Ahmed,Dinajpur,North,Sadar,Commercial,2024-11-24,1603843098.0,Pending
-CUST-00265,Salma Islam,Mymensingh,Central,Sadar,Institutional,2024-10-02,MISSING,Completed
+CUST-00265,Salma Islam,Mymensingh,Central,Sadar,Institutional,2024-10-02,,Completed
 CUST-00266,Sohel Islam,Barishal,South,Sadar,Residential,2025-05-18,1939376904.0,Approved
 CUST-00267,Rahim Khan,Rajshahi,North,Puthia,Residential,2026-01-24,1976973577.0,Pending
 CUST-00268,Sumaiya Islam,Mymensingh,Central,Sadar,Commercial,2025-06-15,1658804341.0,Approved
@@ -283,10 +283,10 @@ CUST-00281,Salma Khan,Faridpur,West,Sadar,Institutional,2025-10-06,1696884578.0,
 CUST-00282,Anwar Ahmed,Dhaka,Central,Keraniganj,Commercial,2024-07-22,1947807740.0,Pending
 CUST-00283,Rafiq Sarker,Barishal,South,Sadar,Institutional,2025-12-28,1663266341.0,Approved
 CUST-00284,Rehana Hossain,Faridpur,West,Sadar,Institutional,2026-09-26,1722417974.0,Approved
-CUST-00285,Nasrin Begum,Faridpur,West,Sadar,Industrial,2025-11-30,MISSING,Completed
+CUST-00285,Nasrin Begum,Faridpur,West,Sadar,Industrial,2025-11-30,,Completed
 CUST-00286,Nasrin Rahman,Jashore,West,Sadar,Industrial,2024-06-19,1751204618.0,Pending
 CUST-00287,Anwar Begum,Mymensingh,Central,Sadar,Commercial,2025-01-09,1630371837.0,Rejected
-CUST-00288,Shilpi Ahmed,Faridpur,West,Sadar,Residential,2025-09-05,MISSING,Completed
+CUST-00288,Shilpi Ahmed,Faridpur,West,Sadar,Residential,2025-09-05,,Completed
 CUST-00289,Sumaiya Uddin,Rangpur,North,Sadar,Residential,2025-10-16,1692513271.0,Approved
 CUST-00290,Shilpi Uddin,Faridpur,West,Sadar,Industrial,2024-10-22,1858573065.0,Approved
 CUST-00291,Hasan Khan,Cox'S Bazar,South,Sadar,Institutional,2024-06-28,1885574982.0,Approved
@@ -315,7 +315,7 @@ CUST-00313,Mizanur Khan,Mymensingh,Central,Sadar,Industrial,2026-05-28,175172897
 CUST-00314,Rehana Begum,Mymensingh,Central,Sadar,Industrial,2026-02-05,1746333127.0,Approved
 CUST-00315,Karim Hossain,Dinajpur,North,Sadar,Industrial,2024-09-23,1699988081.0,Pending
 CUST-00316,Murshida Uddin,Sylhet,East,Zakiganj,Commercial,2025-06-28,1734764472.0,Completed
-CUST-00317,Kamal Ahmed,Brahmanbaria,East,Sadar,Commercial,2025-07-07,MISSING,Pending
+CUST-00317,Kamal Ahmed,Brahmanbaria,East,Sadar,Commercial,2025-07-07,,Pending
 CUST-00318,Jahangir Alam,Khulna,South,Sadar,Industrial,2026-09-01,1711751868.0,Completed
 CUST-00319,Hasan Hossain,Khulna,South,Sadar,Residential,2025-01-16,1820644742.0,Completed
 CUST-00320,Kamal Islam,Rangpur,North,Sadar,Residential,2026-02-07,1680973397.0,Completed
@@ -353,7 +353,7 @@ CUST-00351,Rahim Islam,Rajshahi,North,Charghat,Residential,2025-08-20,1673938525
 CUST-00352,Nasrin Ahmed,Rajshahi,North,Puthia,Residential,2024-10-20,1844300910.0,Completed
 CUST-00353,Sumaiya Rahman,Bogura,North,Sadar,Commercial,2024-08-07,1812447174.0,Pending
 CUST-00354,Rehana Islam,Dinajpur,North,Sadar,Commercial,2025-04-10,1744271739.0,Completed
-CUST-00355,Rehana Akter,Tangail,Central,Ghatail,Residential,2026-09-07,MISSING,Approved
+CUST-00355,Rehana Akter,Tangail,Central,Ghatail,Residential,2026-09-07,,Approved
 CUST-00356,Rahim Alam,Chattogram,South,Patiya,Industrial,2026-06-13,1690877661.0,Approved
 CUST-00357,Jahangir Sarker,Barishal,South,Sadar,Residential,2025-09-17,1601585174.0,Approved
 CUST-00358,Rakib Hossain,Cox'S Bazar,South,Sadar,Industrial,2025-09-12,1971732030.0,Pending
@@ -398,7 +398,7 @@ CUST-00396,Fatima Sarker,Brahmanbaria,East,Sadar,Commercial,2025-05-26,196638361
 CUST-00397,Anwar Alam,Cox'S Bazar,South,Sadar,Commercial,2026-08-05,1616479473.0,Completed
 CUST-00398,Rakib Islam,Jashore,West,Sadar,Commercial,2026-08-10,1616781126.0,Approved
 CUST-00399,Mizanur Begum,Tangail,Central,Kalihati,Industrial,2024-12-02,1613674994.0,Approved
-CUST-00400,Karim Islam,Sylhet,East,Golapganj,Industrial,2024-11-20,MISSING,Pending
+CUST-00400,Karim Islam,Sylhet,East,Golapganj,Industrial,2024-11-20,,Pending
 CUST-00401,Nasrin Rahman,Gazipur,Central,Sreepur,Industrial,2025-05-31,1924991187.0,Approved
 CUST-00402,Karim Akter,Faridpur,West,Sadar,Institutional,2024-10-22,1706167567.0,Approved
 CUST-00403,Jahangir Sarker,Cumilla,East,Sadar,Residential,2025-09-10,1671978897.0,Approved
@@ -420,7 +420,7 @@ CUST-00418,Hasan Uddin,Chattogram,South,Hathazari,Industrial,2026-03-25,16985700
 CUST-00419,Rakib Begum,Khulna,South,Sadar,Institutional,2026-03-26,1882965772.0,Pending
 CUST-00420,Nasrin Rahman,Barishal,South,Sadar,Commercial,2026-08-26,1693008931.0,Approved
 CUST-00421,Nasrin Hossain,Cumilla,East,Sadar,Institutional,2025-12-25,1929108677.0,Rejected
-CUST-00422,Shilpi Hossain,Sylhet,East,Beanibazar,Industrial,2026-02-03,MISSING,Approved
+CUST-00422,Shilpi Hossain,Sylhet,East,Beanibazar,Industrial,2026-02-03,,Approved
 CUST-00423,Karim Begum,Brahmanbaria,East,Sadar,Commercial,2025-06-20,1963669411.0,Completed
 CUST-00424,Sohel Khan,Dinajpur,North,Sadar,Institutional,2025-06-23,1646528092.0,Approved
 CUST-00425,Shilpi Ahmed,Khulna,South,Sadar,Institutional,2025-05-04,1750274564.0,Approved
@@ -487,7 +487,7 @@ CUST-00485,Rehana Khan,Bogura,North,Sadar,Institutional,2025-02-27,1978725587.0,
 CUST-00486,Tanvir Rahman,Dinajpur,North,Sadar,Residential,2026-05-31,1873634669.0,Completed
 CUST-00487,Sultana Begum,Cox'S Bazar,South,Sadar,Industrial,2025-11-25,1890789567.0,Approved
 CUST-00488,Rafiq Islam,Rangpur,North,Sadar,Residential,2026-08-03,1915148881.0,Approved
-CUST-00489,Anwar Rahman,Faridpur,West,Sadar,Institutional,2024-08-05,MISSING,Completed
+CUST-00489,Anwar Rahman,Faridpur,West,Sadar,Institutional,2024-08-05,,Completed
 CUST-00490,Rakib Sarker,Sylhet,East,Zakiganj,Industrial,2024-10-06,1778263337.0,Completed
 CUST-00491,Hasan Rahman,Khulna,South,Sadar,Residential,2025-05-22,1866377805.0,Completed
 CUST-00492,Hasan Begum,Barishal,South,Sadar,Industrial,2025-09-20,1668459090.0,Approved
@@ -515,12 +515,12 @@ CUST-00513,Tanvir Alam,Jashore,West,Sadar,Industrial,2025-12-04,1800857666.0,App
 CUST-00514,Tanvir Uddin,Bogura,North,Sadar,Industrial,2025-08-07,1769236458.0,Rejected
 CUST-00515,Jahangir Uddin,Mymensingh,Central,Sadar,Residential,2024-08-17,1902497243.0,Pending
 CUST-00516,Mizanur Ahmed,Sylhet,East,Golapganj,Institutional,2024-09-24,1783626448.0,Approved
-CUST-00517,Salma Alam,Bogura,North,Sadar,Industrial,2024-12-14,MISSING,Approved
+CUST-00517,Salma Alam,Bogura,North,Sadar,Industrial,2024-12-14,,Approved
 CUST-00518,Jahangir Hossain,Cumilla,East,Sadar,Residential,2024-09-08,1823728179.0,Approved
 CUST-00519,Salma Begum,Tangail,Central,Kalihati,Residential,2025-02-23,1679121416.0,Approved
 CUST-00520,Shilpi Khan,Jashore,West,Sadar,Industrial,2024-08-31,1790138069.0,Approved
 CUST-00521,Fatima Uddin,Cumilla,East,Sadar,Industrial,2024-10-30,1953566905.0,Approved
-CUST-00522,Sumaiya Uddin,Dhaka,Central,Savar,Institutional,2026-08-30,MISSING,Completed
+CUST-00522,Sumaiya Uddin,Dhaka,Central,Savar,Institutional,2026-08-30,,Completed
 CUST-00523,Nasrin Akter,Khulna,South,Sadar,Residential,2026-06-07,1669156716.0,Approved
 CUST-00524,Salma Islam,Bogura,North,Sadar,Industrial,2024-10-13,1627178333.0,Pending
 CUST-00525,Rakib Ahmed,Khulna,South,Sadar,Residential,2024-12-25,1847128715.0,Approved
@@ -560,11 +560,11 @@ CUST-00558,Karim Akter,Tangail,Central,Mirzapur,Commercial,2025-08-13,1718954738
 CUST-00559,Jahangir Ahmed,Chattogram,South,Hathazari,Institutional,2024-11-01,1971617688.0,Completed
 CUST-00560,Mizanur Sarker,Cox'S Bazar,South,Sadar,Industrial,2025-08-31,1736788127.0,Approved
 CUST-00561,Nusrat Islam,Tangail,Central,Mirzapur,Commercial,2026-02-28,1787884434.0,Pending
-CUST-00562,Tanvir Ahmed,Mymensingh,Central,Sadar,Institutional,2025-11-17,MISSING,Pending
+CUST-00562,Tanvir Ahmed,Mymensingh,Central,Sadar,Institutional,2025-11-17,,Pending
 CUST-00563,Rahim Sarker,Faridpur,West,Sadar,Residential,2024-10-06,1694500534.0,Rejected
 CUST-00564,Sultana Begum,Sylhet,East,Zakiganj,Commercial,2025-06-12,1873543962.0,Pending
 CUST-00565,Mizanur Ahmed,Gazipur,Central,Sreepur,Commercial,2026-08-05,1839724042.0,Approved
-CUST-00566,Rahim Uddin,Cumilla,East,Sadar,Commercial,2026-02-03,MISSING,Completed
+CUST-00566,Rahim Uddin,Cumilla,East,Sadar,Commercial,2026-02-03,,Completed
 CUST-00567,Kamal Akter,Chattogram,South,Patiya,Institutional,2025-11-10,1701851327.0,Approved
 CUST-00568,Sultana Akter,Mymensingh,Central,Sadar,Residential,2026-02-28,1981001841.0,Pending
 CUST-00569,Anwar Begum,Cumilla,East,Sadar,Residential,2025-01-23,1936172131.0,Approved
@@ -608,7 +608,7 @@ CUST-00606,Sultana Hossain,Cox'S Bazar,South,Sadar,Institutional,2025-09-28,1667
 CUST-00607,Fatima Akter,Bogura,North,Sadar,Institutional,2025-08-02,1784964985.0,Completed
 CUST-00608,Rakib Begum,Barishal,South,Sadar,Commercial,2025-03-19,1952510505.0,Pending
 CUST-00609,Nasrin Hossain,Cox'S Bazar,South,Sadar,Residential,2024-07-16,1784919665.0,Approved
-CUST-00610,Rahim Ahmed,Dinajpur,North,Sadar,Residential,2025-06-30,MISSING,Approved
+CUST-00610,Rahim Ahmed,Dinajpur,North,Sadar,Residential,2025-06-30,,Approved
 CUST-00611,Tanvir Alam,Sylhet,East,Beanibazar,Residential,2025-03-25,1750171644.0,Completed
 CUST-00612,Hasan Islam,Jashore,West,Sadar,Institutional,2024-11-10,1671591030.0,Rejected
 CUST-00613,Sumaiya Ahmed,Mymensingh,Central,Sadar,Industrial,2026-01-12,1980040104.0,Approved
@@ -638,7 +638,7 @@ CUST-00636,Nusrat Hossain,Mymensingh,Central,Sadar,Industrial,2025-06-11,1691620
 CUST-00637,Fatima Ahmed,Rajshahi,North,Puthia,Industrial,2026-10-04,1966176620.0,Approved
 CUST-00638,Sohel Hossain,Dinajpur,North,Sadar,Institutional,2024-10-22,1927740258.0,Approved
 CUST-00639,Rehana Alam,Kushtia,West,Sadar,Industrial,2025-02-02,1859572446.0,Approved
-CUST-00640,Jahangir Hossain,Kushtia,West,Sadar,Residential,2024-12-03,MISSING,Approved
+CUST-00640,Jahangir Hossain,Kushtia,West,Sadar,Residential,2024-12-03,,Approved
 CUST-00641,Salma Khan,Jashore,West,Sadar,Institutional,2025-02-01,1812661094.0,Approved
 CUST-00642,Anwar Hossain,Rangpur,North,Sadar,Commercial,2024-09-16,1662983347.0,Approved
 CUST-00643,Salma Begum,Kushtia,West,Sadar,Commercial,2024-11-16,1713020569.0,Rejected
@@ -658,7 +658,7 @@ CUST-00656,Rakib Sarker,Tangail,Central,Mirzapur,Institutional,2026-05-02,166018
 CUST-00657,Murshida Rahman,Brahmanbaria,East,Sadar,Institutional,2026-01-13,1744138459.0,Approved
 CUST-00658,Tanvir Khan,Rangpur,North,Sadar,Commercial,2025-08-23,1942770707.0,Pending
 CUST-00659,Jahangir Akter,Bogura,North,Sadar,Residential,2026-02-19,1917244472.0,Approved
-CUST-00660,Tanvir Sarker,Dinajpur,North,Sadar,Residential,2025-02-08,MISSING,Approved
+CUST-00660,Tanvir Sarker,Dinajpur,North,Sadar,Residential,2025-02-08,,Approved
 CUST-00661,Sultana Rahman,Rajshahi,North,Bagha,Commercial,2026-09-20,1781335956.0,Approved
 CUST-00662,Rakib Uddin,Barishal,South,Sadar,Residential,2025-01-30,1974902504.0,Approved
 CUST-00663,Rakib Sarker,Khulna,South,Sadar,Industrial,2025-04-12,1690261139.0,Rejected
@@ -707,7 +707,7 @@ CUST-00705,Nasrin Alam,Chattogram,South,Patiya,Institutional,2024-12-23,19587209
 CUST-00706,Sohel Akter,Cox'S Bazar,South,Sadar,Industrial,2026-05-25,1918343740.0,Approved
 CUST-00707,Fatima Akter,Khulna,South,Sadar,Institutional,2025-12-06,1751502675.0,Approved
 CUST-00708,Tanvir Ahmed,Faridpur,West,Sadar,Institutional,2025-06-08,1697996673.0,Approved
-CUST-00709,Sohel Akter,Cox'S Bazar,South,Sadar,Institutional,2025-02-11,MISSING,Completed
+CUST-00709,Sohel Akter,Cox'S Bazar,South,Sadar,Institutional,2025-02-11,,Completed
 CUST-00710,Kamal Uddin,Kushtia,West,Sadar,Commercial,2026-03-24,1825014257.0,Completed
 CUST-00711,Tanvir Islam,Cox'S Bazar,South,Sadar,Industrial,2025-03-31,1836132850.0,Approved
 CUST-00712,Sultana Ahmed,Tangail,Central,Kalihati,Industrial,2025-04-17,1631625265.0,Pending
@@ -720,7 +720,7 @@ CUST-00718,Anwar Begum,Rajshahi,North,Charghat,Industrial,2026-09-28,1795465408.
 CUST-00719,Hasan Khan,Cox'S Bazar,South,Sadar,Industrial,2026-01-07,1908632181.0,Approved
 CUST-00720,Salma Begum,Brahmanbaria,East,Sadar,Institutional,2025-08-09,1601550291.0,Approved
 CUST-00721,Rafiq Uddin,Gazipur,Central,Kapasia,Institutional,2025-03-07,1761394498.0,Approved
-CUST-00722,Nasrin Uddin,Cumilla,East,Sadar,Industrial,2024-12-12,MISSING,Approved
+CUST-00722,Nasrin Uddin,Cumilla,East,Sadar,Industrial,2024-12-12,,Approved
 CUST-00723,Murshida Khan,Chattogram,South,Sitakunda,Industrial,2025-01-03,1913305319.0,Approved
 CUST-00724,Jahangir Alam,Faridpur,West,Sadar,Institutional,2025-08-29,1755557277.0,Pending
 CUST-00725,Rahim Akter,Bogura,North,Sadar,Commercial,2025-01-14,1913854457.0,Approved
@@ -755,9 +755,9 @@ CUST-00753,Nusrat Akter,Dinajpur,North,Sadar,Residential,2025-03-07,1649511918.0
 CUST-00754,Sohel Alam,Tangail,Central,Mirzapur,Residential,2025-08-30,1647725129.0,Approved
 CUST-00755,Nasrin Ahmed,Rangpur,North,Sadar,Institutional,2024-10-13,1962439587.0,Completed
 CUST-00756,Salma Begum,Dhaka,Central,Savar,Institutional,2026-02-22,1842108902.0,Approved
-CUST-00757,Nasrin Alam,Tangail,Central,Kalihati,Residential,2025-07-15,MISSING,Approved
+CUST-00757,Nasrin Alam,Tangail,Central,Kalihati,Residential,2025-07-15,,Approved
 CUST-00758,Rehana Ahmed,Tangail,Central,Mirzapur,Institutional,2024-09-08,1712898123.0,Completed
-CUST-00759,Sultana Alam,Cumilla,East,Sadar,Residential,2025-10-17,MISSING,Approved
+CUST-00759,Sultana Alam,Cumilla,East,Sadar,Residential,2025-10-17,,Approved
 CUST-00760,Rafiq Akter,Cox'S Bazar,South,Sadar,Residential,2026-06-06,1931670450.0,Approved
 CUST-00761,Jahangir Sarker,Dhaka,Central,Dhamrai,Commercial,2024-09-16,1709345962.0,Completed
 CUST-00762,Rahim Uddin,Gazipur,Central,Sreepur,Institutional,2026-09-16,1720734654.0,Completed
@@ -806,7 +806,7 @@ CUST-00804,Fatima Islam,Chattogram,South,Patiya,Commercial,2026-09-07,1631873280
 CUST-00805,Sohel Hossain,Gazipur,Central,Kaliakair,Commercial,2024-10-03,1736957279.0,Approved
 CUST-00806,Sohel Islam,Rangpur,North,Sadar,Commercial,2026-04-10,1925730662.0,Approved
 CUST-00807,Sumaiya Uddin,Khulna,South,Sadar,Residential,2024-11-13,1613984822.0,Pending
-CUST-00808,Karim Alam,Kushtia,West,Sadar,Residential,2026-02-28,MISSING,Completed
+CUST-00808,Karim Alam,Kushtia,West,Sadar,Residential,2026-02-28,,Completed
 CUST-00809,Kamal Khan,Din@Jpur,Unknown,Sadar,Commercial,2025-07-07,1649673794.0,Approved
 CUST-00810,Sultana Sarker,Barishal,South,Sadar,Commercial,2025-08-30,1864250642.0,Approved
 CUST-00811,Mizanur Akter,Barishal,South,Sadar,Commercial,2026-02-06,1667776755.0,Approved
@@ -917,7 +917,7 @@ CUST-00915,Tanvir Islam,Mymensingh,Central,Sadar,Institutional,2025-12-03,184244
 CUST-00916,Sohel Sarker,Faridpur,West,Sadar,Industrial,2025-05-10,1810314217.0,Approved
 CUST-00917,Salma Islam,Chattogram,South,Patiya,Commercial,2026-05-19,1752638409.0,Approved
 CUST-00918,Murshida Khan,Kushtia,West,Sadar,Residential,2024-09-13,1905661863.0,Approved
-CUST-00919,Tanvir Begum,Jashore,West,Sadar,Industrial,2024-09-08,MISSING,Completed
+CUST-00919,Tanvir Begum,Jashore,West,Sadar,Industrial,2024-09-08,,Completed
 CUST-00920,Nusrat Begum,Khulna,South,Sadar,Residential,2025-01-14,1798819277.0,Completed
 CUST-00921,Shilpi Begum,Khulna,South,Sadar,Industrial,2026-07-31,1640104246.0,Completed
 CUST-00922,Murshida Ahmed,Barishal,South,Sadar,Residential,2025-10-09,1960045212.0,Approved
@@ -958,7 +958,7 @@ CUST-00956,Anwar Sarker,Mymensingh,Central,Sadar,Residential,2024-08-16,18430176
 CUST-00957,Karim Rahman,Rajshahi,North,Charghat,Commercial,2026-03-20,1845279050.0,Completed
 CUST-00958,Murshida Khan,Tangail,Central,Kalihati,Industrial,2024-10-07,1995163211.0,Completed
 CUST-00959,Rafiq Uddin,Rajshahi,North,Puthia,Industrial,2026-09-10,1839137326.0,Rejected
-CUST-00960,Jahangir Hossain,Bogura,North,Sadar,Residential,2024-07-07,MISSING,Pending
+CUST-00960,Jahangir Hossain,Bogura,North,Sadar,Residential,2024-07-07,,Pending
 CUST-00961,Rehana Rahman,Rajshahi,North,Charghat,Institutional,2024-06-25,1782980365.0,Completed
 CUST-00962,Murshida Islam,Rajshahi,North,Puthia,Residential,2025-04-25,1793659520.0,Approved
 CUST-00963,Sultana Hossain,Cox'S Bazar,South,Sadar,Commercial,2024-07-03,1836875092.0,Rejected
@@ -980,7 +980,7 @@ CUST-00978,Murshida Islam,Tangail,Central,Ghatail,Institutional,2026-08-21,17016
 CUST-00979,Kamal Khan,Gazipur,Central,Kapasia,Institutional,2025-09-10,1662053440.0,Approved
 CUST-00980,Rehana Alam,Brahmanbaria,East,Sadar,Residential,2026-05-04,1629250817.0,Approved
 CUST-00981,Sumaiya Begum,Bogura,North,Sadar,Commercial,2026-03-22,1913337312.0,Approved
-CUST-00982,Fatima Hossain,Sylhet,East,Beanibazar,Industrial,2026-02-14,MISSING,Completed
+CUST-00982,Fatima Hossain,Sylhet,East,Beanibazar,Industrial,2026-02-14,,Completed
 CUST-00983,Rakib Uddin,Khulna,South,Sadar,Commercial,2025-03-02,1961337184.0,Approved
 CUST-00984,Fatima Alam,Dhaka,Central,Keraniganj,Industrial,2025-04-16,1716440373.0,Approved
 CUST-00985,Rakib Sarker,Dhaka,Central,Keraniganj,Commercial,2026-07-03,1682210217.0,Approved
@@ -1028,7 +1028,7 @@ CUST-01026,Hasan Hossain,Brahmanbaria,East,Sadar,Residential,2026-01-23,18658585
 CUST-01027,Shilpi Uddin,Dhaka,Central,Savar,Commercial,2025-02-09,1606159273.0,Approved
 CUST-01028,Jahangir Uddin,Brahmanbaria,East,Sadar,Commercial,2024-10-27,1763224815.0,Rejected
 CUST-01029,Anwar Ahmed,Cox'S Bazar,South,Sadar,Residential,2025-10-01,1709567975.0,Approved
-CUST-01030,Karim Sarker,Barishal,South,Sadar,Residential,2024-08-19,MISSING,Approved
+CUST-01030,Karim Sarker,Barishal,South,Sadar,Residential,2024-08-19,,Approved
 CUST-01031,Sultana Sarker,Kushtia,West,Sadar,Residential,2025-04-06,1768317641.0,Pending
 CUST-01032,Sohel Uddin,Rajshahi,North,Puthia,Industrial,2025-07-09,1612901507.0,Approved
 CUST-01033,Mizanur Akter,Dinajpur,North,Sadar,Residential,2024-10-25,1910458474.0,Approved
@@ -1038,14 +1038,14 @@ CUST-01036,Kamal Islam,Chattogram,South,Sitakunda,Institutional,2026-09-07,17459
 CUST-01037,Karim Rahman,Chattogram,South,Hathazari,Residential,2024-07-10,1794905315.0,Approved
 CUST-01038,Nusrat Rahman,Jashore,West,Sadar,Residential,2025-08-21,1631379716.0,Completed
 CUST-01039,Sultana Akter,Rajshahi,North,Bagha,Commercial,2024-09-21,1907794332.0,Approved
-CUST-01040,Kamal Uddin,Kushtia,West,Sadar,Industrial,2024-06-28,MISSING,Completed
+CUST-01040,Kamal Uddin,Kushtia,West,Sadar,Industrial,2024-06-28,,Completed
 CUST-01041,Murshida Ahmed,Gazipur,Central,Kaliakair,Industrial,2026-05-18,1720418135.0,Completed
 CUST-01042,Fatima Khan,Bogura,North,Sadar,Institutional,2025-04-29,1980186448.0,Approved
 CUST-01043,Rehana Begum,Mymensingh,Central,Sadar,Industrial,2024-12-02,1970820048.0,Pending
 CUST-01044,Rakib Rahman,Gazipur,Central,Kaliakair,Commercial,2025-02-08,1749611287.0,Approved
 CUST-01045,Shilpi Islam,Faridpur,West,Sadar,Industrial,2026-06-22,1697040953.0,Approved
 CUST-01046,Kamal Ahmed,Dinajpur,North,Sadar,Industrial,2026-04-12,1827488356.0,Approved
-CUST-01047,Kamal Sarker,Dinajpur,North,Sadar,Institutional,2026-05-13,MISSING,Pending
+CUST-01047,Kamal Sarker,Dinajpur,North,Sadar,Institutional,2026-05-13,,Pending
 CUST-01048,Hasan Uddin,Rangpur,North,Sadar,Commercial,2026-01-16,1762259364.0,Approved
 CUST-01049,Sultana Uddin,Faridpur,West,Sadar,Residential,2026-07-16,1624672879.0,Approved
 CUST-01050,Sultana Uddin,Tangail,Central,Mirzapur,Institutional,2026-04-07,1859236133.0,Completed
@@ -1103,9 +1103,9 @@ CUST-01101,Rakib Islam,Barishal,South,Sadar,Residential,2026-01-04,1700649340.0,
 CUST-01102,Murshida Akter,Dinajpur,North,Sadar,Institutional,2025-10-26,1911849135.0,Completed
 CUST-01103,Rakib Ahmed,Mymensingh,Central,Sadar,Residential,2024-12-25,1920561006.0,Pending
 CUST-01104,Hasan Hossain,Cumilla,East,Sadar,Commercial,2025-03-11,1677403784.0,Completed
-CUST-01105,Jahangir Begum,Cox'S Bazar,South,Sadar,Residential,2026-08-02,MISSING,Approved
+CUST-01105,Jahangir Begum,Cox'S Bazar,South,Sadar,Residential,2026-08-02,,Approved
 CUST-01106,Jahangir Ahmed,Sylhet,East,Golapganj,Commercial,2026-03-05,1624178429.0,Completed
-CUST-01107,Nusrat Sarker,Cox'S Bazar,South,Sadar,Industrial,2025-05-11,MISSING,Approved
+CUST-01107,Nusrat Sarker,Cox'S Bazar,South,Sadar,Industrial,2025-05-11,,Approved
 CUST-01108,Sumaiya Khan,Rangpur,North,Sadar,Institutional,2024-09-03,1716673290.0,Completed
 CUST-01109,Rafiq Alam,Faridpur,West,Sadar,Commercial,2024-07-21,1812996426.0,Pending
 CUST-01110,Fatima Islam,Dhaka,Central,Keraniganj,Institutional,2024-06-05,1814770920.0,Approved
@@ -1129,7 +1129,7 @@ CUST-01127,Rehana Rahman,Chattogram,South,Sitakunda,Industrial,2025-09-15,166945
 CUST-01128,Nusrat Uddin,Kushtia,West,Sadar,Institutional,2024-06-09,1763421254.0,Completed
 CUST-01129,Kamal Akter,Cox'S Bazar,South,Sadar,Residential,2026-02-12,1869255966.0,Pending
 CUST-01130,Rafiq Akter,Chattogram,South,Patiya,Industrial,2024-07-01,1742614048.0,Approved
-CUST-01131,Fatima Khan,Khulna,South,Sadar,Institutional,2026-04-27,MISSING,Approved
+CUST-01131,Fatima Khan,Khulna,South,Sadar,Institutional,2026-04-27,,Approved
 CUST-01132,Jahangir Alam,Rajshahi,North,Bagha,Industrial,2026-01-23,1618452354.0,Approved
 CUST-01133,Hasan Ahmed,Jashore,West,Sadar,Industrial,2025-09-01,1820865237.0,Approved
 CUST-01134,Tanvir Begum,Cumilla,East,Sadar,Residential,2026-09-08,1714005278.0,Pending
@@ -1174,7 +1174,7 @@ CUST-01172,Salma Islam,Cox'S Bazar,South,Sadar,Residential,2026-06-15,1837337912
 CUST-01173,Karim Hossain,Kushtia,West,Sadar,Commercial,2025-10-20,1986901707.0,Approved
 CUST-01174,Rafiq Hossain,Chattogram,South,Hathazari,Industrial,2026-04-12,1917122276.0,Approved
 CUST-01175,Rahim Sarker,Barishal,South,Sadar,Commercial,2026-03-22,1762654963.0,Completed
-CUST-01176,Kamal Uddin,Cox'S Bazar,South,Sadar,Commercial,2026-10-05,MISSING,Completed
+CUST-01176,Kamal Uddin,Cox'S Bazar,South,Sadar,Commercial,2026-10-05,,Completed
 CUST-01177,Nasrin Akter,Sylhet,East,Zakiganj,Institutional,2025-08-17,1795377492.0,Approved
 CUST-01178,Mizanur Begum,Gazipur,Central,Sreepur,Residential,2026-05-23,1652259206.0,Completed
 CUST-01179,Rakib Begum,Dhaka,Central,Savar,Institutional,2024-08-31,1829411563.0,Approved
@@ -1190,13 +1190,13 @@ CUST-01188,Jahangir Alam,Tangail,Central,Mirzapur,Commercial,2024-12-09,19243838
 CUST-01189,Sohel Ahmed,Dinajpur,North,Sadar,Industrial,2024-11-25,1627633283.0,Completed
 CUST-01190,Rafiq Alam,Tangail,Central,Mirzapur,Institutional,2024-08-11,1618518626.0,Approved
 CUST-01191,Jahangir Khan,Bogura,North,Sadar,Residential,2025-04-22,1833921883.0,Approved
-CUST-01192,Nusrat Sarker,Rangpur,North,Sadar,Residential,2024-12-15,MISSING,Completed
+CUST-01192,Nusrat Sarker,Rangpur,North,Sadar,Residential,2024-12-15,,Completed
 CUST-01193,Sultana Ahmed,Mymensingh,Central,Sadar,Commercial,2025-04-09,1697617815.0,Approved
 CUST-01194,Tanvir Ahmed,Barishal,South,Sadar,Residential,2026-05-27,1726656862.0,Approved
 CUST-01195,Hasan Ahmed,Tangail,Central,Kalihati,Residential,2025-07-17,1855394607.0,Approved
 CUST-01196,Nusrat Uddin,Jashore,West,Sadar,Industrial,2025-12-05,1669417996.0,Approved
 CUST-01197,Kamal Hossain,Jashore,West,Sadar,Institutional,2024-06-08,1964183984.0,Approved
-CUST-01198,Murshida Akter,Khulna,South,Sadar,Industrial,2026-10-05,MISSING,Approved
+CUST-01198,Murshida Akter,Khulna,South,Sadar,Industrial,2026-10-05,,Approved
 CUST-01199,Karim Uddin,Gazipur,Central,Kaliakair,Commercial,2026-01-11,1726270664.0,Approved
 CUST-01200,Nusrat Sarker,Chattogram,South,Sitakunda,Commercial,2025-01-20,1808898305.0,Approved
 CUST-01201,Karim Uddin,Jashore,West,Sadar,Commercial,2026-08-29,1785630275.0,Approved
@@ -1236,8 +1236,8 @@ CUST-01234,Nusrat Khan,Sylhet,East,Golapganj,Industrial,2024-12-17,1734398818.0,
 CUST-01235,Murshida Uddin,Kushtia,West,Sadar,Residential,2025-10-23,1864770413.0,Approved
 CUST-01236,Jahangir Hossain,Cumilla,East,Sadar,Residential,2025-01-28,1862542041.0,Pending
 CUST-01237,Nasrin Akter,Barishal,South,Sadar,Institutional,2025-09-30,1744100794.0,Completed
-CUST-01238,Nusrat Khan,Mymensingh,Central,Sadar,Commercial,2024-09-13,MISSING,Approved
-CUST-01239,Nasrin Akter,Chattogram,South,Hathazari,Industrial,2026-07-05,MISSING,Approved
+CUST-01238,Nusrat Khan,Mymensingh,Central,Sadar,Commercial,2024-09-13,,Approved
+CUST-01239,Nasrin Akter,Chattogram,South,Hathazari,Industrial,2026-07-05,,Approved
 CUST-01240,Mizanur Khan,Dinajpur,North,Sadar,Commercial,2026-08-19,1686163070.0,Completed
 CUST-01241,Nusrat Ahmed,Dhaka,Central,Savar,Residential,2026-10-05,1936621953.0,Approved
 CUST-01242,Kamal Islam,Jashore,West,Sadar,Commercial,2024-09-05,1773259007.0,Completed
@@ -1258,8 +1258,8 @@ CUST-01256,Tanvir Rahman,Cumilla,East,Sadar,Institutional,2025-05-20,1871181519.
 CUST-01257,Rahim Khan,Cox'S Bazar,South,Sadar,Institutional,2025-09-26,1840153534.0,Completed
 CUST-01258,Rahim Akter,Chattogram,South,Sitakunda,Residential,2024-11-09,1966720108.0,Approved
 CUST-01259,Salma Khan,Dhaka,Central,Dhamrai,Institutional,2024-11-09,1694026208.0,Approved
-CUST-01260,Salma Akter,Dhaka,Central,Keraniganj,Residential,2024-08-16,MISSING,Approved
-CUST-01261,Mizanur Islam,Dhaka,Central,Dhamrai,Residential,2026-08-14,MISSING,Approved
+CUST-01260,Salma Akter,Dhaka,Central,Keraniganj,Residential,2024-08-16,,Approved
+CUST-01261,Mizanur Islam,Dhaka,Central,Dhamrai,Residential,2026-08-14,,Approved
 CUST-01262,Salma Uddin,Gazipur,Central,Kaliakair,Residential,2024-10-05,1660012838.0,Completed
 CUST-01263,Tanvir Uddin,Gazipur,Central,Kaliakair,Industrial,2024-09-22,1896151204.0,Approved
 CUST-01264,Anwar Alam,Khulna,South,Sadar,Residential,2026-06-28,1946042276.0,Approved
@@ -1290,7 +1290,7 @@ CUST-01288,Anwar Hossain,Kushtia,West,Sadar,Residential,2024-08-12,1647837031.0,
 CUST-01289,Shilpi Alam,Brahmanbaria,East,Sadar,Industrial,2026-05-17,1985726029.0,Completed
 CUST-01290,Mizanur Hossain,Gazipur,Central,Kapasia,Commercial,2025-06-13,1907664207.0,Completed
 CUST-01291,Sohel Khan,Tangail,Central,Kalihati,Residential,2025-08-25,1676259238.0,Completed
-CUST-01292,Rahim Sarker,Rangpur,North,Sadar,Commercial,2025-06-17,MISSING,Approved
+CUST-01292,Rahim Sarker,Rangpur,North,Sadar,Commercial,2025-06-17,,Approved
 CUST-01293,Karim Khan,Cumilla,East,Sadar,Industrial,2025-05-22,1997640535.0,Rejected
 CUST-01294,Mizanur Akter,Barishal,South,Sadar,Industrial,2024-09-29,1790384227.0,Approved
 CUST-01295,Rehana Islam,Dinajpur,North,Sadar,Industrial,2026-04-30,1871117576.0,Pending
@@ -1301,7 +1301,7 @@ CUST-01299,Sultana Hossain,Brahmanbaria,East,Sadar,Residential,2025-04-11,196931
 CUST-01300,Murshida Hossain,Dinajpur,North,Sadar,Commercial,2026-06-07,1940259985.0,Approved
 CUST-01301,Rakib Alam,Gazipur,Central,Sreepur,Residential,2026-06-09,1729163504.0,Completed
 CUST-01302,Murshida Ahmed,Cumilla,East,Sadar,Institutional,2026-09-22,1927284539.0,Approved
-CUST-01303,Fatima Ahmed,Rangpur,North,Sadar,Commercial,2025-02-13,MISSING,Pending
+CUST-01303,Fatima Ahmed,Rangpur,North,Sadar,Commercial,2025-02-13,,Pending
 CUST-01304,Jahangir Akter,Gazipur,Central,Kaliakair,Institutional,2026-04-01,1939044890.0,Approved
 CUST-01305,Rafiq Begum,Gazipur,Central,Kaliakair,Institutional,2025-11-13,1851025550.0,Completed
 CUST-01306,Jahangir Ahmed,Dinajpur,North,Sadar,Industrial,2026-06-02,1939333243.0,Pending
@@ -1344,10 +1344,10 @@ CUST-01342,Sumaiya Sarker,Bogura,North,Sadar,Residential,2026-07-02,1767806643.0
 CUST-01343,Murshida Akter,Chattogram,South,Hathazari,Industrial,2025-01-08,1881503701.0,Approved
 CUST-01344,Sultana Sarker,Brahmanbaria,East,Sadar,Commercial,2024-12-18,1781726282.0,Completed
 CUST-01345,Jahangir Khan,Cox'S Bazar,South,Sadar,Institutional,2026-07-17,1900728895.0,Pending
-CUST-01346,Karim Sarker,Faridpur,West,Sadar,Commercial,2024-06-07,MISSING,Pending
+CUST-01346,Karim Sarker,Faridpur,West,Sadar,Commercial,2024-06-07,,Pending
 CUST-01347,Jahangir Rahman,Rajshahi,North,Charghat,Institutional,2025-04-29,1863444359.0,Approved
-CUST-01348,Salma Akter,Jashore,West,Sadar,Commercial,2025-07-03,MISSING,Approved
-CUST-01349,Anwar Hossain,Rangpur,North,Sadar,Industrial,2025-11-24,MISSING,Approved
+CUST-01348,Salma Akter,Jashore,West,Sadar,Commercial,2025-07-03,,Approved
+CUST-01349,Anwar Hossain,Rangpur,North,Sadar,Industrial,2025-11-24,,Approved
 CUST-01350,Rafiq Alam,Cox'S Bazar,South,Sadar,Institutional,2024-06-07,1864818754.0,Completed
 CUST-01351,Hasan Hossain,Kushtia,West,Sadar,Industrial,2026-09-06,1673854662.0,Approved
 CUST-01352,Shilpi Akter,Brahmanbaria,East,Sadar,Industrial,2026-04-10,1725949722.0,Approved
@@ -1373,7 +1373,7 @@ CUST-01371,Fatima Begum,Rajshahi,North,Puthia,Institutional,2025-03-28,178431132
 CUST-01372,Jahangir Akter,Dinajpur,North,Sadar,Residential,2025-11-28,1632119604.0,Approved
 CUST-01373,Salma Rahman,Jashore,West,Sadar,Industrial,2024-09-12,1954470823.0,Pending
 CUST-01374,Rakib Alam,Khulna,South,Sadar,Residential,2025-10-08,1676626235.0,Approved
-CUST-01375,Mizanur Sarker,Rangpur,North,Sadar,Industrial,2026-08-27,MISSING,Approved
+CUST-01375,Mizanur Sarker,Rangpur,North,Sadar,Industrial,2026-08-27,,Approved
 CUST-01376,Salma Alam,Dinajpur,North,Sadar,Institutional,2024-06-10,1663605028.0,Pending
 CUST-01377,Murshida Rahman,Faridpur,West,Sadar,Institutional,2026-05-07,1791203025.0,Approved
 CUST-01378,Sultana Uddin,Brahmanbaria,East,Sadar,Commercial,2025-06-28,1931926009.0,Approved
@@ -1385,7 +1385,7 @@ CUST-01383,Tanvir Sarker,Bogura,North,Sadar,Industrial,2025-03-09,1717316715.0,P
 CUST-01384,Mizanur Rahman,Dhaka,Central,Savar,Institutional,2026-03-11,1733954794.0,Pending
 CUST-01385,Anwar Alam,Khulna,South,Sadar,Commercial,2025-08-02,1971918986.0,Approved
 CUST-01386,Kamal Uddin,Rajshahi,North,Puthia,Commercial,2026-02-09,1997487680.0,Completed
-CUST-01387,Tanvir Alam,Jashore,West,Sadar,Industrial,2026-02-10,MISSING,Approved
+CUST-01387,Tanvir Alam,Jashore,West,Sadar,Industrial,2026-02-10,,Approved
 CUST-01388,Nusrat Akter,Dhaka,Central,Dhamrai,Institutional,2026-02-12,1632396440.0,Completed
 CUST-01389,Sumaiya Akter,Sylhet,East,Golapganj,Residential,2026-05-29,1842773923.0,Approved
 CUST-01390,Hasan Hossain,Gazipur,Central,Kaliakair,Institutional,2025-05-27,1901693328.0,Approved
@@ -1397,7 +1397,7 @@ CUST-01395,Rahim Alam,J@Shore,Unknown,Sadar,Commercial,2026-10-01,1658267625.0,C
 CUST-01396,Rehana Ahmed,Mymensingh,Central,Sadar,Commercial,2026-07-01,1964614974.0,Approved
 CUST-01397,Rakib Ahmed,Tangail,Central,Ghatail,Institutional,2024-07-04,1698491498.0,Approved
 CUST-01398,Fatima Akter,Cox'S Bazar,South,Sadar,Residential,2026-05-08,1664322394.0,Rejected
-CUST-01399,Salma Akter,Faridpur,West,Sadar,Industrial,2025-07-25,MISSING,Rejected
+CUST-01399,Salma Akter,Faridpur,West,Sadar,Industrial,2025-07-25,,Rejected
 CUST-01400,Salma Sarker,Gazipur,Central,Kaliakair,Commercial,2026-06-06,1974225678.0,Approved
 CUST-01401,Tanvir Alam,Kushtia,West,Sadar,Institutional,2025-06-24,1916806134.0,Rejected
 CUST-01402,Nusrat Hossain,Faridpur,West,Sadar,Residential,2025-01-18,1986794963.0,Completed
@@ -1418,7 +1418,7 @@ CUST-01416,Hasan Hossain,Cox'S Bazar,South,Sadar,Commercial,2025-07-01,195946989
 CUST-01417,Shilpi Sarker,Mymensingh,Central,Sadar,Industrial,2026-08-20,1722379006.0,Approved
 CUST-01418,Rakib Sarker,Faridpur,West,Sadar,Residential,2024-06-29,1695417675.0,Completed
 CUST-01419,Nusrat Ahmed,Faridpur,West,Sadar,Institutional,2025-10-02,1878159157.0,Approved
-CUST-01420,Hasan Uddin,Sylhet,East,Beanibazar,Industrial,2025-09-02,MISSING,Pending
+CUST-01420,Hasan Uddin,Sylhet,East,Beanibazar,Industrial,2025-09-02,,Pending
 CUST-01421,Rakib Sarker,Mymensingh,Central,Sadar,Industrial,2024-05-31,1819051881.0,Approved
 CUST-01422,Hasan Hossain,Rajshahi,North,Puthia,Industrial,2024-08-08,1770669010.0,Approved
 CUST-01423,Sumaiya Uddin,Faridpur,West,Sadar,Industrial,2025-05-31,1834864970.0,Approved
@@ -1444,7 +1444,7 @@ CUST-01442,Sohel Khan,Bogura,North,Sadar,Institutional,2026-03-11,1993251149.0,P
 CUST-01443,Sohel Begum,Rangpur,North,Sadar,Residential,2026-08-15,1937766183.0,Pending
 CUST-01444,Rehana Sarker,Faridpur,West,Sadar,Industrial,2026-04-24,1743915114.0,Approved
 CUST-01445,Hasan Begum,Rangpur,North,Sadar,Industrial,2024-06-08,1787109685.0,Pending
-CUST-01446,Karim Uddin,Faridpur,West,Sadar,Commercial,2026-03-30,MISSING,Pending
+CUST-01446,Karim Uddin,Faridpur,West,Sadar,Commercial,2026-03-30,,Pending
 CUST-01447,Rahim Alam,Kushtia,West,Sadar,Industrial,2025-06-11,1905224114.0,Pending
 CUST-01448,Hasan Rahman,Khulna,South,Sadar,Residential,2026-09-13,1801663382.0,Completed
 CUST-01449,Fatima Hossain,Mymensingh,Central,Sadar,Institutional,2025-04-16,1805620190.0,Approved
@@ -1480,7 +1480,7 @@ CUST-01478,Nusrat Rahman,Jashore,West,Sadar,Industrial,2025-02-03,1859994004.0,C
 CUST-01479,Jahangir Sarker,Mymensingh,Central,Sadar,Commercial,2024-06-22,1713505357.0,Pending
 CUST-01480,Nusrat Uddin,Cumilla,East,Sadar,Residential,2026-09-21,1978097830.0,Completed
 CUST-01481,Shilpi Rahman,Rajshahi,North,Puthia,Industrial,2025-03-25,1934195281.0,Approved
-CUST-01482,Rafiq Begum,Brahmanbaria,East,Sadar,Industrial,2025-03-22,MISSING,Approved
+CUST-01482,Rafiq Begum,Brahmanbaria,East,Sadar,Industrial,2025-03-22,,Approved
 CUST-01483,Rahim Begum,Rangpur,North,Sadar,Institutional,2025-03-29,1721397436.0,Approved
 CUST-01484,Rakib Uddin,Barishal,South,Sadar,Institutional,2025-10-13,1908429069.0,Completed
 CUST-01485,Karim Islam,Kushtia,West,Sadar,Industrial,2025-11-24,1765673374.0,Approved
@@ -1539,13 +1539,13 @@ CUST-01537,Tanvir Sarker,Cumilla,East,Sadar,Commercial,2024-11-24,1974705311.0,C
 CUST-01538,Rakib Islam,Mymensingh,Central,Sadar,Institutional,2026-05-25,1673979842.0,Approved
 CUST-01539,Mizanur Akter,Mymensingh,Central,Sadar,Commercial,2025-08-23,1901676718.0,Completed
 CUST-01540,Kamal Sarker,Cumilla,East,Sadar,Residential,2025-03-11,1627629226.0,Approved
-CUST-01541,Anwar Ahmed,Tangail,Central,Kalihati,Commercial,2024-07-10,MISSING,Approved
+CUST-01541,Anwar Ahmed,Tangail,Central,Kalihati,Commercial,2024-07-10,,Approved
 CUST-01542,Mizanur Rahman,Faridpur,West,Sadar,Residential,2025-04-01,1997772659.0,Completed
 CUST-01543,Nusrat Ahmed,Faridpur,West,Sadar,Commercial,2025-03-09,1750141716.0,Pending
 CUST-01544,Anwar Sarker,Dhaka,Central,Dhamrai,Industrial,2026-09-05,1965188711.0,Pending
 CUST-01545,Karim Hossain,Barishal,South,Sadar,Residential,2024-08-14,1949287875.0,Approved
 CUST-01546,Rahim Alam,Tangail,Central,Mirzapur,Institutional,2026-05-16,1850186074.0,Completed
-CUST-01547,Rehana Hossain,Gazipur,Central,Kaliakair,Residential,2026-05-29,MISSING,Completed
+CUST-01547,Rehana Hossain,Gazipur,Central,Kaliakair,Residential,2026-05-29,,Completed
 CUST-01548,Sumaiya Khan,Gazipur,Central,Sreepur,Residential,2024-07-11,1624975374.0,Approved
 CUST-01549,Anwar Rahman,Chattogram,South,Sitakunda,Institutional,2026-03-05,1967406873.0,Approved
 CUST-01550,Anwar Sarker,Bogura,North,Sadar,Commercial,2024-12-07,1688658348.0,Completed
@@ -1558,7 +1558,7 @@ CUST-01556,Tanvir Ahmed,Chattogram,South,Hathazari,Residential,2026-01-07,183795
 CUST-01557,Sohel Begum,Gazipur,Central,Sreepur,Industrial,2026-03-01,1642866251.0,Approved
 CUST-01558,Salma Khan,Faridpur,West,Sadar,Institutional,2025-10-28,1914609193.0,Completed
 CUST-01559,Kamal Rahman,Khulna,South,Sadar,Industrial,2026-07-10,1762728167.0,Completed
-CUST-01560,Shilpi Sarker,Dhaka,Central,Savar,Residential,2025-05-10,MISSING,Completed
+CUST-01560,Shilpi Sarker,Dhaka,Central,Savar,Residential,2025-05-10,,Completed
 CUST-01561,Rafiq Ahmed,Brahmanbaria,East,Sadar,Institutional,2026-08-01,1769319630.0,Approved
 CUST-01562,Fatima Akter,Jashore,West,Sadar,Commercial,2026-01-01,1759982267.0,Completed
 CUST-01563,Tanvir Uddin,Kushtia,West,Sadar,Commercial,2025-03-28,1914202593.0,Approved
@@ -1611,13 +1611,13 @@ CUST-01609,Sultana Uddin,Brahmanbaria,East,Sadar,Residential,2025-09-17,16566505
 CUST-01610,Shilpi Begum,Cox'S Bazar,South,Sadar,Residential,2024-12-23,1834359698.0,Approved
 CUST-01611,Rehana Sarker,Cumilla,East,Sadar,Commercial,2025-11-10,1875402428.0,Completed
 CUST-01612,Anwar Sarker,Rajshahi,North,Charghat,Residential,2025-01-09,1850385762.0,Approved
-CUST-01613,Salma Uddin,Mymensingh,Central,Sadar,Residential,2024-05-28,MISSING,Completed
+CUST-01613,Salma Uddin,Mymensingh,Central,Sadar,Residential,2024-05-28,,Completed
 CUST-01614,Sohel Alam,Brahmanbaria,East,Sadar,Industrial,2026-08-27,1793048527.0,Completed
 CUST-01615,Sohel Ahmed,Sylhet,East,Golapganj,Industrial,2024-09-10,1736344439.0,Rejected
 CUST-01616,Karim Khan,Mymensingh,Central,Sadar,Commercial,2024-06-09,1723357617.0,Approved
 CUST-01617,Kamal Sarker,Brahmanbaria,East,Sadar,Institutional,2024-11-01,1977626263.0,Pending
 CUST-01618,Hasan Ahmed,Faridpur,West,Sadar,Institutional,2024-05-30,1975944348.0,Approved
-CUST-01619,Hasan Uddin,Brahmanbaria,East,Sadar,Industrial,2025-08-10,MISSING,Approved
+CUST-01619,Hasan Uddin,Brahmanbaria,East,Sadar,Industrial,2025-08-10,,Approved
 CUST-01620,Rakib Uddin,Bogura,North,Sadar,Residential,2024-12-26,1934115733.0,Rejected
 CUST-01621,Sohel Begum,Chattogram,South,Hathazari,Industrial,2025-10-06,1656582344.0,Approved
 CUST-01622,Rakib Islam,Gazipur,Central,Kaliakair,Residential,2026-08-15,1866000470.0,Rejected
@@ -1648,7 +1648,7 @@ CUST-01646,Sumaiya Hossain,Brahmanbaria,East,Sadar,Commercial,2024-10-10,1738035
 CUST-01647,Rafiq Ahmed,Cox'S Bazar,South,Sadar,Institutional,2026-07-12,1747905347.0,Completed
 CUST-01648,Sohel Sarker,Cumilla,East,Sadar,Industrial,2024-07-03,1795326708.0,Approved
 CUST-01649,Rahim Islam,Cumilla,East,Sadar,Commercial,2026-05-11,1892582282.0,Approved
-CUST-01650,Mizanur Rahman,Tangail,Central,Mirzapur,Institutional,2024-07-17,MISSING,Approved
+CUST-01650,Mizanur Rahman,Tangail,Central,Mirzapur,Institutional,2024-07-17,,Approved
 CUST-01651,Rehana Begum,Jashore,West,Sadar,Institutional,2024-11-14,1997521353.0,Completed
 CUST-01652,Jahangir Alam,Khulna,South,Sadar,Industrial,2025-11-19,1648741148.0,Completed
 CUST-01653,Tanvir Alam,Rajshahi,North,Puthia,Institutional,2026-06-23,1645349655.0,Approved
@@ -1672,7 +1672,7 @@ CUST-01670,Nasrin Khan,Jashore,West,Sadar,Institutional,2025-09-29,1841855950.0,
 CUST-01671,Rahim Uddin,Sylhet,East,Beanibazar,Residential,2025-07-24,1739610175.0,Rejected
 CUST-01672,Fatima Alam,Sylhet,East,Golapganj,Commercial,2026-06-25,1990786928.0,Rejected
 CUST-01673,Tanvir Sarker,Barishal,South,Sadar,Industrial,2026-08-30,1676353673.0,Approved
-CUST-01674,Shilpi Hossain,Brahmanbaria,East,Sadar,Residential,2025-02-04,MISSING,Approved
+CUST-01674,Shilpi Hossain,Brahmanbaria,East,Sadar,Residential,2025-02-04,,Approved
 CUST-01675,Salma Rahman,Cox'S Bazar,South,Sadar,Residential,2026-03-29,1993663579.0,Rejected
 CUST-01676,Sumaiya Akter,Rangpur,North,Sadar,Industrial,2026-02-15,1856582608.0,Completed
 CUST-01677,Hasan Hossain,Jashore,West,Sadar,Commercial,2026-07-30,1728866911.0,Approved
@@ -1709,7 +1709,7 @@ CUST-01707,Rehana Ahmed,Kushtia,West,Sadar,Industrial,2025-12-02,1742495629.0,Ap
 CUST-01708,Karim Akter,Cumilla,East,Sadar,Industrial,2025-11-30,1888807005.0,Approved
 CUST-01709,Shilpi Sarker,Bogura,North,Sadar,Industrial,2025-01-19,1820175454.0,Approved
 CUST-01710,Rakib Khan,Bogura,North,Sadar,Institutional,2026-01-06,1966275015.0,Approved
-CUST-01711,Tanvir Sarker,Dinajpur,North,Sadar,Industrial,2026-05-23,MISSING,Completed
+CUST-01711,Tanvir Sarker,Dinajpur,North,Sadar,Industrial,2026-05-23,,Completed
 CUST-01712,Mizanur Khan,Faridpur,West,Sadar,Residential,2026-01-14,1760145792.0,Rejected
 CUST-01713,Murshida Khan,Faridpur,West,Sadar,Commercial,2026-09-17,1797015019.0,Approved
 CUST-01714,Rakib Khan,Barishal,South,Sadar,Residential,2024-06-16,1718285233.0,Approved
@@ -1790,7 +1790,7 @@ CUST-01788,Kamal Akter,Rajshahi,North,Puthia,Commercial,2026-02-11,1922623003.0,
 CUST-01789,Rakib Islam,Dhaka,Central,Dhamrai,Industrial,2024-08-21,1803424375.0,Approved
 CUST-01790,Rehana Rahman,Faridpur,West,Sadar,Residential,2026-02-03,1766316696.0,Approved
 CUST-01791,Rahim Sarker,Rangpur,North,Sadar,Institutional,2025-12-22,1910616649.0,Completed
-CUST-01792,Hasan Rahman,Khulna,South,Sadar,Residential,2026-06-16,MISSING,Approved
+CUST-01792,Hasan Rahman,Khulna,South,Sadar,Residential,2026-06-16,,Approved
 CUST-01793,Tanvir Akter,Khulna,South,Sadar,Commercial,2024-11-01,1699613152.0,Approved
 CUST-01794,Mizanur Akter,Faridpur,West,Sadar,Institutional,2024-09-11,1877435404.0,Completed
 CUST-01795,Kamal Khan,Tangail,Central,Ghatail,Commercial,2025-08-30,1711525586.0,Pending
@@ -1822,7 +1822,7 @@ CUST-01820,Hasan Akter,Dinajpur,North,Sadar,Residential,2026-07-26,1978872820.0,
 CUST-01821,Shilpi Khan,Gazipur,Central,Sreepur,Industrial,2026-10-02,1744665895.0,Completed
 CUST-01822,Kamal Rahman,Cumilla,East,Sadar,Industrial,2025-05-27,1972452573.0,Approved
 CUST-01823,Murshida Sarker,Faridpur,West,Sadar,Industrial,2026-05-12,1965777061.0,Approved
-CUST-01824,Sumaiya Hossain,Dhaka,Central,Keraniganj,Industrial,2026-07-31,MISSING,Approved
+CUST-01824,Sumaiya Hossain,Dhaka,Central,Keraniganj,Industrial,2026-07-31,,Approved
 CUST-01825,Rakib Begum,Cumilla,East,Sadar,Residential,2026-05-21,1688031664.0,Approved
 CUST-01826,Rahim Islam,Kushtia,West,Sadar,Residential,2025-01-22,1842853541.0,Approved
 CUST-01827,Rehana Khan,Ch@Ttogr@M,Unknown,Hathazari,Residential,2024-10-04,1717086715.0,Completed
@@ -1835,7 +1835,7 @@ CUST-01833,Salma Khan,Sylhet,East,Zakiganj,Institutional,2025-02-09,1668160855.0
 CUST-01834,Nasrin Begum,Barishal,South,Sadar,Industrial,2026-04-23,1688144990.0,Approved
 CUST-01835,Tanvir Hossain,Dinajpur,North,Sadar,Institutional,2026-05-20,1950999863.0,Completed
 CUST-01836,Murshida Sarker,Rajshahi,North,Bagha,Institutional,2025-02-12,1708518466.0,Approved
-CUST-01837,Karim Akter,Gazipur,Central,Kaliakair,Commercial,2024-12-12,MISSING,Completed
+CUST-01837,Karim Akter,Gazipur,Central,Kaliakair,Commercial,2024-12-12,,Completed
 CUST-01838,Rehana Sarker,Chattogram,South,Patiya,Residential,2024-10-10,1620554829.0,Approved
 CUST-01839,Rafiq Khan,Bogura,North,Sadar,Residential,2025-06-09,1998474604.0,Rejected
 CUST-01840,Shilpi Begum,Chattogram,South,Hathazari,Commercial,2025-01-17,1814617275.0,Completed
@@ -1863,7 +1863,7 @@ CUST-01861,Rahim Begum,Cumilla,East,Sadar,Institutional,2024-12-20,1957595995.0,
 CUST-01862,Tanvir Akter,Sylhet,East,Beanibazar,Institutional,2026-06-03,1771485418.0,Rejected
 CUST-01863,Murshida Akter,Barishal,South,Sadar,Residential,2025-12-13,1778821651.0,Completed
 CUST-01864,Shilpi Khan,Barishal,South,Sadar,Commercial,2026-09-19,1952030276.0,Approved
-CUST-01865,Jahangir Ahmed,Faridpur,West,Sadar,Commercial,2024-08-15,MISSING,Approved
+CUST-01865,Jahangir Ahmed,Faridpur,West,Sadar,Commercial,2024-08-15,,Approved
 CUST-01866,Rakib Ahmed,Cox'S Bazar,South,Sadar,Residential,2024-10-21,1721805257.0,Pending
 CUST-01867,Fatima Hossain,Jashore,West,Sadar,Institutional,2024-09-17,1825460189.0,Completed
 CUST-01868,Sultana Sarker,Mymensingh,Central,Sadar,Industrial,2026-07-18,1971339962.0,Approved
@@ -1874,13 +1874,13 @@ CUST-01872,Rahim Islam,Bogura,North,Sadar,Commercial,2024-10-06,1889191874.0,App
 CUST-01873,Sohel Khan,Gazipur,Central,Kaliakair,Industrial,2025-10-27,1844956071.0,Pending
 CUST-01874,Nasrin Khan,Jashore,West,Sadar,Residential,2026-07-12,1857231631.0,Approved
 CUST-01875,Kamal Uddin,Dinajpur,North,Sadar,Residential,2025-10-27,1603996306.0,Approved
-CUST-01876,Fatima Begum,Chattogram,South,Sitakunda,Residential,2024-08-06,MISSING,Pending
+CUST-01876,Fatima Begum,Chattogram,South,Sitakunda,Residential,2024-08-06,,Pending
 CUST-01877,Mizanur Begum,Jashore,West,Sadar,Industrial,2025-12-19,1786332343.0,Approved
 CUST-01878,Sumaiya Sarker,Faridpur,West,Sadar,Commercial,2024-11-12,1837590972.0,Approved
 CUST-01879,Jahangir Hossain,Khulna,South,Sadar,Industrial,2025-05-26,1739196034.0,Approved
 CUST-01880,Rafiq Alam,Tangail,Central,Ghatail,Institutional,2025-07-23,1869323800.0,Approved
 CUST-01881,Hasan Uddin,Cox'S Bazar,South,Sadar,Industrial,2026-02-24,1986741637.0,Approved
-CUST-01882,Fatima Islam,Khulna,South,Sadar,Institutional,2026-01-29,MISSING,Completed
+CUST-01882,Fatima Islam,Khulna,South,Sadar,Institutional,2026-01-29,,Completed
 CUST-01883,Anwar Alam,Barishal,South,Sadar,Residential,2026-03-26,1743611686.0,Completed
 CUST-01884,Jahangir Alam,Bogura,North,Sadar,Commercial,2025-09-22,1860555465.0,Approved
 CUST-01885,Tanvir Alam,Chattogram,South,Patiya,Industrial,2026-09-16,1740344545.0,Pending
@@ -1911,26 +1911,26 @@ CUST-01909,Kamal Islam,Kushtia,West,Sadar,Institutional,2024-09-05,1961257804.0,
 CUST-01910,Hasan Islam,Rajshahi,North,Charghat,Institutional,2025-06-01,1680645544.0,Approved
 CUST-01911,Murshida Alam,Faridpur,West,Sadar,Institutional,2025-01-22,1864053273.0,Approved
 CUST-01912,Sohel Hossain,Dhaka,Central,Dhamrai,Commercial,2026-07-25,1890397997.0,Approved
-CUST-01913,Sultana Alam,Rangpur,North,Sadar,Industrial,2024-12-31,MISSING,Approved
+CUST-01913,Sultana Alam,Rangpur,North,Sadar,Industrial,2024-12-31,,Approved
 CUST-01914,Sultana Hossain,Dinajpur,North,Sadar,Commercial,2025-03-22,1847671499.0,Approved
 CUST-01915,Rakib Alam,Bogura,North,Sadar,Commercial,2024-11-21,1924276221.0,Approved
-CUST-01916,Nusrat Ahmed,Tangail,Central,Ghatail,Institutional,2025-11-21,MISSING,Completed
+CUST-01916,Nusrat Ahmed,Tangail,Central,Ghatail,Institutional,2025-11-21,,Completed
 CUST-01917,Salma Uddin,Cox'S Bazar,South,Sadar,Commercial,2024-09-22,1931708730.0,Completed
 CUST-01918,Nasrin Rahman,Brahmanbaria,East,Sadar,Industrial,2026-01-14,1632567322.0,Approved
 CUST-01919,Mizanur Uddin,Bogura,North,Sadar,Industrial,2026-03-17,1719109048.0,Completed
 CUST-01920,Shilpi Islam,Dhaka,Central,Keraniganj,Industrial,2025-07-31,1689378595.0,Completed
 CUST-01921,Shilpi Alam,Rangpur,North,Sadar,Industrial,2025-03-06,1645810457.0,Completed
-CUST-01922,Sumaiya Alam,Chattogram,South,Sitakunda,Industrial,2025-10-27,MISSING,Completed
+CUST-01922,Sumaiya Alam,Chattogram,South,Sitakunda,Industrial,2025-10-27,,Completed
 CUST-01923,Shilpi Hossain,Bogura,North,Sadar,Institutional,2025-10-17,1977198883.0,Pending
 CUST-01924,Rakib Ahmed,Sylhet,East,Zakiganj,Industrial,2026-01-01,1880625023.0,Approved
 CUST-01925,Jahangir Islam,Gazipur,Central,Sreepur,Institutional,2025-09-12,1935486952.0,Pending
-CUST-01926,Anwar Ahmed,Mymensingh,Central,Sadar,Residential,2026-03-12,MISSING,Approved
+CUST-01926,Anwar Ahmed,Mymensingh,Central,Sadar,Residential,2026-03-12,,Approved
 CUST-01927,Karim Hossain,Chattogram,South,Sitakunda,Industrial,2024-10-30,1691161221.0,Approved
 CUST-01928,Nasrin Begum,Barishal,South,Sadar,Commercial,2024-06-02,1790041589.0,Approved
 CUST-01929,Rehana Hossain,Sylhet,East,Beanibazar,Residential,2026-06-29,1885500295.0,Completed
 CUST-01930,Salma Ahmed,Rangpur,North,Sadar,Institutional,2025-01-31,1957181580.0,Approved
 CUST-01931,Rakib Alam,Rajshahi,North,Bagha,Industrial,2026-07-24,1905519193.0,Approved
-CUST-01932,Fatima Ahmed,Jashore,West,Sadar,Industrial,2026-07-22,MISSING,Approved
+CUST-01932,Fatima Ahmed,Jashore,West,Sadar,Industrial,2026-07-22,,Approved
 CUST-01933,Shilpi Uddin,Mymensingh,Central,Sadar,Residential,2024-06-21,1734952209.0,Approved
 CUST-01934,Jahangir Alam,Bogura,North,Sadar,Commercial,2024-10-07,1962748066.0,Pending
 CUST-01935,Karim Islam,Mymensingh,Central,Sadar,Residential,2026-06-13,1916571211.0,Approved
@@ -1969,11 +1969,11 @@ CUST-01967,Sultana Hossain,Faridpur,West,Sadar,Industrial,2025-11-05,1921937931.
 CUST-01968,Sultana Islam,Gazipur,Central,Sreepur,Commercial,2024-06-14,1687775935.0,Completed
 CUST-01969,Rehana Akter,Bogura,North,Sadar,Commercial,2026-03-24,1795380884.0,Approved
 CUST-01970,Anwar Sarker,Rangpur,North,Sadar,Residential,2025-12-04,1750011139.0,Approved
-CUST-01971,Sohel Alam,Tangail,Central,Kalihati,Residential,2024-07-18,MISSING,Completed
+CUST-01971,Sohel Alam,Tangail,Central,Kalihati,Residential,2024-07-18,,Completed
 CUST-01972,Rahim Alam,Chattogram,South,Sitakunda,Industrial,2025-01-26,1749915738.0,Completed
 CUST-01973,Kamal Akter,Sylhet,East,Golapganj,Industrial,2025-12-07,1672096102.0,Approved
 CUST-01974,Tanvir Begum,Gazipur,Central,Kaliakair,Industrial,2025-01-21,1699724597.0,Approved
-CUST-01975,Rakib Alam,Jashore,West,Sadar,Institutional,2025-08-25,MISSING,Approved
+CUST-01975,Rakib Alam,Jashore,West,Sadar,Institutional,2025-08-25,,Approved
 CUST-01976,Rehana Ahmed,Faridpur,West,Sadar,Institutional,2024-06-18,1785973586.0,Approved
 CUST-01977,Tanvir Ahmed,Tangail,Central,Kalihati,Industrial,2024-07-10,1602632767.0,Completed
 CUST-01978,Rafiq Rahman,Chattogram,South,Hathazari,Industrial,2026-01-30,1666949471.0,Completed
@@ -2024,7 +2024,7 @@ CUST-02022,Sumaiya Sarker,Khulna,South,Sadar,Institutional,2026-08-26,1798505651
 CUST-02023,Karim Rahman,Chattogram,South,Patiya,Commercial,2026-03-17,1898766327.0,Approved
 CUST-02024,Tanvir Khan,Rajshahi,North,Bagha,Institutional,2025-02-28,1770052291.0,Completed
 CUST-02025,Fatima Rahman,Cumilla,East,Sadar,Commercial,2025-11-25,1752702599.0,Completed
-CUST-02026,Hasan Akter,Kushtia,West,Sadar,Residential,2025-08-30,MISSING,Approved
+CUST-02026,Hasan Akter,Kushtia,West,Sadar,Residential,2025-08-30,,Approved
 CUST-02027,Murshida Akter,Brahmanbaria,East,Sadar,Industrial,2025-12-31,1871473204.0,Approved
 CUST-02028,Tanvir Begum,Bogura,North,Sadar,Residential,2025-08-13,1656023361.0,Completed
 CUST-02029,Hasan Khan,Chattogram,South,Sitakunda,Institutional,2026-06-22,1926720367.0,Pending
@@ -2121,7 +2121,7 @@ CUST-02119,Tanvir Islam,Mymensingh,Central,Sadar,Residential,2026-10-03,18783969
 CUST-02120,Sumaiya Hossain,Rangpur,North,Sadar,Industrial,2026-08-07,1814348696.0,Approved
 CUST-02121,Rafiq Uddin,Barishal,South,Sadar,Institutional,2026-08-24,1752089831.0,Approved
 CUST-02122,Karim Akter,Tangail,Central,Mirzapur,Industrial,2024-11-29,1812973414.0,Completed
-CUST-02123,Rehana Islam,Barishal,South,Sadar,Commercial,2024-09-04,MISSING,Approved
+CUST-02123,Rehana Islam,Barishal,South,Sadar,Commercial,2024-09-04,,Approved
 CUST-02124,Murshida Sarker,Chattogram,South,Sitakunda,Industrial,2025-10-21,1996023315.0,Approved
 CUST-02125,Rahim Ahmed,Barishal,South,Sadar,Institutional,2026-08-08,1732308880.0,Approved
 CUST-02126,Tanvir Sarker,Rangpur,North,Sadar,Industrial,2025-11-17,1913007886.0,Approved
@@ -2181,7 +2181,7 @@ CUST-02179,Anwar Ahmed,Chattogram,South,Sitakunda,Industrial,2026-07-18,18446661
 CUST-02180,Shilpi Uddin,Sylhet,East,Zakiganj,Commercial,2024-11-18,1688792449.0,Completed
 CUST-02181,Nusrat Hossain,Barishal,South,Sadar,Commercial,2026-07-04,1695613440.0,Approved
 CUST-02182,Murshida Hossain,Faridpur,West,Sadar,Residential,2026-07-14,1847691237.0,Completed
-CUST-02183,Hasan Hossain,Gazipur,Central,Kaliakair,Residential,2025-10-08,MISSING,Approved
+CUST-02183,Hasan Hossain,Gazipur,Central,Kaliakair,Residential,2025-10-08,,Approved
 CUST-02184,Karim Akter,Bogura,North,Sadar,Commercial,2026-06-12,1631409821.0,Approved
 CUST-02185,Sumaiya Alam,Cumilla,East,Sadar,Residential,2026-10-08,1729590317.0,Approved
 CUST-02186,Nasrin Sarker,Rajshahi,North,Puthia,Industrial,2026-06-21,1776532448.0,Approved
@@ -2225,7 +2225,7 @@ CUST-02223,Anwar Islam,Bogura,North,Sadar,Residential,2024-08-03,1784262264.0,Ap
 CUST-02224,Shilpi Hossain,Chattogram,South,Sitakunda,Industrial,2024-08-15,1785935653.0,Approved
 CUST-02225,Hasan Begum,Khulna,South,Sadar,Residential,2026-04-24,1655737485.0,Approved
 CUST-02226,Rakib Alam,Khulna,South,Sadar,Institutional,2026-05-03,1717522792.0,Approved
-CUST-02227,Nusrat Rahman,Sylhet,East,Golapganj,Residential,2025-10-30,MISSING,Approved
+CUST-02227,Nusrat Rahman,Sylhet,East,Golapganj,Residential,2025-10-30,,Approved
 CUST-02228,Nasrin Ahmed,Bogura,North,Sadar,Industrial,2025-09-26,1695753851.0,Rejected
 CUST-02229,Hasan Uddin,Khulna,South,Sadar,Industrial,2024-07-28,1614262040.0,Approved
 CUST-02230,Murshida Hossain,Chattogram,South,Sitakunda,Commercial,2024-11-06,1687372826.0,Approved
@@ -2283,7 +2283,7 @@ CUST-02281,Karim Alam,Jashore,West,Sadar,Residential,2025-01-30,1915764670.0,App
 CUST-02282,Karim Hossain,Kushtia,West,Sadar,Institutional,2024-09-11,1846502758.0,Rejected
 CUST-02283,Sumaiya Khan,Barishal,South,Sadar,Residential,2025-11-02,1838923495.0,Pending
 CUST-02284,Hasan Khan,Khulna,South,Sadar,Residential,2025-09-24,1863880324.0,Approved
-CUST-02285,Nusrat Begum,Kushtia,West,Sadar,Institutional,2025-06-22,MISSING,Approved
+CUST-02285,Nusrat Begum,Kushtia,West,Sadar,Institutional,2025-06-22,,Approved
 CUST-02286,Jahangir Hossain,Brahmanbaria,East,Sadar,Commercial,2025-05-11,1793192294.0,Completed
 CUST-02287,Nusrat Ahmed,Rangpur,North,Sadar,Commercial,2025-11-24,1894185455.0,Approved
 CUST-02288,Sultana Khan,Kushtia,West,Sadar,Commercial,2025-11-15,1703563032.0,Approved
@@ -2304,10 +2304,10 @@ CUST-02302,Mizanur Akter,Bogura,North,Sadar,Commercial,2025-03-20,1930325027.0,A
 CUST-02303,Nusrat Begum,Cox'S Bazar,South,Sadar,Residential,2026-04-03,1876543999.0,Approved
 CUST-02304,Rahim Begum,Rangpur,North,Sadar,Residential,2024-09-03,1748632908.0,Completed
 CUST-02305,Fatima Uddin,Kushtia,West,Sadar,Residential,2025-06-08,1990518237.0,Approved
-CUST-02306,Shilpi Begum,Chattogram,South,Sitakunda,Industrial,2025-04-23,MISSING,Approved
+CUST-02306,Shilpi Begum,Chattogram,South,Sitakunda,Industrial,2025-04-23,,Approved
 CUST-02307,Rahim Khan,Kushtia,West,Sadar,Commercial,2026-03-05,1657374496.0,Approved
 CUST-02308,Sohel Ahmed,Dinajpur,North,Sadar,Commercial,2025-05-20,1641208180.0,Approved
-CUST-02309,Mizanur Ahmed,Barishal,South,Sadar,Institutional,2025-06-08,MISSING,Completed
+CUST-02309,Mizanur Ahmed,Barishal,South,Sadar,Institutional,2025-06-08,,Completed
 CUST-02310,Rehana Sarker,Barishal,South,Sadar,Residential,2025-07-02,1668480316.0,Approved
 CUST-02311,Murshida Hossain,Chattogram,South,Hathazari,Residential,2026-03-15,1853764298.0,Completed
 CUST-02312,Kamal Hossain,Barishal,South,Sadar,Institutional,2024-10-24,1860885329.0,Completed
@@ -2327,7 +2327,7 @@ CUST-02325,Hasan Khan,Gazipur,Central,Sreepur,Residential,2025-07-24,1704131667.
 CUST-02326,Kamal Akter,Dhaka,Central,Keraniganj,Residential,2024-11-10,1617635064.0,Approved
 CUST-02327,Salma Alam,Kushtia,West,Sadar,Commercial,2025-03-06,1676227025.0,Pending
 CUST-02328,Sohel Akter,Kushtia,West,Sadar,Residential,2024-11-16,1972560467.0,Approved
-CUST-02329,Murshida Khan,Rangpur,North,Sadar,Commercial,2026-07-12,MISSING,Completed
+CUST-02329,Murshida Khan,Rangpur,North,Sadar,Commercial,2026-07-12,,Completed
 CUST-02330,Jahangir Rahman,Dhaka,Central,Dhamrai,Commercial,2025-01-11,1667665405.0,Completed
 CUST-02331,Rahim Begum,Rajshahi,North,Puthia,Residential,2026-02-12,1935328617.0,Completed
 CUST-02332,Tanvir Begum,Kushtia,West,Sadar,Institutional,2026-06-01,1632136788.0,Approved
@@ -2381,7 +2381,7 @@ CUST-02379,Tanvir Begum,Tangail,Central,Kalihati,Residential,2025-07-07,16472684
 CUST-02380,Mizanur Rahman,Kushtia,West,Sadar,Institutional,2024-09-07,1718508808.0,Pending
 CUST-02381,Shilpi Rahman,Khulna,South,Sadar,Industrial,2025-07-27,1980108867.0,Pending
 CUST-02382,Kamal Khan,Tangail,Central,Kalihati,Institutional,2024-09-14,1663646533.0,Approved
-CUST-02383,Nasrin Khan,Mymensingh,Central,Sadar,Institutional,2026-03-18,MISSING,Approved
+CUST-02383,Nasrin Khan,Mymensingh,Central,Sadar,Institutional,2026-03-18,,Approved
 CUST-02384,Rahim Rahman,Jashore,West,Sadar,Industrial,2026-06-04,1905219405.0,Completed
 CUST-02385,Sultana Alam,Rangpur,North,Sadar,Residential,2025-03-09,1629145977.0,Approved
 CUST-02386,Sohel Sarker,Khulna,South,Sadar,Institutional,2025-04-27,1774736653.0,Approved
@@ -2430,12 +2430,12 @@ CUST-02428,Sumaiya Islam,Sylhet,East,Beanibazar,Commercial,2025-08-05,1622478922
 CUST-02429,Murshida Ahmed,Rajshahi,North,Bagha,Industrial,2024-12-17,1621084015.0,Pending
 CUST-02430,Tanvir Uddin,Dhaka,Central,Dhamrai,Commercial,2025-08-13,1709975268.0,Approved
 CUST-02431,Kamal Islam,Sylhet,East,Zakiganj,Institutional,2024-09-03,1814073730.0,Approved
-CUST-02432,Jahangir Rahman,Rangpur,North,Sadar,Industrial,2025-12-27,MISSING,Approved
+CUST-02432,Jahangir Rahman,Rangpur,North,Sadar,Industrial,2025-12-27,,Approved
 CUST-02433,Hasan Ahmed,Khulna,South,Sadar,Commercial,2026-04-21,1813273815.0,Approved
 CUST-02434,Tanvir Rahman,Brahmanbaria,East,Sadar,Commercial,2024-12-28,1940149384.0,Pending
 CUST-02435,Shilpi Alam,Faridpur,West,Sadar,Commercial,2025-09-01,1994780079.0,Approved
 CUST-02436,Karim Uddin,Kushtia,West,Sadar,Industrial,2024-09-10,1955045838.0,Approved
-CUST-02437,Nasrin Hossain,Dinajpur,North,Sadar,Commercial,2026-06-25,MISSING,Completed
+CUST-02437,Nasrin Hossain,Dinajpur,North,Sadar,Commercial,2026-06-25,,Completed
 CUST-02438,Nasrin Hossain,Barishal,South,Sadar,Institutional,2026-04-08,1901014601.0,Pending
 CUST-02439,Rafiq Hossain,Cumilla,East,Sadar,Residential,2025-09-22,1609316426.0,Pending
 CUST-02440,Shilpi Uddin,Dinajpur,North,Sadar,Institutional,2024-08-26,1717171994.0,Approved
@@ -2446,7 +2446,7 @@ CUST-02444,Sohel Ahmed,Dhaka,Central,Savar,Residential,2025-08-31,1652615878.0,C
 CUST-02445,Sohel Rahman,Faridpur,West,Sadar,Institutional,2025-12-07,1751114241.0,Completed
 CUST-02446,Sumaiya Rahman,Brahmanbaria,East,Sadar,Institutional,2024-12-14,1871741906.0,Pending
 CUST-02447,Mizanur Islam,Barishal,South,Sadar,Commercial,2024-12-19,1734011761.0,Completed
-CUST-02448,Rafiq Begum,Rajshahi,North,Bagha,Industrial,2025-02-21,MISSING,Approved
+CUST-02448,Rafiq Begum,Rajshahi,North,Bagha,Industrial,2025-02-21,,Approved
 CUST-02449,Salma Islam,Cumilla,East,Sadar,Industrial,2026-01-02,1754260782.0,Approved
 CUST-02450,Sohel Akter,Gazipur,Central,Sreepur,Commercial,2026-02-23,1714754662.0,Completed
 CUST-02451,Murshida Begum,Dinajpur,North,Sadar,Residential,2025-01-11,1921168460.0,Rejected
@@ -2494,7 +2494,7 @@ CUST-02492,Rakib Ahmed,Sylhet,East,Beanibazar,Commercial,2026-06-22,1791935264.0
 CUST-02493,Nasrin Ahmed,Jashore,West,Sadar,Industrial,2025-06-06,1967591056.0,Pending
 CUST-02494,Tanvir Uddin,Cox'S Bazar,South,Sadar,Residential,2025-10-12,1671405770.0,Approved
 CUST-02495,Nasrin Khan,Cox'S Bazar,South,Sadar,Institutional,2026-01-15,1799857525.0,Completed
-CUST-02496,Sumaiya Uddin,Faridpur,West,Sadar,Institutional,2026-03-09,MISSING,Completed
+CUST-02496,Sumaiya Uddin,Faridpur,West,Sadar,Institutional,2026-03-09,,Completed
 CUST-02497,Rehana Uddin,Brahmanbaria,East,Sadar,Institutional,2024-06-06,1628276958.0,Completed
 CUST-02498,Jahangir Khan,Gazipur,Central,Kapasia,Industrial,2024-11-17,1660366980.0,Completed
 CUST-02499,Rafiq Khan,Chattogram,South,Hathazari,Industrial,2024-08-07,1935007961.0,Approved
@@ -2523,7 +2523,7 @@ CUST-02521,Sumaiya Uddin,Rangpur,North,Sadar,Institutional,2026-01-11,1957082678
 CUST-02522,Tanvir Uddin,Bogura,North,Sadar,Residential,2025-11-13,1929426708.0,Completed
 CUST-02523,Salma Alam,Mymensingh,Central,Sadar,Residential,2025-12-18,1626849704.0,Approved
 CUST-02524,Rakib Khan,Rangpur,North,Sadar,Commercial,2024-11-27,1770068143.0,Completed
-CUST-02525,Rehana Alam,Brahmanbaria,East,Sadar,Residential,2026-07-25,MISSING,Approved
+CUST-02525,Rehana Alam,Brahmanbaria,East,Sadar,Residential,2026-07-25,,Approved
 CUST-02526,Tanvir Begum,Brahmanbaria,East,Sadar,Industrial,2025-07-25,1780077842.0,Approved
 CUST-02527,Rafiq Rahman,Cumilla,East,Sadar,Residential,2026-01-23,1766721922.0,Approved
 CUST-02528,Kamal Rahman,Dhaka,Central,Savar,Residential,2025-04-27,1625978336.0,Approved
@@ -2547,10 +2547,10 @@ CUST-02545,Fatima Sarker,Chattogram,South,Sitakunda,Industrial,2025-01-21,175089
 CUST-02546,Sohel Sarker,Jashore,West,Sadar,Commercial,2026-07-01,1802304233.0,Approved
 CUST-02547,Rafiq Sarker,Sylhet,East,Beanibazar,Industrial,2025-09-22,1909270400.0,Approved
 CUST-02548,Sultana Hossain,Cox'S Bazar,South,Sadar,Industrial,2025-05-18,1626027578.0,Pending
-CUST-02549,Murshida Ahmed,Tangail,Central,Kalihati,Commercial,2025-12-18,MISSING,Approved
+CUST-02549,Murshida Ahmed,Tangail,Central,Kalihati,Commercial,2025-12-18,,Approved
 CUST-02550,Jahangir Sarker,Dinajpur,North,Sadar,Residential,2025-08-08,1621098636.0,Approved
 CUST-02551,Shilpi Alam,Sylhet,East,Beanibazar,Institutional,2025-05-18,1727904252.0,Completed
-CUST-02552,Fatima Uddin,Cumilla,East,Sadar,Residential,2025-04-20,MISSING,Approved
+CUST-02552,Fatima Uddin,Cumilla,East,Sadar,Residential,2025-04-20,,Approved
 CUST-02553,Nusrat Hossain,Faridpur,West,Sadar,Commercial,2026-01-27,1944878904.0,Approved
 CUST-02554,Sultana Alam,Khulna,South,Sadar,Industrial,2025-12-15,1626021318.0,Pending
 CUST-02555,Sumaiya Hossain,Jashore,West,Sadar,Industrial,2026-06-28,1787803782.0,Approved
@@ -2601,7 +2601,7 @@ CUST-02599,Kamal Rahman,Kushtia,West,Sadar,Commercial,2024-11-02,1875968686.0,Ap
 CUST-02600,Nasrin Alam,Dinajpur,North,Sadar,Industrial,2026-05-13,1947595013.0,Rejected
 CUST-02601,Anwar Alam,Bogura,North,Sadar,Institutional,2025-01-30,1678140828.0,Approved
 CUST-02602,Rakib Alam,Rajshahi,North,Puthia,Commercial,2025-06-22,1765094231.0,Completed
-CUST-02603,Kamal Ahmed,Bogura,North,Sadar,Residential,2025-12-08,MISSING,Approved
+CUST-02603,Kamal Ahmed,Bogura,North,Sadar,Residential,2025-12-08,,Approved
 CUST-02604,Hasan Khan,Cox'S Bazar,South,Sadar,Residential,2024-10-25,1758151939.0,Approved
 CUST-02605,Anwar Rahman,Bogura,North,Sadar,Residential,2025-08-02,1709860681.0,Completed
 CUST-02606,Rahim Begum,Cumilla,East,Sadar,Institutional,2025-03-27,1672942067.0,Approved
@@ -2627,7 +2627,7 @@ CUST-02625,Sultana Hossain,Khulna,South,Sadar,Commercial,2024-08-12,1937213267.0
 CUST-02626,Mizanur Sarker,Bogura,North,Sadar,Institutional,2026-04-18,1884309797.0,Approved
 CUST-02627,Rafiq Islam,Rajshahi,North,Puthia,Residential,2026-05-05,1718747291.0,Completed
 CUST-02628,Kamal Uddin,Barishal,South,Sadar,Institutional,2026-04-17,1730231217.0,Rejected
-CUST-02629,Shilpi Islam,Dhaka,Central,Keraniganj,Industrial,2025-10-28,MISSING,Approved
+CUST-02629,Shilpi Islam,Dhaka,Central,Keraniganj,Industrial,2025-10-28,,Approved
 CUST-02630,Rahim Islam,Brahmanbaria,East,Sadar,Industrial,2025-02-06,1789109531.0,Approved
 CUST-02631,Jahangir Uddin,Gazipur,Central,Sreepur,Residential,2024-06-15,1622380137.0,Approved
 CUST-02632,Rehana Akter,Rangpur,North,Sadar,Residential,2025-01-06,1969613607.0,Rejected
@@ -2643,7 +2643,7 @@ CUST-02641,Rafiq Alam,Cumilla,East,Sadar,Institutional,2026-02-25,1620204871.0,A
 CUST-02642,Anwar Begum,Sylhet,East,Golapganj,Institutional,2025-10-17,1927197453.0,Pending
 CUST-02643,Shilpi Akter,Faridpur,West,Sadar,Industrial,2024-11-10,1769547356.0,Approved
 CUST-02644,Sohel Islam,Chattogram,South,Patiya,Institutional,2024-10-19,1709098245.0,Approved
-CUST-02645,Jahangir Begum,Cox'S Bazar,South,Sadar,Commercial,2025-11-06,MISSING,Approved
+CUST-02645,Jahangir Begum,Cox'S Bazar,South,Sadar,Commercial,2025-11-06,,Approved
 CUST-02646,Tanvir Rahman,Tangail,Central,Ghatail,Residential,2025-05-30,1841762280.0,Approved
 CUST-02647,Nasrin Ahmed,Dinajpur,North,Sadar,Commercial,2026-03-13,1690584828.0,Completed
 CUST-02648,Karim Alam,Sylhet,East,Zakiganj,Institutional,2025-09-15,1708296561.0,Approved
@@ -2677,7 +2677,7 @@ CUST-02675,Tanvir Alam,Jashore,West,Sadar,Residential,2025-05-14,1698436633.0,Ap
 CUST-02676,Sultana Islam,Mymensingh,Central,Sadar,Commercial,2025-07-22,1678592945.0,Approved
 CUST-02677,Mizanur Khan,Faridpur,West,Sadar,Residential,2026-05-09,1604244502.0,Approved
 CUST-02678,Rahim Hossain,Jashore,West,Sadar,Residential,2025-12-08,1761037632.0,Approved
-CUST-02679,Sultana Islam,Chattogram,South,Patiya,Industrial,2026-10-12,MISSING,Completed
+CUST-02679,Sultana Islam,Chattogram,South,Patiya,Industrial,2026-10-12,,Completed
 CUST-02680,Rakib Rahman,Kushtia,West,Sadar,Commercial,2025-10-13,1813294027.0,Completed
 CUST-02681,Rahim Khan,Bogura,North,Sadar,Residential,2024-08-03,1955748632.0,Approved
 CUST-02682,Sultana Alam,Dinajpur,North,Sadar,Residential,2025-08-24,1638410960.0,Completed
@@ -2702,7 +2702,7 @@ CUST-02700,Hasan Islam,Jashore,West,Sadar,Industrial,2025-09-21,1936443495.0,App
 CUST-02701,Rakib Akter,Faridpur,West,Sadar,Residential,2025-10-17,1889348280.0,Approved
 CUST-02702,Murshida Akter,Sylhet,East,Golapganj,Commercial,2026-04-06,1968696900.0,Pending
 CUST-02703,Sohel Alam,Khulna,South,Sadar,Residential,2024-12-17,1741575842.0,Completed
-CUST-02704,Nusrat Rahman,Jashore,West,Sadar,Institutional,2024-07-22,MISSING,Approved
+CUST-02704,Nusrat Rahman,Jashore,West,Sadar,Institutional,2024-07-22,,Approved
 CUST-02705,Anwar Islam,Sylhet,East,Golapganj,Industrial,2026-02-06,1895064103.0,Approved
 CUST-02706,Karim Hossain,Cumilla,East,Sadar,Institutional,2024-09-20,1846554612.0,Completed
 CUST-02707,Anwar Hossain,Brahmanbaria,East,Sadar,Institutional,2026-03-12,1901989289.0,Approved
@@ -2711,7 +2711,7 @@ CUST-02709,Nusrat Akter,Bogura,North,Sadar,Institutional,2026-08-23,1907491850.0
 CUST-02710,Tanvir Ahmed,Khulna,South,Sadar,Industrial,2026-03-06,1912069061.0,Approved
 CUST-02711,Murshida Rahman,Dhaka,Central,Keraniganj,Institutional,2024-06-14,1731584643.0,Completed
 CUST-02712,Karim Khan,Faridpur,West,Sadar,Industrial,2026-02-09,1900923195.0,Pending
-CUST-02713,Sumaiya Begum,Khulna,South,Sadar,Institutional,2024-10-22,MISSING,Approved
+CUST-02713,Sumaiya Begum,Khulna,South,Sadar,Institutional,2024-10-22,,Approved
 CUST-02714,Rafiq Ahmed,Sylhet,East,Beanibazar,Commercial,2025-02-06,1997565783.0,Approved
 CUST-02715,Jahangir Sarker,Cox'S Bazar,South,Sadar,Residential,2024-11-19,1918885787.0,Completed
 CUST-02716,Tanvir Ahmed,Khulna,South,Sadar,Institutional,2025-08-28,1897830189.0,Completed
@@ -2726,10 +2726,10 @@ CUST-02724,Rafiq Khan,Dhaka,Central,Keraniganj,Industrial,2025-04-22,1947106060.
 CUST-02725,Nusrat Uddin,Gazipur,Central,Kaliakair,Residential,2024-12-13,1700729084.0,Pending
 CUST-02726,Rafiq Hossain,Dinajpur,North,Sadar,Industrial,2025-01-10,1976585757.0,Approved
 CUST-02727,Mizanur Begum,Khulna,South,Sadar,Commercial,2026-03-07,1709999378.0,Completed
-CUST-02728,Kamal Uddin,Faridpur,West,Sadar,Residential,2026-09-21,MISSING,Approved
+CUST-02728,Kamal Uddin,Faridpur,West,Sadar,Residential,2026-09-21,,Approved
 CUST-02729,Sumaiya Islam,Brahmanbaria,East,Sadar,Residential,2025-06-20,1653964163.0,Completed
 CUST-02730,Rahim Sarker,Dhaka,Central,Dhamrai,Residential,2024-08-05,1858217263.0,Completed
-CUST-02731,Anwar Hossain,Chattogram,South,Hathazari,Residential,2025-09-03,MISSING,Completed
+CUST-02731,Anwar Hossain,Chattogram,South,Hathazari,Residential,2025-09-03,,Completed
 CUST-02732,Fatima Khan,Brahmanbaria,East,Sadar,Industrial,2025-08-02,1727168109.0,Completed
 CUST-02733,Mizanur Sarker,Barishal,South,Sadar,Industrial,2025-04-25,1867371107.0,Approved
 CUST-02734,Sumaiya Hossain,Chattogram,South,Sitakunda,Industrial,2025-12-21,1914735946.0,Completed
@@ -2751,7 +2751,7 @@ CUST-02749,Hasan Khan,Kushtia,West,Sadar,Industrial,2024-10-31,1984480127.0,Appr
 CUST-02750,Shilpi Uddin,Khulna,South,Sadar,Residential,2024-12-12,1939091744.0,Approved
 CUST-02751,Karim Akter,Faridpur,West,Sadar,Commercial,2025-06-27,1764199658.0,Approved
 CUST-02752,Sumaiya Alam,Khulna,South,Sadar,Commercial,2025-08-18,1987280238.0,Pending
-CUST-02753,Nasrin Khan,Rangpur,North,Sadar,Commercial,2025-04-04,MISSING,Completed
+CUST-02753,Nasrin Khan,Rangpur,North,Sadar,Commercial,2025-04-04,,Completed
 CUST-02754,Sultana Ahmed,Kushtia,West,Sadar,Commercial,2026-04-28,1803071081.0,Approved
 CUST-02755,Karim Khan,Brahmanbaria,East,Sadar,Residential,2024-06-09,1621541519.0,Completed
 CUST-02756,Rafiq Rahman,Dhaka,Central,Keraniganj,Commercial,2024-10-25,1894286358.0,Completed
@@ -2783,7 +2783,7 @@ CUST-02781,Karim Alam,Tangail,Central,Mirzapur,Residential,2024-08-07,1723174028
 CUST-02782,Nasrin Hossain,Jashore,West,Sadar,Institutional,2025-09-03,1943346026.0,Approved
 CUST-02783,Rafiq Begum,Sylhet,East,Zakiganj,Residential,2025-06-16,1602521514.0,Approved
 CUST-02784,Hasan Hossain,Tangail,Central,Ghatail,Institutional,2025-12-25,1904485260.0,Approved
-CUST-02785,Shilpi Begum,Dhaka,Central,Savar,Commercial,2025-06-18,MISSING,Approved
+CUST-02785,Shilpi Begum,Dhaka,Central,Savar,Commercial,2025-06-18,,Approved
 CUST-02786,Mizanur Hossain,Gazipur,Central,Kaliakair,Institutional,2025-02-18,1605683355.0,Approved
 CUST-02787,Tanvir Begum,Kushtia,West,Sadar,Industrial,2024-10-17,1899748698.0,Completed
 CUST-02788,Tanvir Uddin,Tangail,Central,Ghatail,Residential,2025-07-07,1660940447.0,Completed
@@ -2809,7 +2809,7 @@ CUST-02807,Salma Rahman,Chattogram,South,Patiya,Commercial,2025-12-14,1932065432
 CUST-02808,Rahim Ahmed,Tangail,Central,Kalihati,Institutional,2026-02-11,1843109156.0,Rejected
 CUST-02809,Sultana Khan,Bogura,North,Sadar,Industrial,2025-12-22,1926497478.0,Approved
 CUST-02810,Fatima Akter,Kushtia,West,Sadar,Institutional,2024-06-08,1807078101.0,Completed
-CUST-02811,Shilpi Ahmed,Kushtia,West,Sadar,Residential,2024-06-21,MISSING,Pending
+CUST-02811,Shilpi Ahmed,Kushtia,West,Sadar,Residential,2024-06-21,,Pending
 CUST-02812,Sultana Rahman,Dinajpur,North,Sadar,Residential,2026-01-17,1814920499.0,Pending
 CUST-02813,Sohel Sarker,Bogura,North,Sadar,Industrial,2025-04-01,1931055031.0,Approved
 CUST-02814,Sumaiya Alam,Sylhet,East,Golapganj,Residential,2025-03-14,1651414835.0,Approved
@@ -2834,7 +2834,7 @@ CUST-02832,Sumaiya Islam,Dinajpur,North,Sadar,Institutional,2026-02-03,198675675
 CUST-02833,Rahim Hossain,Jashore,West,Sadar,Industrial,2025-04-11,1870812078.0,Pending
 CUST-02834,Rahim Ahmed,Rangpur,North,Sadar,Industrial,2025-10-25,1782341609.0,Approved
 CUST-02835,Murshida Uddin,Kushtia,West,Sadar,Institutional,2026-03-01,1661907644.0,Completed
-CUST-02836,Shilpi Uddin,Cox'S Bazar,South,Sadar,Commercial,2024-10-04,MISSING,Approved
+CUST-02836,Shilpi Uddin,Cox'S Bazar,South,Sadar,Commercial,2024-10-04,,Approved
 CUST-02837,Sohel Alam,Gazipur,Central,Kapasia,Institutional,2025-01-14,1655921895.0,Approved
 CUST-02838,Anwar Sarker,Tangail,Central,Mirzapur,Industrial,2025-08-21,1645391802.0,Pending
 CUST-02839,Rafiq Khan,Cox'S Bazar,South,Sadar,Institutional,2025-07-19,1873609085.0,Approved
@@ -2894,7 +2894,7 @@ CUST-02892,Kamal Rahman,Bogura,North,Sadar,Residential,2026-08-25,1625772108.0,C
 CUST-02893,Rakib Begum,Barishal,South,Sadar,Institutional,2026-04-27,1979815551.0,Approved
 CUST-02894,Sohel Khan,Chattogram,South,Patiya,Commercial,2025-03-14,1821732842.0,Approved
 CUST-02895,Sumaiya Khan,Gazipur,Central,Kaliakair,Residential,2026-02-07,1772651342.0,Approved
-CUST-02896,Fatima Islam,Barishal,South,Sadar,Commercial,2026-08-09,MISSING,Approved
+CUST-02896,Fatima Islam,Barishal,South,Sadar,Commercial,2026-08-09,,Approved
 CUST-02897,Hasan Khan,Cox'S Bazar,South,Sadar,Industrial,2026-09-21,1937780559.0,Completed
 CUST-02898,Jahangir Begum,Dhaka,Central,Keraniganj,Industrial,2024-11-27,1997697998.0,Approved
 CUST-02899,Kamal Alam,Cox'S Bazar,South,Sadar,Commercial,2026-03-07,1907649967.0,Approved
@@ -2931,7 +2931,7 @@ CUST-02929,Rehana Ahmed,Rajshahi,North,Charghat,Institutional,2025-08-14,1866866
 CUST-02930,Rahim Ahmed,Dinajpur,North,Sadar,Commercial,2025-03-21,1875093604.0,Pending
 CUST-02931,Rafiq Ahmed,Mymensingh,Central,Sadar,Commercial,2025-01-07,1921374727.0,Approved
 CUST-02932,Rakib Sarker,Cumilla,East,Sadar,Commercial,2026-05-24,1942762933.0,Completed
-CUST-02933,Sohel Uddin,Rangpur,North,Sadar,Residential,2026-01-19,MISSING,Pending
+CUST-02933,Sohel Uddin,Rangpur,North,Sadar,Residential,2026-01-19,,Pending
 CUST-02934,Shilpi Akter,Tangail,Central,Mirzapur,Industrial,2025-06-02,1872445227.0,Approved
 CUST-02935,Fatima Alam,Dhaka,Central,Dhamrai,Commercial,2024-08-11,1622215532.0,Completed
 CUST-02936,Anwar Ahmed,Brahmanbaria,East,Sadar,Institutional,2026-06-29,1765160862.0,Approved
@@ -2949,7 +2949,7 @@ CUST-02947,Sumaiya Hossain,Rajshahi,North,Puthia,Industrial,2025-11-03,176254993
 CUST-02948,Rahim Begum,Tangail,Central,Ghatail,Institutional,2026-02-11,1736746161.0,Approved
 CUST-02949,Tanvir Hossain,Rangpur,North,Sadar,Residential,2026-04-20,1867127470.0,Approved
 CUST-02950,Nusrat Alam,Kushtia,West,Sadar,Commercial,2025-01-26,1697296720.0,Approved
-CUST-02951,Fatima Ahmed,Rajshahi,North,Puthia,Commercial,2024-12-31,MISSING,Approved
+CUST-02951,Fatima Ahmed,Rajshahi,North,Puthia,Commercial,2024-12-31,,Approved
 CUST-02952,Nusrat Rahman,Mymensingh,Central,Sadar,Residential,2026-02-25,1950461614.0,Approved
 CUST-02953,Shilpi Akter,Brahmanbaria,East,Sadar,Institutional,2024-12-09,1654576909.0,Completed
 CUST-02954,Nasrin Akter,Barishal,South,Sadar,Industrial,2025-06-05,1738552882.0,Approved
@@ -2972,7 +2972,7 @@ CUST-02970,Shilpi Ahmed,Brahmanbaria,East,Sadar,Commercial,2026-08-18,1899624023
 CUST-02971,Rehana Akter,Jashore,West,Sadar,Industrial,2025-01-23,1950909039.0,Approved
 CUST-02972,Sumaiya Hossain,Khulna,South,Sadar,Institutional,2025-04-10,1706733382.0,Approved
 CUST-02973,Sumaiya Akter,Gazipur,Central,Kapasia,Residential,2026-08-01,1668992385.0,Pending
-CUST-02974,Shilpi Uddin,Rajshahi,North,Puthia,Institutional,2026-06-30,MISSING,Completed
+CUST-02974,Shilpi Uddin,Rajshahi,North,Puthia,Institutional,2026-06-30,,Completed
 CUST-02975,Shilpi Ahmed,Faridpur,West,Sadar,Commercial,2025-03-07,1821775990.0,Pending
 CUST-02976,Murshida Khan,Tangail,Central,Mirzapur,Commercial,2025-02-13,1703728102.0,Approved
 CUST-02977,Nasrin Hossain,Brahmanbaria,East,Sadar,Residential,2024-07-22,1726370079.0,Approved
@@ -2988,7 +2988,7 @@ CUST-02986,Rafiq Begum,Dhaka,Central,Dhamrai,Institutional,2025-03-10,1945893853
 CUST-02987,Rahim Ahmed,Bogura,North,Sadar,Residential,2026-08-09,1859522875.0,Approved
 CUST-02988,Rahim Ahmed,Jashore,West,Sadar,Residential,2026-08-21,1631114963.0,Approved
 CUST-02989,Tanvir Ahmed,Rangpur,North,Sadar,Industrial,2025-10-05,1996197400.0,Completed
-CUST-02990,Sohel Rahman,Tangail,Central,Kalihati,Residential,2025-05-07,MISSING,Approved
+CUST-02990,Sohel Rahman,Tangail,Central,Kalihati,Residential,2025-05-07,,Approved
 CUST-02991,Sumaiya Islam,Cumilla,East,Sadar,Residential,2025-03-07,1778725505.0,Approved
 CUST-02992,Nasrin Begum,Barishal,South,Sadar,Residential,2026-04-23,1779606169.0,Completed
 CUST-02993,Rakib Ahmed,Chattogram,South,Hathazari,Commercial,2026-05-29,1959582770.0,Approved
@@ -3217,7 +3217,7 @@ CUST-03215,Fatima Uddin,Cox'S Bazar,South,Sadar,Commercial,2024-06-15,1684713290
 CUST-03216,Mizanur Uddin,Rajshahi,North,Charghat,Commercial,2026-04-03,1911858110.0,Completed
 CUST-03217,Hasan Hossain,Barishal,South,Sadar,Institutional,2025-08-02,1682890140.0,Approved
 CUST-03218,Sohel Sarker,Bogura,North,Sadar,Institutional,2025-06-23,1660271689.0,Approved
-CUST-03219,Shilpi Khan,Brahmanbaria,East,Sadar,Commercial,2026-10-14,MISSING,Completed
+CUST-03219,Shilpi Khan,Brahmanbaria,East,Sadar,Commercial,2026-10-14,,Completed
 CUST-03220,Salma Rahman,Faridpur,West,Sadar,Commercial,2026-09-24,1813114824.0,Approved
 CUST-03221,Rahim Uddin,Cox'S Bazar,South,Sadar,Residential,2025-02-18,1689425963.0,Approved
 CUST-03222,Karim Hossain,Kushtia,West,Sadar,Residential,2025-07-19,1900419511.0,Completed
@@ -3380,7 +3380,7 @@ CUST-03378,Sumaiya Begum,Tangail,Central,Ghatail,Residential,2025-10-09,17835073
 CUST-03379,Rehana Alam,Kushtia,West,Sadar,Commercial,2024-11-23,1746278566.0,Approved
 CUST-03380,Sumaiya Hossain,Gazipur,Central,Sreepur,Residential,2026-08-05,1744565149.0,Approved
 CUST-03381,Murshida Sarker,Sylhet,East,Zakiganj,Institutional,2025-03-21,1955450122.0,Approved
-CUST-03382,Rakib Akter,Bogura,North,Sadar,Commercial,2026-05-13,MISSING,Rejected
+CUST-03382,Rakib Akter,Bogura,North,Sadar,Commercial,2026-05-13,,Rejected
 CUST-03383,Nasrin Sarker,Gazipur,Central,Kapasia,Commercial,2025-03-29,1917669706.0,Approved
 CUST-03384,Jahangir Begum,Cumilla,East,Sadar,Institutional,2025-02-17,1709773549.0,Pending
 CUST-03385,Nasrin Alam,Rajshahi,North,Bagha,Institutional,2025-09-12,1953012534.0,Approved
@@ -3416,7 +3416,7 @@ CUST-03414,Rakib Rahman,Mymensingh,Central,Sadar,Residential,2025-11-15,18837902
 CUST-03415,Mizanur Akter,Cox'S Bazar,South,Sadar,Institutional,2025-04-10,1792781207.0,Pending
 CUST-03416,Rehana Uddin,Barishal,South,Sadar,Residential,2026-06-22,1875617372.0,Approved
 CUST-03417,Anwar Rahman,Khulna,South,Sadar,Institutional,2024-11-06,1674735106.0,Approved
-CUST-03418,Jahangir Rahman,Kushtia,West,Sadar,Commercial,2026-03-05,MISSING,Approved
+CUST-03418,Jahangir Rahman,Kushtia,West,Sadar,Commercial,2026-03-05,,Approved
 CUST-03419,Nasrin Ahmed,Rangpur,North,Sadar,Commercial,2026-08-20,1841871550.0,Completed
 CUST-03420,Rakib Begum,Mymensingh,Central,Sadar,Residential,2024-07-24,1943137312.0,Completed
 CUST-03421,Rehana Sarker,Faridpur,West,Sadar,Residential,2025-01-17,1659973229.0,Approved
@@ -3427,7 +3427,7 @@ CUST-03425,Rehana Akter,Kushtia,West,Sadar,Industrial,2024-11-07,1858423022.0,Co
 CUST-03426,Mizanur Alam,Barishal,South,Sadar,Commercial,2025-04-08,1927231143.0,Approved
 CUST-03427,Tanvir Hossain,Brahmanbaria,East,Sadar,Institutional,2025-09-07,1627771984.0,Completed
 CUST-03428,Fatima Alam,Khulna,South,Sadar,Institutional,2024-09-01,1796834869.0,Completed
-CUST-03429,Nusrat Islam,Gazipur,Central,Kapasia,Residential,2024-08-06,MISSING,Pending
+CUST-03429,Nusrat Islam,Gazipur,Central,Kapasia,Residential,2024-08-06,,Pending
 CUST-03430,Salma Ahmed,Dinajpur,North,Sadar,Industrial,2024-11-19,1683182637.0,Rejected
 CUST-03431,Shilpi Rahman,Tangail,Central,Mirzapur,Institutional,2026-01-17,1781933922.0,Approved
 CUST-03432,Kamal Islam,Barishal,South,Sadar,Industrial,2025-11-30,1627879244.0,Pending
@@ -3455,7 +3455,7 @@ CUST-03453,Tanvir Alam,Barishal,South,Sadar,Commercial,2025-09-11,1756527701.0,A
 CUST-03454,Rafiq Islam,Faridpur,West,Sadar,Industrial,2024-10-09,1927920085.0,Completed
 CUST-03455,Nusrat Hossain,Chattogram,South,Hathazari,Commercial,2024-10-02,1766493237.0,Completed
 CUST-03456,Jahangir Uddin,Mymensingh,Central,Sadar,Industrial,2025-08-02,1825485928.0,Approved
-CUST-03457,Rahim Hossain,Tangail,Central,Kalihati,Commercial,2024-09-10,MISSING,Approved
+CUST-03457,Rahim Hossain,Tangail,Central,Kalihati,Commercial,2024-09-10,,Approved
 CUST-03458,Hasan Khan,Cumilla,East,Sadar,Industrial,2024-08-10,1788644991.0,Approved
 CUST-03459,Nasrin Begum,Rangpur,North,Sadar,Commercial,2025-07-05,1925012291.0,Approved
 CUST-03460,Nasrin Hossain,Gazipur,Central,Sreepur,Residential,2026-06-25,1666162429.0,Completed
@@ -3481,7 +3481,7 @@ CUST-03479,Kamal Hossain,Mymensingh,Central,Sadar,Institutional,2025-06-08,18623
 CUST-03480,Mizanur Ahmed,Cumilla,East,Sadar,Residential,2025-10-27,1658582765.0,Approved
 CUST-03481,Hasan Ahmed,Faridpur,West,Sadar,Commercial,2025-08-23,1737858144.0,Approved
 CUST-03482,Fatima Uddin,Cumilla,East,Sadar,Industrial,2025-12-13,1650561155.0,Completed
-CUST-03483,Rehana Islam,Faridpur,West,Sadar,Industrial,2024-06-14,MISSING,Approved
+CUST-03483,Rehana Islam,Faridpur,West,Sadar,Industrial,2024-06-14,,Approved
 CUST-03484,Mizanur Uddin,Brahmanbaria,East,Sadar,Institutional,2024-12-30,1868315624.0,Completed
 CUST-03485,Nusrat Akter,Bogura,North,Sadar,Residential,2025-02-03,1669054352.0,Completed
 CUST-03486,Kamal Begum,Cox'S Bazar,South,Sadar,Commercial,2026-06-14,1723271073.0,Completed
@@ -3506,7 +3506,7 @@ CUST-03504,Sultana Akter,Chattogram,South,Hathazari,Commercial,2026-03-03,165351
 CUST-03505,Karim Begum,Khulna,South,Sadar,Industrial,2025-07-14,1758223094.0,Approved
 CUST-03506,Rakib Alam,Barishal,South,Sadar,Commercial,2025-05-12,1998334414.0,Approved
 CUST-03507,Rafiq Islam,Barishal,South,Sadar,Residential,2024-10-27,1749373529.0,Approved
-CUST-03508,Salma Sarker,Kushtia,West,Sadar,Residential,2026-07-08,MISSING,Approved
+CUST-03508,Salma Sarker,Kushtia,West,Sadar,Residential,2026-07-08,,Approved
 CUST-03509,Rakib Sarker,Chattogram,South,Sitakunda,Industrial,2026-01-14,1869718701.0,Completed
 CUST-03510,Fatima Islam,Rangpur,North,Sadar,Industrial,2025-12-24,1791999498.0,Approved
 CUST-03511,Sohel Ahmed,Bogura,North,Sadar,Commercial,2024-12-19,1640451228.0,Approved
@@ -3525,11 +3525,11 @@ CUST-03523,Karim Rahman,Sylhet,East,Zakiganj,Commercial,2026-07-08,1638139222.0,
 CUST-03524,Sumaiya Khan,Jashore,West,Sadar,Commercial,2024-09-18,1987937012.0,Approved
 CUST-03525,Salma Hossain,Jashore,West,Sadar,Commercial,2025-07-18,1729299292.0,Pending
 CUST-03526,Salma Hossain,Cox'S Bazar,South,Sadar,Commercial,2025-04-12,1908507491.0,Approved
-CUST-03527,Rahim Hossain,Cumilla,East,Sadar,Commercial,2025-03-19,MISSING,Approved
+CUST-03527,Rahim Hossain,Cumilla,East,Sadar,Commercial,2025-03-19,,Approved
 CUST-03528,Tanvir Alam,Mymensingh,Central,Sadar,Residential,2024-11-29,1861404761.0,Rejected
 CUST-03529,Rafiq Islam,Faridpur,West,Sadar,Industrial,2024-09-14,1706994292.0,Approved
 CUST-03530,Rafiq Akter,Khulna,South,Sadar,Commercial,2024-12-15,1801089810.0,Completed
-CUST-03531,Nusrat Hossain,Jashore,West,Sadar,Institutional,2024-08-27,MISSING,Completed
+CUST-03531,Nusrat Hossain,Jashore,West,Sadar,Institutional,2024-08-27,,Completed
 CUST-03532,Shilpi Khan,Chattogram,South,Patiya,Industrial,2026-09-01,1642494178.0,Approved
 CUST-03533,Rahim Rahman,Dhaka,Central,Dhamrai,Commercial,2024-09-19,1810915719.0,Approved
 CUST-03534,Nasrin Islam,Gazipur,Central,Kaliakair,Residential,2025-09-25,1702425059.0,Completed
@@ -3564,7 +3564,7 @@ CUST-03562,Nusrat Islam,Kushtia,West,Sadar,Commercial,2024-06-21,1649099447.0,Co
 CUST-03563,Rafiq Khan,Cox'S Bazar,South,Sadar,Residential,2026-04-26,1746133547.0,Completed
 CUST-03564,Fatima Sarker,Khulna,South,Sadar,Residential,2024-09-10,1634814157.0,Approved
 CUST-03565,Fatima Ahmed,Chattogram,South,Hathazari,Residential,2025-05-09,1896652851.0,Completed
-CUST-03566,Sultana Hossain,Gazipur,Central,Sreepur,Commercial,2025-06-16,MISSING,Completed
+CUST-03566,Sultana Hossain,Gazipur,Central,Sreepur,Commercial,2025-06-16,,Completed
 CUST-03567,Rehana Uddin,Mymensingh,Central,Sadar,Residential,2025-01-31,1853712146.0,Completed
 CUST-03568,Tanvir Begum,Kushtia,West,Sadar,Industrial,2025-12-31,1928632310.0,Approved
 CUST-03569,Jahangir Sarker,Cox'S Bazar,South,Sadar,Industrial,2024-07-13,1635216083.0,Approved
@@ -3617,7 +3617,7 @@ CUST-03615,Hasan Uddin,Cumilla,East,Sadar,Institutional,2025-04-28,1656469836.0,
 CUST-03616,Karim Akter,Cumilla,East,Sadar,Industrial,2024-10-31,1787014618.0,Completed
 CUST-03617,Sohel Sarker,Dhaka,Central,Keraniganj,Commercial,2026-02-14,1683146425.0,Approved
 CUST-03618,Shilpi Ahmed,Chattogram,South,Hathazari,Commercial,2025-02-04,1696477323.0,Approved
-CUST-03619,Mizanur Ahmed,Bogura,North,Sadar,Commercial,2025-07-14,MISSING,Approved
+CUST-03619,Mizanur Ahmed,Bogura,North,Sadar,Commercial,2025-07-14,,Approved
 CUST-03620,Shilpi Hossain,Barishal,South,Sadar,Residential,2026-05-09,1695826169.0,Completed
 CUST-03621,Anwar Uddin,Faridpur,West,Sadar,Institutional,2026-05-18,1621974760.0,Approved
 CUST-03622,Rafiq Uddin,Cox'S Bazar,South,Sadar,Residential,2025-07-23,1656261604.0,Approved
@@ -3626,7 +3626,7 @@ CUST-03624,Salma Akter,Mymensingh,Central,Sadar,Industrial,2024-12-29,1624242784
 CUST-03625,Rakib Ahmed,Rajshahi,North,Bagha,Institutional,2024-12-10,1861249987.0,Completed
 CUST-03626,Anwar Uddin,Kushtia,West,Sadar,Industrial,2025-06-19,1768127561.0,Completed
 CUST-03627,Mizanur Begum,Tangail,Central,Mirzapur,Industrial,2025-01-23,1684810624.0,Approved
-CUST-03628,Rehana Sarker,Faridpur,West,Sadar,Industrial,2024-09-07,MISSING,Approved
+CUST-03628,Rehana Sarker,Faridpur,West,Sadar,Industrial,2024-09-07,,Approved
 CUST-03629,Mizanur Begum,Jashore,West,Sadar,Commercial,2024-11-25,1620233627.0,Approved
 CUST-03630,Rahim Rahman,Tangail,Central,Kalihati,Institutional,2025-04-05,1962354351.0,Completed
 CUST-03631,Sumaiya Islam,Cumilla,East,Sadar,Residential,2024-09-25,1995240500.0,Approved
@@ -3645,7 +3645,7 @@ CUST-03643,Nasrin Rahman,Barishal,South,Sadar,Institutional,2026-08-17,161997511
 CUST-03644,Kamal Sarker,Dhaka,Central,Savar,Commercial,2026-03-10,1762696967.0,Approved
 CUST-03645,Sohel Islam,Gazipur,Central,Sreepur,Commercial,2026-08-29,1631968243.0,Pending
 CUST-03646,Murshida Sarker,Jashore,West,Sadar,Commercial,2024-11-23,1615691470.0,Completed
-CUST-03647,Mizanur Begum,Chattogram,South,Hathazari,Commercial,2025-04-02,MISSING,Approved
+CUST-03647,Mizanur Begum,Chattogram,South,Hathazari,Commercial,2025-04-02,,Approved
 CUST-03648,Hasan Uddin,Tangail,Central,Mirzapur,Residential,2024-08-19,1957868592.0,Approved
 CUST-03649,Anwar Akter,Barishal,South,Sadar,Residential,2024-10-11,1914420180.0,Approved
 CUST-03650,Rahim Sarker,Faridpur,West,Sadar,Residential,2024-07-19,1817046687.0,Approved
@@ -3685,7 +3685,7 @@ CUST-03683,Fatima Alam,Faridpur,West,Sadar,Residential,2026-07-29,1800565723.0,A
 CUST-03684,Tanvir Islam,Cumilla,East,Sadar,Institutional,2026-08-29,1864069580.0,Approved
 CUST-03685,Rafiq Akter,Jashore,West,Sadar,Commercial,2025-04-24,1731884974.0,Approved
 CUST-03686,Rakib Akter,Cumilla,East,Sadar,Residential,2026-06-17,1866023521.0,Completed
-CUST-03687,Sohel Islam,Gazipur,Central,Kapasia,Institutional,2025-07-02,MISSING,Completed
+CUST-03687,Sohel Islam,Gazipur,Central,Kapasia,Institutional,2025-07-02,,Completed
 CUST-03688,Kamal Alam,Cumilla,East,Sadar,Institutional,2024-10-02,1623309479.0,Approved
 CUST-03689,Rehana Hossain,Chattogram,South,Hathazari,Commercial,2026-03-05,1958295463.0,Completed
 CUST-03690,Karim Islam,Dinajpur,North,Sadar,Commercial,2025-01-05,1971662342.0,Approved
@@ -3711,12 +3711,12 @@ CUST-03709,Sohel Islam,Dinajpur,North,Sadar,Industrial,2025-03-29,1638007789.0,C
 CUST-03710,Karim Ahmed,Brahmanbaria,East,Sadar,Commercial,2026-02-27,1666884331.0,Completed
 CUST-03711,Rafiq Rahman,Bogura,North,Sadar,Industrial,2025-01-17,1990140543.0,Approved
 CUST-03712,Sohel Uddin,Kushtia,West,Sadar,Residential,2024-06-29,1884395372.0,Completed
-CUST-03713,Murshida Akter,Mymensingh,Central,Sadar,Industrial,2024-12-12,MISSING,Approved
+CUST-03713,Murshida Akter,Mymensingh,Central,Sadar,Industrial,2024-12-12,,Approved
 CUST-03714,Nusrat Islam,Sylhet,East,Beanibazar,Industrial,2024-05-30,1638555550.0,Approved
 CUST-03715,Rahim Rahman,Sylhet,East,Beanibazar,Residential,2026-07-19,1662443677.0,Pending
 CUST-03716,Sohel Ahmed,Dinajpur,North,Sadar,Institutional,2025-08-27,1864913597.0,Approved
 CUST-03717,Tanvir Alam,Barishal,South,Sadar,Institutional,2025-09-16,1817791053.0,Approved
-CUST-03718,Rahim Uddin,Tangail,Central,Kalihati,Commercial,2026-02-01,MISSING,Approved
+CUST-03718,Rahim Uddin,Tangail,Central,Kalihati,Commercial,2026-02-01,,Approved
 CUST-03719,Anwar Rahman,Bogura,North,Sadar,Residential,2026-07-08,1606625957.0,Approved
 CUST-03720,Anwar Khan,Kushtia,West,Sadar,Residential,2026-03-22,1817274219.0,Approved
 CUST-03721,Rafiq Sarker,Rajshahi,North,Charghat,Commercial,2025-07-10,1684989912.0,Completed
@@ -3724,7 +3724,7 @@ CUST-03722,Rehana Uddin,Cox'S Bazar,South,Sadar,Commercial,2025-05-07,1909733309
 CUST-03723,Anwar Alam,Chattogram,South,Patiya,Commercial,2024-07-12,1927049734.0,Approved
 CUST-03724,Tanvir Akter,Sylhet,East,Golapganj,Commercial,2024-10-09,1659131101.0,Pending
 CUST-03725,Karim Sarker,Kushtia,West,Sadar,Commercial,2026-02-20,1988123688.0,Approved
-CUST-03726,Salma Khan,Barishal,South,Sadar,Industrial,2025-04-05,MISSING,Approved
+CUST-03726,Salma Khan,Barishal,South,Sadar,Industrial,2025-04-05,,Approved
 CUST-03727,Salma Rahman,Dinajpur,North,Sadar,Commercial,2026-03-01,1824707308.0,Approved
 CUST-03728,Shilpi Sarker,Brahmanbaria,East,Sadar,Industrial,2025-09-09,1951733016.0,Approved
 CUST-03729,Nusrat Alam,Kushtia,West,Sadar,Institutional,2026-05-11,1991665517.0,Pending
@@ -3769,13 +3769,13 @@ CUST-03767,Murshida Islam,Dhaka,Central,Dhamrai,Industrial,2025-03-01,1825383614
 CUST-03768,Mizanur Islam,Bogura,North,Sadar,Residential,2025-05-28,1981114687.0,Approved
 CUST-03769,Kamal Hossain,Rangpur,North,Sadar,Residential,2026-03-26,1884503559.0,Approved
 CUST-03770,Fatima Hossain,Dhaka,Central,Savar,Industrial,2026-04-16,1724346662.0,Pending
-CUST-03771,Nusrat Rahman,Mymensingh,Central,Sadar,Institutional,2026-01-25,MISSING,Completed
+CUST-03771,Nusrat Rahman,Mymensingh,Central,Sadar,Institutional,2026-01-25,,Completed
 CUST-03772,Nasrin Hossain,Barishal,South,Sadar,Industrial,2025-01-17,1600748133.0,Approved
 CUST-03773,Shilpi Sarker,Brahmanbaria,East,Sadar,Commercial,2025-05-15,1707565825.0,Approved
 CUST-03774,Murshida Uddin,Sylhet,East,Beanibazar,Industrial,2026-06-07,1987905073.0,Approved
 CUST-03775,Jahangir Sarker,Kushtia,West,Sadar,Industrial,2026-02-05,1866673139.0,Approved
 CUST-03776,Nasrin Ahmed,Brahmanbaria,East,Sadar,Commercial,2025-03-11,1711214359.0,Approved
-CUST-03777,Karim Akter,Brahmanbaria,East,Sadar,Industrial,2025-12-31,MISSING,Approved
+CUST-03777,Karim Akter,Brahmanbaria,East,Sadar,Industrial,2025-12-31,,Approved
 CUST-03778,Shilpi Rahman,Brahmanbaria,East,Sadar,Commercial,2026-02-20,1733578299.0,Completed
 CUST-03779,Hasan Alam,Dinajpur,North,Sadar,Commercial,2025-04-08,1939393960.0,Rejected
 CUST-03780,Rahim Hossain,Mymensingh,Central,Sadar,Residential,2024-12-20,1978745456.0,Approved
@@ -3830,7 +3830,7 @@ CUST-03828,Salma Ahmed,Bogura,North,Sadar,Institutional,2024-09-14,1840466101.0,
 CUST-03829,Anwar Begum,Bogura,North,Sadar,Residential,2024-11-28,1829865366.0,Pending
 CUST-03830,Jahangir Alam,Bogura,North,Sadar,Residential,2025-04-25,1737436125.0,Completed
 CUST-03831,Rahim Uddin,Bogura,North,Sadar,Industrial,2026-09-06,1921219338.0,Completed
-CUST-03832,Rakib Rahman,Gazipur,Central,Kapasia,Institutional,2026-05-27,MISSING,Pending
+CUST-03832,Rakib Rahman,Gazipur,Central,Kapasia,Institutional,2026-05-27,,Pending
 CUST-03833,Rafiq Uddin,Dhaka,Central,Keraniganj,Institutional,2024-09-26,1903764941.0,Approved
 CUST-03834,Salma Rahman,Dhaka,Central,Dhamrai,Residential,2026-02-17,1954942285.0,Completed
 CUST-03835,Fatima Hossain,Tangail,Central,Mirzapur,Residential,2026-07-28,1986133330.0,Approved
@@ -3859,16 +3859,16 @@ CUST-03857,Rafiq Begum,Rangpur,North,Sadar,Residential,2025-09-02,1958861364.0,A
 CUST-03858,Murshida Ahmed,Kushtia,West,Sadar,Industrial,2025-02-18,1948400421.0,Approved
 CUST-03859,Rakib Akter,Kushtia,West,Sadar,Industrial,2025-04-13,1719666793.0,Approved
 CUST-03860,Jahangir Uddin,Tangail,Central,Kalihati,Industrial,2024-12-10,1779890978.0,Completed
-CUST-03861,Nasrin Islam,Kushtia,West,Sadar,Institutional,2024-07-28,MISSING,Approved
-CUST-03862,Anwar Alam,Sylhet,East,Golapganj,Industrial,2024-09-21,MISSING,Approved
-CUST-03863,Nusrat Ahmed,Kushtia,West,Sadar,Commercial,2026-02-28,MISSING,Approved
+CUST-03861,Nasrin Islam,Kushtia,West,Sadar,Institutional,2024-07-28,,Approved
+CUST-03862,Anwar Alam,Sylhet,East,Golapganj,Industrial,2024-09-21,,Approved
+CUST-03863,Nusrat Ahmed,Kushtia,West,Sadar,Commercial,2026-02-28,,Approved
 CUST-03864,Kamal Akter,Mymensingh,Central,Sadar,Institutional,2025-01-31,1742438801.0,Approved
 CUST-03865,Sumaiya Islam,Faridpur,West,Sadar,Commercial,2026-05-14,1696573853.0,Pending
 CUST-03866,Rehana Uddin,Dhaka,Central,Savar,Commercial,2026-04-26,1998056022.0,Approved
 CUST-03867,Sultana Rahman,Bogura,North,Sadar,Commercial,2025-03-08,1878006840.0,Completed
 CUST-03868,Anwar Rahman,Faridpur,West,Sadar,Residential,2026-03-04,1779320082.0,Pending
-CUST-03869,Mizanur Rahman,Sylhet,East,Beanibazar,Residential,2025-09-27,MISSING,Completed
-CUST-03870,Rafiq Akter,Rajshahi,North,Puthia,Commercial,2024-09-18,MISSING,Approved
+CUST-03869,Mizanur Rahman,Sylhet,East,Beanibazar,Residential,2025-09-27,,Completed
+CUST-03870,Rafiq Akter,Rajshahi,North,Puthia,Commercial,2024-09-18,,Approved
 CUST-03871,Jahangir Akter,Rajshahi,North,Bagha,Residential,2024-10-15,1885814273.0,Approved
 CUST-03872,Rehana Sarker,Bogura,North,Sadar,Institutional,2024-12-06,1719953210.0,Completed
 CUST-03873,Nusrat Islam,Faridpur,West,Sadar,Industrial,2025-08-25,1851941997.0,Approved
@@ -3884,7 +3884,7 @@ CUST-03882,Kamal Sarker,Mymensingh,Central,Sadar,Commercial,2026-03-15,193384309
 CUST-03883,Shilpi Rahman,Gazipur,Central,Kaliakair,Residential,2025-11-01,1805645980.0,Approved
 CUST-03884,Anwar Rahman,Barishal,South,Sadar,Commercial,2024-09-02,1919743950.0,Approved
 CUST-03885,Rakib Rahman,Barishal,South,Sadar,Institutional,2026-01-12,1991283117.0,Completed
-CUST-03886,Shilpi Ahmed,Gazipur,Central,Kapasia,Institutional,2024-06-24,MISSING,Approved
+CUST-03886,Shilpi Ahmed,Gazipur,Central,Kapasia,Institutional,2024-06-24,,Approved
 CUST-03887,Salma Uddin,Rangpur,North,Sadar,Institutional,2024-10-08,1641638828.0,Completed
 CUST-03888,Sultana Alam,Gazipur,Central,Sreepur,Institutional,2024-06-19,1718946231.0,Completed
 CUST-03889,Karim Islam,Barishal,South,Sadar,Institutional,2025-09-05,1630043359.0,Completed
@@ -3894,7 +3894,7 @@ CUST-03892,Sultana Khan,Tangail,Central,Mirzapur,Industrial,2025-02-09,198617110
 CUST-03893,Sumaiya Islam,Gazipur,Central,Sreepur,Institutional,2025-08-16,1623443692.0,Approved
 CUST-03894,Karim Islam,Kushtia,West,Sadar,Residential,2025-06-21,1977417333.0,Completed
 CUST-03895,Fatima Alam,Cumilla,East,Sadar,Institutional,2025-12-03,1753450358.0,Approved
-CUST-03896,Sohel Begum,Faridpur,West,Sadar,Industrial,2025-09-10,MISSING,Approved
+CUST-03896,Sohel Begum,Faridpur,West,Sadar,Industrial,2025-09-10,,Approved
 CUST-03897,Murshida Akter,Rangpur,North,Sadar,Residential,2025-07-05,1824286622.0,Approved
 CUST-03898,Rehana Khan,Sylhet,East,Zakiganj,Commercial,2024-07-31,1667390607.0,Approved
 CUST-03899,Rahim Akter,Cumilla,East,Sadar,Commercial,2025-09-06,1614766571.0,Approved
@@ -3912,7 +3912,7 @@ CUST-03910,Sumaiya Alam,Dinajpur,North,Sadar,Commercial,2026-06-11,1734316292.0,
 CUST-03911,Rafiq Sarker,Chattogram,South,Patiya,Industrial,2026-10-13,1612057492.0,Approved
 CUST-03912,Sumaiya Hossain,Gazipur,Central,Kapasia,Residential,2024-11-23,1887024564.0,Completed
 CUST-03913,Anwar Rahman,Jashore,West,Sadar,Commercial,2024-12-25,1770096089.0,Completed
-CUST-03914,Salma Uddin,Mymensingh,Central,Sadar,Residential,2024-06-03,MISSING,Approved
+CUST-03914,Salma Uddin,Mymensingh,Central,Sadar,Residential,2024-06-03,,Approved
 CUST-03915,Karim Sarker,Gazipur,Central,Kaliakair,Residential,2025-08-21,1803672684.0,Approved
 CUST-03916,Rahim Rahman,Dinajpur,North,Sadar,Commercial,2025-12-21,1842062895.0,Completed
 CUST-03917,Anwar Hossain,Faridpur,West,Sadar,Industrial,2025-05-26,1716883921.0,Approved
@@ -3952,7 +3952,7 @@ CUST-03950,Anwar Begum,Bogura,North,Sadar,Residential,2025-01-31,1863747888.0,Ap
 CUST-03951,Rafiq Ahmed,Faridpur,West,Sadar,Commercial,2024-10-25,1891723288.0,Approved
 CUST-03952,Sumaiya Rahman,Brahmanbaria,East,Sadar,Industrial,2025-11-19,1887055440.0,Approved
 CUST-03953,Fatima Rahman,Gazipur,Central,Sreepur,Residential,2026-10-03,1869070249.0,Approved
-CUST-03954,Sumaiya Rahman,Rajshahi,North,Charghat,Institutional,2025-05-23,MISSING,Approved
+CUST-03954,Sumaiya Rahman,Rajshahi,North,Charghat,Institutional,2025-05-23,,Approved
 CUST-03955,Hasan Rahman,Dhaka,Central,Keraniganj,Institutional,2026-01-08,1873732695.0,Approved
 CUST-03956,Karim Uddin,Jashore,West,Sadar,Residential,2024-08-11,1869514369.0,Approved
 CUST-03957,Murshida Khan,Barishal,South,Sadar,Residential,2025-07-27,1902970895.0,Approved
@@ -4008,14 +4008,14 @@ CUST-04006,Rakib Begum,Cox'S Bazar,South,Sadar,Institutional,2024-10-05,18963247
 CUST-04007,Nusrat Akter,Jashore,West,Sadar,Institutional,2026-05-24,1773168080.0,Approved
 CUST-04008,Nusrat Khan,Jashore,West,Sadar,Institutional,2025-02-01,1653299983.0,Approved
 CUST-04009,Rafiq Rahman,Barishal,South,Sadar,Industrial,2025-07-10,1982464118.0,Pending
-CUST-04010,Mizanur Hossain,Rangpur,North,Sadar,Industrial,2024-05-29,MISSING,Pending
+CUST-04010,Mizanur Hossain,Rangpur,North,Sadar,Industrial,2024-05-29,,Pending
 CUST-04011,Sumaiya Rahman,Brahmanbaria,East,Sadar,Industrial,2025-12-27,1908226163.0,Approved
 CUST-04012,Anwar Ahmed,Khulna,South,Sadar,Commercial,2025-11-16,1652400175.0,Approved
 CUST-04013,Hasan Sarker,Rajshahi,North,Charghat,Commercial,2024-06-07,1670153387.0,Approved
 CUST-04014,Hasan Alam,Rajshahi,North,Bagha,Commercial,2025-04-14,1718740074.0,Completed
 CUST-04015,Shilpi Akter,Chattogram,South,Patiya,Institutional,2024-06-29,1876035672.0,Approved
 CUST-04016,Mizanur Uddin,Dhaka,Central,Savar,Commercial,2026-04-14,1972833343.0,Approved
-CUST-04017,Sohel Islam,Brahmanbaria,East,Sadar,Residential,2024-10-10,MISSING,Rejected
+CUST-04017,Sohel Islam,Brahmanbaria,East,Sadar,Residential,2024-10-10,,Rejected
 CUST-04018,Jahangir Akter,Dhaka,Central,Keraniganj,Commercial,2026-05-16,1841296359.0,Pending
 CUST-04019,Salma Rahman,Mymensingh,Central,Sadar,Institutional,2025-10-29,1709293677.0,Approved
 CUST-04020,Rafiq Hossain,Cox'S Bazar,South,Sadar,Institutional,2025-04-18,1929737268.0,Approved
@@ -4023,7 +4023,7 @@ CUST-04021,Salma Islam,Jashore,West,Sadar,Industrial,2025-11-12,1637851393.0,App
 CUST-04022,Rehana Islam,Dhaka,Central,Keraniganj,Institutional,2025-01-16,1696757057.0,Approved
 CUST-04023,Nusrat Rahman,Faridpur,West,Sadar,Residential,2024-08-27,1835625501.0,Completed
 CUST-04024,Kamal Hossain,Mymensingh,Central,Sadar,Commercial,2024-05-28,1873202201.0,Approved
-CUST-04025,Murshida Alam,Cumilla,East,Sadar,Institutional,2025-04-07,MISSING,Completed
+CUST-04025,Murshida Alam,Cumilla,East,Sadar,Institutional,2025-04-07,,Completed
 CUST-04026,Rakib Islam,Cumilla,East,Sadar,Residential,2026-09-27,1656819299.0,Approved
 CUST-04027,Hasan Ahmed,Kushtia,West,Sadar,Industrial,2025-02-01,1883509327.0,Approved
 CUST-04028,Murshida Alam,Kushtia,West,Sadar,Residential,2024-06-22,1801306533.0,Pending
@@ -4097,20 +4097,20 @@ CUST-04095,Hasan Ahmed,Rajshahi,North,Bagha,Residential,2024-10-20,1756136823.0,
 CUST-04096,Karim Islam,Cumilla,East,Sadar,Industrial,2025-01-14,1967407248.0,Approved
 CUST-04097,Fatima Islam,Jashore,West,Sadar,Institutional,2024-09-23,1690848152.0,Completed
 CUST-04098,Mizanur Hossain,Jashore,West,Sadar,Commercial,2024-06-08,1636132040.0,Approved
-CUST-04099,Rafiq Alam,Sylhet,East,Beanibazar,Industrial,2026-07-15,MISSING,Completed
+CUST-04099,Rafiq Alam,Sylhet,East,Beanibazar,Industrial,2026-07-15,,Completed
 CUST-04100,Rehana Islam,Sylhet,East,Golapganj,Institutional,2026-08-11,1696978162.0,Approved
 CUST-04101,Hasan Khan,Faridpur,West,Sadar,Residential,2024-12-01,1997007321.0,Rejected
 CUST-04102,Sultana Khan,Dhaka,Central,Savar,Commercial,2024-06-16,1797096273.0,Approved
-CUST-04103,Anwar Sarker,Dhaka,Central,Dhamrai,Institutional,2024-12-19,MISSING,Approved
+CUST-04103,Anwar Sarker,Dhaka,Central,Dhamrai,Institutional,2024-12-19,,Approved
 CUST-04104,Sohel Khan,Rangpur,North,Sadar,Industrial,2026-07-04,1687370144.0,Completed
 CUST-04105,Rakib Ahmed,Barishal,South,Sadar,Residential,2025-02-17,1681259833.0,Approved
 CUST-04106,Rakib Islam,Tangail,Central,Kalihati,Commercial,2025-04-23,1921511261.0,Rejected
 CUST-04107,Jahangir Alam,Jashore,West,Sadar,Institutional,2026-05-03,1939983767.0,Approved
 CUST-04108,Rafiq Rahman,Cumilla,East,Sadar,Residential,2025-07-04,1714235279.0,Pending
-CUST-04109,Sumaiya Alam,Sylhet,East,Beanibazar,Institutional,2026-06-17,MISSING,Approved
+CUST-04109,Sumaiya Alam,Sylhet,East,Beanibazar,Institutional,2026-06-17,,Approved
 CUST-04110,Tanvir Alam,Rangpur,North,Sadar,Residential,2025-02-07,1729729451.0,Approved
 CUST-04111,Nasrin Alam,Bogura,North,Sadar,Commercial,2024-11-16,1768106595.0,Completed
-CUST-04112,Jahangir Khan,Cumilla,East,Sadar,Institutional,2025-09-12,MISSING,Completed
+CUST-04112,Jahangir Khan,Cumilla,East,Sadar,Institutional,2025-09-12,,Completed
 CUST-04113,Karim Akter,Gazipur,Central,Sreepur,Commercial,2024-09-06,1683759458.0,Pending
 CUST-04114,Rehana Ahmed,Bogura,North,Sadar,Institutional,2024-11-25,1640067415.0,Approved
 CUST-04115,Mizanur Hossain,Rangpur,North,Sadar,Commercial,2026-07-09,1755075764.0,Approved
@@ -4257,7 +4257,7 @@ CUST-04255,Tanvir Islam,Barishal,South,Sadar,Commercial,2026-10-15,1727209935.0,
 CUST-04256,Nusrat Khan,Kushtia,West,Sadar,Residential,2024-06-28,1954670047.0,Completed
 CUST-04257,Karim Islam,Dhaka,Central,Dhamrai,Residential,2025-04-21,1603411638.0,Approved
 CUST-04258,Nasrin Sarker,Rajshahi,North,Charghat,Institutional,2026-07-20,1878005608.0,Approved
-CUST-04259,Tanvir Khan,Sylhet,East,Beanibazar,Commercial,2026-02-03,MISSING,Approved
+CUST-04259,Tanvir Khan,Sylhet,East,Beanibazar,Commercial,2026-02-03,,Approved
 CUST-04260,Hasan Rahman,Bogura,North,Sadar,Residential,2025-01-31,1668538933.0,Approved
 CUST-04261,Rakib Alam,Brahmanbaria,East,Sadar,Industrial,2024-10-27,1878698568.0,Approved
 CUST-04262,Nasrin Rahman,Barishal,South,Sadar,Industrial,2025-03-29,1785966521.0,Completed
@@ -4323,7 +4323,7 @@ CUST-04321,Kamal Alam,Cumilla,East,Sadar,Industrial,2025-07-16,1946173274.0,Comp
 CUST-04322,Rakib Alam,Chattogram,South,Hathazari,Residential,2025-07-18,1784766995.0,Completed
 CUST-04323,Jahangir Rahman,Dhaka,Central,Keraniganj,Industrial,2026-06-10,1784765205.0,Approved
 CUST-04324,Karim Ahmed,Tangail,Central,Ghatail,Industrial,2024-09-13,1743710458.0,Pending
-CUST-04325,Sultana Khan,Rangpur,North,Sadar,Industrial,2024-06-20,MISSING,Approved
+CUST-04325,Sultana Khan,Rangpur,North,Sadar,Industrial,2024-06-20,,Approved
 CUST-04326,Sultana Hossain,Kushtia,West,Sadar,Commercial,2025-07-25,1801636842.0,Pending
 CUST-04327,Sohel Rahman,Rajshahi,North,Bagha,Residential,2024-10-04,1657272878.0,Approved
 CUST-04328,Nusrat Alam,Brahmanbaria,East,Sadar,Industrial,2024-11-20,1880267094.0,Approved
@@ -4429,7 +4429,7 @@ CUST-04427,Sultana Hossain,Faridpur,West,Sadar,Institutional,2025-01-19,17315567
 CUST-04428,Sohel Ahmed,Gazipur,Central,Kapasia,Residential,2024-07-21,1945076547.0,Approved
 CUST-04429,Anwar Akter,Barishal,South,Sadar,Commercial,2026-06-21,1675142580.0,Approved
 CUST-04430,Murshida Islam,Tangail,Central,Kalihati,Institutional,2026-06-01,1600145232.0,Approved
-CUST-04431,Rehana Islam,Dinajpur,North,Sadar,Institutional,2025-08-21,MISSING,Approved
+CUST-04431,Rehana Islam,Dinajpur,North,Sadar,Institutional,2025-08-21,,Approved
 CUST-04432,Mizanur Uddin,Rangpur,North,Sadar,Institutional,2024-10-31,1749033313.0,Approved
 CUST-04433,Hasan Alam,Dinajpur,North,Sadar,Commercial,2026-09-19,1756762386.0,Completed
 CUST-04434,Anwar Uddin,Sylhet,East,Beanibazar,Institutional,2025-12-18,1803879426.0,Completed
@@ -4492,7 +4492,7 @@ CUST-04490,Murshida Alam,Gazipur,Central,Kapasia,Commercial,2026-01-05,174939282
 CUST-04491,Jahangir Khan,Jashore,West,Sadar,Industrial,2024-09-11,1624719391.0,Completed
 CUST-04492,Tanvir Rahman,Rangpur,North,Sadar,Residential,2025-07-31,1903648002.0,Rejected
 CUST-04493,Fatima Akter,Sylhet,East,Zakiganj,Commercial,2025-01-02,1651727753.0,Approved
-CUST-04494,Nusrat Akter,Khulna,South,Sadar,Institutional,2026-10-03,MISSING,Approved
+CUST-04494,Nusrat Akter,Khulna,South,Sadar,Institutional,2026-10-03,,Approved
 CUST-04495,Rakib Uddin,Gazipur,Central,Kaliakair,Industrial,2025-08-05,1843644566.0,Approved
 CUST-04496,Salma Begum,Faridpur,West,Sadar,Industrial,2026-07-11,1994066446.0,Approved
 CUST-04497,Shilpi Rahman,Dhaka,Central,Dhamrai,Institutional,2025-11-14,1702883492.0,Completed
@@ -4547,12 +4547,12 @@ CUST-04545,Rehana Uddin,Brahmanbaria,East,Sadar,Institutional,2025-06-11,1903750
 CUST-04546,Sohel Begum,Brahmanbaria,East,Sadar,Industrial,2026-01-29,1837287357.0,Approved
 CUST-04547,Fatima Alam,Cumilla,East,Sadar,Industrial,2025-06-03,1795471774.0,Approved
 CUST-04548,Nasrin Begum,Chattogram,South,Hathazari,Commercial,2025-10-29,1615160080.0,Rejected
-CUST-04549,Kamal Hossain,Rajshahi,North,Bagha,Institutional,2026-07-18,MISSING,Approved
+CUST-04549,Kamal Hossain,Rajshahi,North,Bagha,Institutional,2026-07-18,,Approved
 CUST-04550,Rafiq Sarker,Jashore,West,Sadar,Residential,2026-06-15,1812813309.0,Completed
 CUST-04551,Sultana Khan,Dinajpur,North,Sadar,Institutional,2025-10-30,1937412600.0,Approved
 CUST-04552,Rahim Akter,Kushtia,West,Sadar,Commercial,2025-10-23,1920624887.0,Completed
 CUST-04553,Jahangir Begum,Cumilla,East,Sadar,Residential,2025-10-28,1820538480.0,Approved
-CUST-04554,Anwar Rahman,Rajshahi,North,Charghat,Residential,2025-04-04,MISSING,Approved
+CUST-04554,Anwar Rahman,Rajshahi,North,Charghat,Residential,2025-04-04,,Approved
 CUST-04555,Kamal Alam,Dinajpur,North,Sadar,Institutional,2025-04-15,1738351463.0,Approved
 CUST-04556,Rehana Hossain,Faridpur,West,Sadar,Industrial,2026-09-28,1662069348.0,Completed
 CUST-04557,Salma Khan,Gazipur,Central,Kaliakair,Commercial,2024-07-18,1661743264.0,Approved
@@ -4569,7 +4569,7 @@ CUST-04567,Shilpi Ahmed,Dhaka,Central,Savar,Industrial,2024-10-28,1754351371.0,A
 CUST-04568,Murshida Islam,Dhaka,Central,Savar,Commercial,2025-05-07,1780778585.0,Approved
 CUST-04569,Sohel Alam,Dhaka,Central,Savar,Commercial,2025-08-22,1669603834.0,Approved
 CUST-04570,Murshida Uddin,Bogura,North,Sadar,Industrial,2025-04-16,1718605035.0,Completed
-CUST-04571,Sohel Akter,Bogura,North,Sadar,Industrial,2026-04-03,MISSING,Approved
+CUST-04571,Sohel Akter,Bogura,North,Sadar,Industrial,2026-04-03,,Approved
 CUST-04572,Rakib Sarker,Cox'S Bazar,South,Sadar,Commercial,2024-09-19,1622507476.0,Approved
 CUST-04573,Rakib Ahmed,Tangail,Central,Ghatail,Commercial,2025-10-10,1801684970.0,Approved
 CUST-04574,Mizanur Khan,Rajshahi,North,Bagha,Commercial,2024-11-03,1940342875.0,Approved
@@ -4638,7 +4638,7 @@ CUST-04636,Rakib Uddin,Dhaka,Central,Dhamrai,Institutional,2026-09-03,1934205024
 CUST-04637,Mizanur Ahmed,Tangail,Central,Ghatail,Commercial,2025-10-29,1950373509.0,Approved
 CUST-04638,Sohel Khan,Gazipur,Central,Sreepur,Residential,2026-08-20,1915418822.0,Approved
 CUST-04639,Sohel Khan,Tangail,Central,Kalihati,Institutional,2024-11-21,1739992323.0,Approved
-CUST-04640,Kamal Alam,Khulna,South,Sadar,Institutional,2025-12-24,MISSING,Approved
+CUST-04640,Kamal Alam,Khulna,South,Sadar,Institutional,2025-12-24,,Approved
 CUST-04641,Rafiq Islam,Dhaka,Central,Savar,Commercial,2025-04-03,1777135992.0,Approved
 CUST-04642,Hasan Begum,Kushtia,West,Sadar,Industrial,2026-01-11,1605423112.0,Completed
 CUST-04643,Rakib Rahman,Chattogram,South,Sitakunda,Commercial,2026-01-28,1646550575.0,Approved
@@ -4674,7 +4674,7 @@ CUST-04672,Anwar Islam,Tangail,Central,Ghatail,Commercial,2025-04-05,1666290913.
 CUST-04673,Shilpi Khan,Bogura,North,Sadar,Commercial,2026-09-23,1673508220.0,Pending
 CUST-04674,Nasrin Begum,Dhaka,Central,Keraniganj,Industrial,2025-06-24,1774882418.0,Approved
 CUST-04675,Jahangir Uddin,Jashore,West,Sadar,Institutional,2025-04-13,1714734272.0,Approved
-CUST-04676,Sultana Sarker,Rangpur,North,Sadar,Industrial,2025-06-10,MISSING,Approved
+CUST-04676,Sultana Sarker,Rangpur,North,Sadar,Industrial,2025-06-10,,Approved
 CUST-04677,Karim Akter,Chattogram,South,Patiya,Residential,2026-08-05,1915235982.0,Completed
 CUST-04678,Sultana Alam,Sylhet,East,Golapganj,Industrial,2025-12-30,1917477234.0,Approved
 CUST-04679,Karim Islam,Kushtia,West,Sadar,Institutional,2024-11-06,1903350468.0,Approved
@@ -4687,8 +4687,8 @@ CUST-04685,Murshida Uddin,Brahmanbaria,East,Sadar,Industrial,2024-11-08,18648936
 CUST-04686,Sumaiya Hossain,Rangpur,North,Sadar,Commercial,2026-01-20,1918828160.0,Approved
 CUST-04687,Hasan Sarker,Rajshahi,North,Bagha,Commercial,2025-07-03,1713921609.0,Pending
 CUST-04688,Jahangir Sarker,Jashore,West,Sadar,Institutional,2026-05-02,1832933002.0,Approved
-CUST-04689,Shilpi Ahmed,Chattogram,South,Patiya,Commercial,2026-02-01,MISSING,Approved
-CUST-04690,Shilpi Begum,Cumilla,East,Sadar,Residential,2024-11-26,MISSING,Completed
+CUST-04689,Shilpi Ahmed,Chattogram,South,Patiya,Commercial,2026-02-01,,Approved
+CUST-04690,Shilpi Begum,Cumilla,East,Sadar,Residential,2024-11-26,,Completed
 CUST-04691,Sumaiya Hossain,Gazipur,Central,Kaliakair,Commercial,2024-10-31,1869278297.0,Completed
 CUST-04692,Nusrat Begum,Cox'S Bazar,South,Sadar,Industrial,2025-12-20,1901268490.0,Approved
 CUST-04693,Jahangir Khan,Rangpur,North,Sadar,Residential,2025-09-11,1993124838.0,Approved
@@ -4720,7 +4720,7 @@ CUST-04718,Sumaiya Akter,Chattogram,South,Hathazari,Institutional,2026-04-14,196
 CUST-04719,Mizanur Akter,Khulna,South,Sadar,Commercial,2026-09-30,1761536443.0,Completed
 CUST-04720,Nusrat Sarker,Mymensingh,Central,Sadar,Commercial,2026-08-08,1920823509.0,Pending
 CUST-04721,Murshida Islam,Sylhet,East,Beanibazar,Industrial,2024-08-23,1676844412.0,Pending
-CUST-04722,Nasrin Ahmed,Dhaka,Central,Savar,Residential,2026-05-05,MISSING,Approved
+CUST-04722,Nasrin Ahmed,Dhaka,Central,Savar,Residential,2026-05-05,,Approved
 CUST-04723,Fatima Uddin,Rajshahi,North,Charghat,Institutional,2025-02-18,1994283981.0,Approved
 CUST-04724,Jahangir Akter,Rangpur,North,Sadar,Residential,2025-07-10,1942360256.0,Approved
 CUST-04725,Nusrat Alam,Mymensingh,Central,Sadar,Residential,2026-01-02,1954093436.0,Approved
@@ -4877,7 +4877,7 @@ CUST-04875,Sohel Begum,Barishal,South,Sadar,Industrial,2026-06-20,1882642491.0,A
 CUST-04876,Sultana Islam,Cox'S Bazar,South,Sadar,Commercial,2025-06-22,1947398930.0,Completed
 CUST-04877,Hasan Hossain,Dhaka,Central,Keraniganj,Commercial,2024-08-14,1881150716.0,Completed
 CUST-04878,Kamal Uddin,Jashore,West,Sadar,Residential,2026-01-07,1675301570.0,Approved
-CUST-04879,Hasan Sarker,Rangpur,North,Sadar,Commercial,2026-06-06,MISSING,Approved
+CUST-04879,Hasan Sarker,Rangpur,North,Sadar,Commercial,2026-06-06,,Approved
 CUST-04880,Rehana Alam,Rangpur,North,Sadar,Institutional,2026-05-26,1910842979.0,Approved
 CUST-04881,Anwar Uddin,Mymensingh,Central,Sadar,Institutional,2025-10-03,1825621274.0,Approved
 CUST-04882,Shilpi Ahmed,Dhaka,Central,Dhamrai,Industrial,2026-07-18,1629161693.0,Approved
@@ -4968,7 +4968,7 @@ CUST-04966,Rakib Sarker,Rangpur,North,Sadar,Commercial,2024-07-23,1852944930.0,A
 CUST-04967,Fatima Alam,Dhaka,Central,Savar,Commercial,2025-09-05,1882332018.0,Approved
 CUST-04968,Rehana Uddin,Barishal,South,Sadar,Institutional,2026-08-21,1778721138.0,Approved
 CUST-04969,Rafiq Islam,Gazipur,Central,Sreepur,Institutional,2024-10-04,1800382955.0,Completed
-CUST-04970,Nasrin Hossain,Brahmanbaria,East,Sadar,Commercial,2024-07-04,MISSING,Approved
+CUST-04970,Nasrin Hossain,Brahmanbaria,East,Sadar,Commercial,2024-07-04,,Approved
 CUST-04971,Sohel Islam,Rangpur,North,Sadar,Residential,2025-11-21,1767023175.0,Approved
 CUST-04972,Sohel Alam,Dhaka,Central,Savar,Institutional,2024-09-23,1829652211.0,Approved
 CUST-04973,Karim Alam,Bogura,North,Sadar,Commercial,2025-11-17,1918129168.0,Completed
@@ -5019,7 +5019,7 @@ CUST-05017,Karim Uddin,Kushtia,West,Sadar,Residential,2025-09-11,1951140684.0,Ap
 CUST-05018,Hasan Sarker,Cox'S Bazar,South,Sadar,Commercial,2024-11-07,1799120111.0,Pending
 CUST-05019,Murshida Khan,Barishal,South,Sadar,Residential,2025-12-13,1919903970.0,Approved
 CUST-05020,Tanvir Rahman,Gazipur,Central,Kaliakair,Industrial,2024-11-27,1612199975.0,Pending
-CUST-05021,Sultana Begum,Faridpur,West,Sadar,Institutional,2026-10-10,MISSING,Approved
+CUST-05021,Sultana Begum,Faridpur,West,Sadar,Institutional,2026-10-10,,Approved
 CUST-05022,Shilpi Rahman,Rangpur,North,Sadar,Residential,2025-11-23,1930584716.0,Approved
 CUST-05023,Sohel Akter,Mymensingh,Central,Sadar,Industrial,2026-10-10,1840360127.0,Approved
 CUST-05024,Kamal Ahmed,Rajshahi,North,Charghat,Institutional,2025-10-31,1840263568.0,Approved
@@ -5027,7 +5027,7 @@ CUST-05025,Hasan Hossain,Rajshahi,North,Bagha,Industrial,2025-03-28,1629169670.0
 CUST-05026,Rahim Hossain,Barishal,South,Sadar,Residential,2025-09-26,1900170476.0,Pending
 CUST-05027,Tanvir Alam,Rangpur,North,Sadar,Industrial,2025-05-15,1724433749.0,Approved
 CUST-05028,Sohel Ahmed,Mymensingh,Central,Sadar,Industrial,2025-04-24,1624625999.0,Completed
-CUST-05029,Rafiq Begum,Dhaka,Central,Savar,Commercial,2026-04-04,MISSING,Completed
+CUST-05029,Rafiq Begum,Dhaka,Central,Savar,Commercial,2026-04-04,,Completed
 CUST-05030,Jahangir Sarker,Bogura,North,Sadar,Commercial,2026-02-09,1670287489.0,Completed
 CUST-05031,Nasrin Hossain,Tangail,Central,Mirzapur,Institutional,2026-06-30,1699123065.0,Approved
 CUST-05032,Anwar Hossain,Cox'S Bazar,South,Sadar,Institutional,2026-07-14,1684671947.0,Approved
