@@ -146,11 +146,15 @@ def clean_installations(df, customers_df):
 
 def clean_commissioning(df, installations_df):
     """
-    Clean commissioning table (FINAL VERSION).
+    Clean commissioning table (FINAL VERSION — future-safe inference).
 
-    Critical order:
-      1. Fix future dates FIRST
-      2. Then infer missing dates from Installation_Date
+    Order:
+      1. Ensure datetime
+      2. Count missing before
+      3. Dedup installations lookup
+      4. Merge (no row inflation)
+      5. Infer missing dates for Completed
+      6. Fix future dates BEFORE AND AFTER inference
     """
     print("\n🧹 Cleaning commissioning...")
     original_len = len(df)
@@ -160,16 +164,15 @@ def clean_commissioning(df, installations_df):
         df["Commissioning_Date"], errors="coerce"
     )
 
-    # 2. Count missing BEFORE any changes
+    # 2. Count missing BEFORE
     missing_before = df["Commissioning_Date"].isnull().sum()
 
-    # 3. Fix future dates FIRST (before inference)
-    future_mask = df["Commissioning_Date"] > SIMULATION_DATE
-    future_count = future_mask.sum()
-    df.loc[future_mask, "Commissioning_Date"] = pd.NaT
-    print(f"   Fixed {future_count} future commissioning dates")
+    # 3. Fix future dates BEFORE inference
+    future_before = (df["Commissioning_Date"] > SIMULATION_DATE).sum()
+    df.loc[df["Commissioning_Date"] > SIMULATION_DATE, "Commissioning_Date"] = pd.NaT
+    print(f"   Fixed {future_before} future dates (before inference)")
 
-    # 4. Dedup installations lookup to prevent row inflation
+    # 4. Dedup installations lookup
     install_lookup = (
         installations_df[["Customer_ID", "Installation_Date"]]
         .drop_duplicates(subset=["Customer_ID"], keep="first")
@@ -179,23 +182,33 @@ def clean_commissioning(df, installations_df):
     # 5. Merge (safe, 1:1)
     merged = df.merge(install_lookup, on="Customer_ID", how="left")
     assert len(merged) == original_len, (
-        f"Merge inflated rows: {original_len} → {len(merged)}"
+        f"Merge inflated: {original_len} → {len(merged)}"
     )
 
-    # 6. Infer missing dates — only for Completed + valid Installation_Date
+    # 6. Infer missing dates
     def safe_infer(row):
         if pd.notna(row["Commissioning_Date"]):
             return row["Commissioning_Date"]
         if row["Commissioning_Status"] == "Completed" and pd.notna(row["Installation_Date"]):
             try:
-                return pd.to_datetime(row["Installation_Date"]) + pd.Timedelta(days=15)
+                inferred = pd.to_datetime(row["Installation_Date"]) + pd.Timedelta(days=15)
+                # Reject inferred if future
+                if inferred > SIMULATION_DATE:
+                    return None
+                return inferred
             except Exception:
                 return None
         return None
 
     merged["Commissioning_Date"] = merged.apply(safe_infer, axis=1)
 
-    # 7. Recount missing
+    # 7. Fix future dates AFTER inference (defensive)
+    future_after = (merged["Commissioning_Date"] > SIMULATION_DATE).sum()
+    merged.loc[merged["Commissioning_Date"] > SIMULATION_DATE, "Commissioning_Date"] = pd.NaT
+    if future_after > 0:
+        print(f"   Fixed {future_after} future dates (after inference)")
+
+    # 8. Count missing AFTER
     missing_after = merged["Commissioning_Date"].isnull().sum()
     inferred = missing_before - missing_after
     print(f"   Missing Comm_Date: {missing_before} → {missing_after} "
