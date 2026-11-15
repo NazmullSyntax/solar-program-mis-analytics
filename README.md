@@ -5,10 +5,7 @@ A complete end-to-end Data Management & MIS (Management Information System) proj
 This project demonstrates the full data lifecycle: **Data Generation ➔ Cleaning ➔ SQL Database ➔ Python Web App (MIS)**.
 
 ## 📸 Project Screenshots
-*(নিচে আপনার নিজের সেভ করা স্ক্রিনশটগুলোর নাম দিন)*
-![Dashboard](screenshots/day16_dashboard.png)
-![Data Quality](screenshots/day10_dashboard.png)
-![Streamlit App](screenshots/day15_streamlit_home.png)
+
 
 ## 🚀 Features
 - **Data Generation:** Synthetic dataset of 12,000+ records with realistic data quality issues.
