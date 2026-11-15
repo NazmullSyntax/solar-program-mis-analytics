@@ -1,13 +1,14 @@
 """
 day8_advanced_cleaning.py
 -------------------------
-Advanced data cleaning pipeline (CORRECTED VERSION).
+Advanced data cleaning pipeline (FINAL CORRECTED VERSION).
 
-Key fixes:
-  - Contact_Number: astype(str) BEFORE fillna
-  - Commissioning: drop_duplicates before merge (prevents row inflation)
-  - infer_commissioning_date: safe handling
-  - Quality score: same record count before/after
+Key features:
+  - Fuzzy matching for corrupted district names
+  - Future dates fixed BEFORE inference (critical order)
+  - Dedup installations lookup (no row inflation)
+  - Idempotent: same input → same output
+  - Quality score before/after comparison
 
 Author: [Your Name]
 Day 8 - Advanced Data Cleaning
@@ -24,6 +25,7 @@ SIMULATION_DATE = pd.Timestamp("2025-11-15")
 PROJECT_START = pd.Timestamp("2023-01-01")
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+RAW_DIR = os.path.join(PROJECT_ROOT, "data", "raw")
 CLEANED_DIR = os.path.join(PROJECT_ROOT, "data", "cleaned")
 REPORTS_DIR = os.path.join(PROJECT_ROOT, "reports")
 
@@ -67,25 +69,15 @@ def fix_district_name(name):
     return matches[0] if matches else "Unknown"
 
 
-def infer_commissioning_date(install_date, status):
-    """Infer missing commissioning date only when it makes sense."""
-    if pd.notna(install_date) and status == "Completed":
-        try:
-            return pd.to_datetime(install_date) + pd.Timedelta(days=15)
-        except Exception:
-            return None
-    return None
-
-
 # =====================================================
-# CLEANING PIPELINE
+# CLEANING FUNCTIONS
 # =====================================================
 
 def clean_customers(df):
-    """Advanced customer cleaning."""
+    """Clean customer table."""
     print("\n🧹 Cleaning customers...")
 
-    # 1. Duplicates
+    # 1. Dedup
     dup = df["Customer_ID"].duplicated().sum()
     df = df.drop_duplicates(subset=["Customer_ID"], keep="first").copy()
     print(f"   Removed {dup} duplicate Customer_IDs")
@@ -96,17 +88,19 @@ def clean_customers(df):
     after = df["District"].nunique()
     print(f"   Districts: {before} → {after} (fuzzy-fixed)")
 
-    # 3. Contact_Number FIX: cast to str FIRST
-    df["Contact_Number"] = df["Contact_Number"].astype(str)
-    df["Contact_Number"] = df["Contact_Number"].replace(
-        {"nan": "MISSING", "None": "MISSING", "": "MISSING"}
+    # 3. Contact_Number — cast to str FIRST to avoid dtype warning
+    df["Contact_Number"] = (
+        df["Contact_Number"]
+        .astype(str)
+        .str.strip()
+        .replace({"nan": "MISSING", "None": "MISSING", "": "MISSING"})
     )
-    print(f"   Contact numbers normalized (missing → 'MISSING')")
+    print(f"   Contact numbers normalized")
 
     # 4. Region
     df["Region"] = df["District"].map(REGION_MAP).fillna("Unknown")
 
-    # 5. Registration date validation
+    # 5. Registration_Date
     df["Registration_Date"] = pd.to_datetime(
         df["Registration_Date"], errors="coerce"
     )
@@ -114,13 +108,13 @@ def clean_customers(df):
     old = (df["Registration_Date"] < PROJECT_START).sum()
     df.loc[df["Registration_Date"] > SIMULATION_DATE, "Registration_Date"] = pd.NaT
     df.loc[df["Registration_Date"] < PROJECT_START, "Registration_Date"] = pd.NaT
-    print(f"   Invalid registration dates: {future + old}")
+    print(f"   Invalid registration dates fixed: {future + old}")
 
     return df
 
 
 def clean_installations(df, customers_df):
-    """Advanced installation cleaning."""
+    """Clean installation table."""
     print("\n🧹 Cleaning installations...")
 
     df["Solar_Capacity_KW"] = pd.to_numeric(
@@ -130,14 +124,17 @@ def clean_installations(df, customers_df):
         df["Installation_Date"], errors="coerce"
     )
 
+    # Fix bad capacity
     bad_cap = (df["Solar_Capacity_KW"] <= 0).sum()
     df.loc[df["Solar_Capacity_KW"] <= 0, "Solar_Capacity_KW"] = None
     print(f"   Fixed {bad_cap} bad capacities")
 
+    # Fix future dates
     future = (df["Installation_Date"] > SIMULATION_DATE).sum()
     df.loc[df["Installation_Date"] > SIMULATION_DATE, "Installation_Date"] = pd.NaT
-    print(f"   Fixed {future} future dates")
+    print(f"   Fixed {future} future installation dates")
 
+    # Standardize status
     status_fix = {
         "complete": "Completed", "Complete": "Completed",
         "COMPLETED": "Completed", "done": "Completed",
@@ -148,48 +145,61 @@ def clean_installations(df, customers_df):
 
 
 def clean_commissioning(df, installations_df):
-    """Advanced commissioning cleaning (FIXED - no row inflation)."""
+    """
+    Clean commissioning table (FINAL VERSION).
+
+    Critical order:
+      1. Fix future dates FIRST
+      2. Then infer missing dates from Installation_Date
+    """
     print("\n🧹 Cleaning commissioning...")
     original_len = len(df)
 
+    # 1. Ensure datetime
     df["Commissioning_Date"] = pd.to_datetime(
         df["Commissioning_Date"], errors="coerce"
     )
+
+    # 2. Count missing BEFORE any changes
     missing_before = df["Commissioning_Date"].isnull().sum()
 
-    # ---- FIX: Ensure 1:1 merge (dedup installations first) ----
+    # 3. Fix future dates FIRST (before inference)
+    future_mask = df["Commissioning_Date"] > SIMULATION_DATE
+    future_count = future_mask.sum()
+    df.loc[future_mask, "Commissioning_Date"] = pd.NaT
+    print(f"   Fixed {future_count} future commissioning dates")
+
+    # 4. Dedup installations lookup to prevent row inflation
     install_lookup = (
         installations_df[["Customer_ID", "Installation_Date"]]
         .drop_duplicates(subset=["Customer_ID"], keep="first")
         .copy()
     )
 
+    # 5. Merge (safe, 1:1)
     merged = df.merge(install_lookup, on="Customer_ID", how="left")
-
-    # ---- FIX: Assert row count unchanged ----
     assert len(merged) == original_len, (
         f"Merge inflated rows: {original_len} → {len(merged)}"
     )
 
-    # ---- Infer missing dates for Completed status ----
-    inferred = merged.apply(
-        lambda row: infer_commissioning_date(
-            row["Installation_Date"], row["Commissioning_Status"]
-        ) if pd.isna(row["Commissioning_Date"]) else row["Commissioning_Date"],
-        axis=1,
-    )
-    merged["Commissioning_Date"] = inferred
+    # 6. Infer missing dates — only for Completed + valid Installation_Date
+    def safe_infer(row):
+        if pd.notna(row["Commissioning_Date"]):
+            return row["Commissioning_Date"]
+        if row["Commissioning_Status"] == "Completed" and pd.notna(row["Installation_Date"]):
+            try:
+                return pd.to_datetime(row["Installation_Date"]) + pd.Timedelta(days=15)
+            except Exception:
+                return None
+        return None
 
-    # ---- Validate future dates ----
-    future = (merged["Commissioning_Date"] > SIMULATION_DATE).sum()
-    merged.loc[
-        merged["Commissioning_Date"] > SIMULATION_DATE, "Commissioning_Date"
-    ] = pd.NaT
+    merged["Commissioning_Date"] = merged.apply(safe_infer, axis=1)
 
+    # 7. Recount missing
     missing_after = merged["Commissioning_Date"].isnull().sum()
+    inferred = missing_before - missing_after
     print(f"   Missing Comm_Date: {missing_before} → {missing_after} "
-          f"(inferred {missing_before - missing_after})")
-    print(f"   Fixed {future} future commissioning dates")
+          f"(inferred {inferred})")
     print(f"   Row count: {original_len} → {len(merged)} (no inflation ✅)")
 
     return merged[df.columns]
@@ -209,8 +219,12 @@ def calculate_quality(customers, installations, commissioning):
         "unknown_district": (customers["District"] == "Unknown").sum(),
         "negative_capacity": (installations["Solar_Capacity_KW"] < 0).sum(),
         "zero_capacity": (installations["Solar_Capacity_KW"] == 0).sum(),
-        "future_dates": (
+        "future_install_dates": (
             pd.to_datetime(installations["Installation_Date"], errors="coerce")
+            > SIMULATION_DATE
+        ).sum(),
+        "future_comm_dates": (
+            pd.to_datetime(commissioning["Commissioning_Date"], errors="coerce")
             > SIMULATION_DATE
         ).sum(),
         "missing_comm_date": commissioning["Commissioning_Date"].isnull().sum(),
@@ -232,11 +246,11 @@ def calculate_quality(customers, installations, commissioning):
 
 def main():
     print("=" * 60)
-    print("  🌞 DAY 8 — ADVANCED DATA CLEANING (FIXED)")
+    print("  🌞 DAY 8 — ADVANCED DATA CLEANING (FINAL)")
     print(f"  Simulation date: {SIMULATION_DATE.strftime('%Y-%m-%d')}")
     print("=" * 60)
 
-    # Load
+    # Load from RAW (Day 4 cleaned) — NOT from previous v2 (idempotent!)
     print("\n📂 Loading Day 4 cleaned data...")
     customers = pd.read_csv(os.path.join(CLEANED_DIR, "customers_clean.csv"))
     installations = pd.read_csv(os.path.join(CLEANED_DIR, "installations_clean.csv"))
@@ -247,7 +261,7 @@ def main():
     print(f"   Installations: {len(installations):,}")
     print(f"   Commissioning: {len(commissioning):,}")
 
-    # Before
+    # ---- BEFORE ----
     print("\n" + "=" * 60)
     print("  📊 QUALITY SCORE — BEFORE")
     print("=" * 60)
@@ -258,12 +272,12 @@ def main():
     for k, v in before["issues"].items():
         print(f"     {k:25s} {v:>5}")
 
-    # Clean
+    # ---- CLEAN ----
     customers_clean = clean_customers(customers)
     installations_clean = clean_installations(installations, customers_clean)
     commissioning_clean = clean_commissioning(commissioning, installations_clean)
 
-    # After
+    # ---- AFTER ----
     print("\n" + "=" * 60)
     print("  📊 QUALITY SCORE — AFTER")
     print("=" * 60)
@@ -277,15 +291,23 @@ def main():
     improvement = after["score"] - before["score"]
     print(f"\n   📈 Improvement: {improvement:+.2f} percentage points")
 
-    # Save
+    # ---- SAVE ----
     print("\n💾 Saving Day 8 cleaned data...")
-    customers_clean.to_csv(os.path.join(CLEANED_DIR, "customers_v2.csv"), index=False)
-    installations_clean.to_csv(os.path.join(CLEANED_DIR, "installations_v2.csv"), index=False)
-    commissioning_clean.to_csv(os.path.join(CLEANED_DIR, "commissioning_v2.csv"), index=False)
-    regional.to_csv(os.path.join(CLEANED_DIR, "regional_reports_v2.csv"), index=False)
+    customers_clean.to_csv(
+        os.path.join(CLEANED_DIR, "customers_v2.csv"), index=False
+    )
+    installations_clean.to_csv(
+        os.path.join(CLEANED_DIR, "installations_v2.csv"), index=False
+    )
+    commissioning_clean.to_csv(
+        os.path.join(CLEANED_DIR, "commissioning_v2.csv"), index=False
+    )
+    regional.to_csv(
+        os.path.join(CLEANED_DIR, "regional_reports_v2.csv"), index=False
+    )
     print(f"   ✅ Saved *_v2.csv to {CLEANED_DIR}")
 
-    # Comparison report
+    # ---- REPORT ----
     print("\n📊 Saving comparison report...")
     os.makedirs(REPORTS_DIR, exist_ok=True)
     output_file = os.path.join(REPORTS_DIR, "Day8_Cleaning_Report.xlsx")
