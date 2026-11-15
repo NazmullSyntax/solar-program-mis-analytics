@@ -1,41 +1,41 @@
 # 🌞 Solar Program MIS Analytics System
 
-A complete Data Management & MIS reporting system for a Rooftop Solar Program in Bangladesh.
+A complete end-to-end Data Management & MIS (Management Information System) project for a Rooftop Solar Program in Bangladesh (inspired by ESDO's DRS Program). 
 
-## 📋 Project Overview
-This project simulates the real-world data management system used by solar program organizations (like ESDO's DRS Rooftop Solar Program) to manage:
-- Customer registration
-- Solar installation tracking
-- Commissioning records
-- Regional reporting
-- Data quality management
-- Management dashboards
+This project demonstrates the full data lifecycle: **Data Generation ➔ Cleaning ➔ SQL Database ➔ Python Web App (MIS)**.
 
-## 🎯 Objectives
-- Maintain 5,000+ synthetic customer and installation records
-- Track solar capacity (KW) across districts and regions
-- Automate data quality validation
-- Generate management reports (daily, weekly, monthly)
-- Build interactive Power BI dashboards
-- Provide a Streamlit-based MIS web application
+## 📸 Project Screenshots
+*(নিচে আপনার নিজের সেভ করা স্ক্রিনশটগুলোর নাম দিন)*
+![Dashboard](screenshots/day16_dashboard.png)
+![Data Quality](screenshots/day10_dashboard.png)
+![Streamlit App](screenshots/day15_streamlit_home.png)
+
+## 🚀 Features
+- **Data Generation:** Synthetic dataset of 12,000+ records with realistic data quality issues.
+- **Automated Data Pipeline:** Python scripts to clean missing values, fuzzy-match districts, and infer dates.
+- **Data Quality System:** Weighted scoring system to measure data health.
+- **SQL Database:** Normalized SQLite database with proper constraints (Primary Key, Foreign Key, Checks).
+- **MIS Web Application (Streamlit):**
+  - Interactive Dashboard (KPIs & Plotly Charts)
+  - Customer Database (Search & Add New)
+  - Installation Tracking (Update Status)
+  - Automated Excel Report Generation.
 
 ## 🛠️ Technology Stack
-| Category | Tools |
-|----------|-------|
-| Language | Python 3.11 |
-| Data | Pandas, NumPy |
-| Database | SQLite / PostgreSQL |
-| Visualization | Matplotlib, Seaborn, Power BI |
-| Web App | Streamlit |
-| Version Control | Git, GitHub |
+- **Language:** Python 3.10+
+- **Data Processing:** Pandas, NumPy
+- **Database:** SQLite, SQLAlchemy
+- **Web App / UI:** Streamlit, Plotly
+- **Data Quality:** Custom Python Pipeline
 
-## 📁 Project Structure
+## 📂 Project Structure
+```text
 solar-program-mis-analytics/
-├── data/ # Datasets (raw + cleaned)
-├── notebooks/ # Jupyter analysis notebooks
-├── sql/ # SQL scripts
-├── python/ # Python scripts
-├── powerbi/ # Power BI dashboard
-├── streamlit_app/ # Streamlit application
-├── reports/ # Generated reports
-└── docs/ # Documentation
+│
+├── data/               # Raw and cleaned CSV files, SQLite database
+├── docs/               # Business process and KPI documentation
+├── python/             # Data generator, cleaning, and SQL pipeline scripts
+├── sql/                # Database schema and KPI queries
+├── streamlit_app/      # Web application source code
+├── reports/            # Generated Excel reports
+└── requirements.txt    # Dependencies
