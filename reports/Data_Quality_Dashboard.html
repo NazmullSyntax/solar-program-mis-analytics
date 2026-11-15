@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Solar Program — Data Quality Dashboard</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: #1f4e78;
+            margin: 0 0 8px 0;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 24px;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        .card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            border-left: 4px solid #1f4e78;
+        }
+        .card.alert {
+            border-left-color: #dc3545;
+            background: #fff5f5;
+        }
+        .card.good {
+            border-left-color: #28a745;
+            background: #f0fff4;
+        }
+        .card .label {
+            font-size: 0.85em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+        .card .value {
+            font-size: 2em;
+            font-weight: 700;
+            color: #1f4e78;
+        }
+        .card.alert .value {
+            color: #dc3545;
+        }
+        .card.good .value {
+            color: #28a745;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        th {
+            background: #1f4e78;
+            color: white;
+            font-weight: 600;
+        }
+        tr:hover {
+            background: #f8f9fa;
+        }
+        .footer {
+            margin-top: 32px;
+            text-align: center;
+            color: #999;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🌞 Solar Program — Data Quality Dashboard</h1>
+    <p class="subtitle">
+        Generated: 2026-11-16 02:15 |
+        Simulation date: 2025-11-15
+    </p>
+
+    <div class="cards">
+        <div class="card">
+            <div class="label">Total Records</div>
+            <div class="value">12,761</div>
+        </div>
+        <div class="card alert">
+            <div class="label">Total Issues</div>
+            <div class="value">803</div>
+        </div>
+        <div class="card good">
+            <div class="label">Raw Score</div>
+            <div class="value">93.71%</div>
+        </div>
+        <div class="card good">
+            <div class="label">Weighted Score</div>
+            <div class="value">95.21%</div>
+        </div>
+    </div>
+
+    <h2>📋 Issues Breakdown</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Dimension</th>
+                <th>Issue</th>
+                <th>Count</th>
+                <th>%</th>
+                <th>Severity</th>
+                <th>Weight</th>
+                <th>Weighted</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>Completeness</td>
+                <td>Missing Contact_Number</td>
+                <td>164</td>
+                <td>3.15%</td>
+                <td><span style="color: white; background: #ffc107;
+                    padding: 2px 8px; border-radius: 4px; font-size: 0.9em;">
+                    MEDIUM</span></td>
+                <td>1.0x</td>
+                <td>164.0</td>
+            </tr>
+            
+            <tr>
+                <td>Completeness</td>
+                <td>Missing District</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td><span style="color: white; background: #fd7e14;
+                    padding: 2px 8px; border-radius: 4px; font-size: 0.9em;">
+                    HIGH</span></td>
+                <td>2.0x</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>Completeness</td>
+                <td>Missing Commissioning_Date</td>
+                <td>554</td>
+                <td>17.81%</td>
+                <td><span style="color: white; background: #28a745;
+                    padding: 2px 8px; border-radius: 4px; font-size: 0.9em;">
+                    LOW</span></td>
+                <td>0.5x</td>
+                <td>277.0</td>
+            </tr>
+            
+            <tr>
+                <td>Uniqueness</td>
+                <td>Duplicate Customer_IDs</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td><span style="color: white; background: #dc3545;
+                    padding: 2px 8px; border-radius: 4px; font-size: 0.9em;">
+                    CRITICAL</span></td>
+                <td>3.0x</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>Uniqueness</td>
+                <td>Duplicate Installation_IDs</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td><span style="color: white; background: #dc3545;
+                    padding: 2px 8px; border-radius: 4px; font-size: 0.9em;">
+                    CRITICAL</span></td>
+                <td>3.0x</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>Validity</td>
+                <td>Non-positive Capacity</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td><span style="color: white; background: #dc3545;
+                    padding: 2px 8px; border-radius: 4px; font-size: 0.9em;">
+                    CRITICAL</span></td>
+                <td>3.0x</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>Validity</td>
+                <td>Invalid Installation Status</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td><span style="color: white; background: #fd7e14;
+                    padding: 2px 8px; border-radius: 4px; font-size: 0.9em;">
+                    HIGH</span></td>
+                <td>2.0x</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>Consistency</td>
+                <td>Unknown Districts</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td><span style="color: white; background: #fd7e14;
+                    padding: 2px 8px; border-radius: 4px; font-size: 0.9em;">
+                    HIGH</span></td>
+                <td>2.0x</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>Consistency</td>
+                <td>Completed Commissioning Without Date</td>
+                <td>85</td>
+                <td>2.73%</td>
+                <td><span style="color: white; background: #fd7e14;
+                    padding: 2px 8px; border-radius: 4px; font-size: 0.9em;">
+                    HIGH</span></td>
+                <td>2.0x</td>
+                <td>170.0</td>
+            </tr>
+            
+            <tr>
+                <td>Timeliness</td>
+                <td>Future Installation Dates</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td><span style="color: white; background: #fd7e14;
+                    padding: 2px 8px; border-radius: 4px; font-size: 0.9em;">
+                    HIGH</span></td>
+                <td>2.0x</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>Timeliness</td>
+                <td>Future Commissioning Dates</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td><span style="color: white; background: #fd7e14;
+                    padding: 2px 8px; border-radius: 4px; font-size: 0.9em;">
+                    HIGH</span></td>
+                <td>2.0x</td>
+                <td>0.0</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <div class="footer">
+        Solar Program MIS — Data Quality System v1.0 |
+        Generated by Data Management Officer
+    </div>
+</div>
+</body>
+</html>
+        
